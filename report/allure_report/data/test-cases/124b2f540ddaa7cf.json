@@ -1,0 +1,150 @@
+{
+  "uid" : "124b2f540ddaa7cf",
+  "name" : "角色-权限修改",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "f762395afbe27f864d375c14f23f9624",
+  "time" : {
+    "start" : 1610505757841,
+    "stop" : 1610505757841,
+    "duration" : 0
+  },
+  "description" : "post https://192.168.1.205/api/auth/role/auth/update",
+  "descriptionHtml" : "<p>post https://192.168.1.205/api/auth/role/auth/update</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "post https://192.168.1.205/api/auth/role/auth/update",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:post",
+      "time" : {
+        "start" : 1610505757841,
+        "stop" : 1610505757841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/auth/role/auth/update",
+      "time" : {
+        "start" : 1610505757841,
+        "stop" : 1610505757841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'id': '12', 'permission_code': ['monitor.overview', 'monitor.overview.query', 'monitor.overview.edit', 'monitor.alarm_info', 'monitor.alarm_info.query', 'monitor.alarm_info.edit', 'monitor.alarm_info.delete', 'monitor', 'monitor.device.137.query', 'monitor.device.137.edit', 'monitor.device.137', 'monitor.device.22.query', 'monitor.device.22.edit', 'monitor.device.22', 'monitor.device.5.query', 'monitor.device.5.edit', 'monitor.device.5', 'monitor.device.130.query', 'monitor.device.130.edit', 'monitor.device.130', 'monitor.device.131.query', 'monitor.device.131.edit', 'monitor.device.131', 'monitor.device.132.query', 'monitor.device.132.edit', 'monitor.device.132', 'monitor.device.133.query', 'monitor.device.133.edit', 'monitor.device.133', 'monitor.device.127.query', 'monitor.device.127.edit', 'monitor.device.127', 'monitor.device.128.query', 'monitor.device.128.edit', 'monitor.device.128', 'monitor.device.21.query', 'monitor.device.21.edit', 'monitor.device.21', 'monitor.device.136.query', 'monitor.device.136.edit', 'monitor.device.136', 'monitor.syslog.query', 'monitor.syslog.add', 'monitor.syslog.edit', 'monitor.syslog.delete', 'monitor.syslog', 'monitor.device.115.query', 'monitor.device.115.edit', 'monitor.device.115', 'monitor.device.114.query', 'monitor.device.114.edit', 'monitor.device.114', 'monitor.device.113.query', 'monitor.device.113.edit', 'monitor.device.113', 'monitor.device.111.query', 'monitor.device.111.edit', 'monitor.device.111', 'monitor.device.110.query', 'monitor.device.110.edit', 'monitor.device.110', 'monitor.device.134.query', 'monitor.device.134.edit', 'monitor.device.134', 'monitor.device.129.query', 'monitor.device.129.edit', 'monitor.device.129', 'monitor.device.135.query', 'monitor.device.135.edit', 'monitor.device.135', 'monitor.device.117.query', 'monitor.device.117.edit', 'monitor.device.117', 'monitor.device.119.query', 'monitor.device.119.edit', 'monitor.device.119', 'monitor.device.109.query', 'monitor.device.109.edit', 'monitor.device.109', 'monitor.device.108.query', 'monitor.device.108.edit', 'monitor.device.108', 'monitor.custom_topo.query', 'monitor.custom_topo.edit', 'monitor.custom_topo.manage', 'monitor.custom_topo', 'monitor.network_topo.query', 'monitor.network_topo.edit', 'monitor.network_topo', 'monitor.ecc.query', 'monitor.ecc.add', 'monitor.ecc.edit', 'monitor.ecc.delete', 'monitor.ecc', 'monitor.view3d.query', 'monitor.view3d.add', 'monitor.view3d.edit', 'monitor.view3d.delete', 'monitor.view3d', 'monitor.template.manage.query', 'monitor.template.manage.add', 'monitor.template.manage.edit', 'monitor.template.manage.delete', 'monitor.template.manage', 'monitor.alarm_setting.query', 'monitor.alarm_setting.add', 'monitor.alarm_setting.edit', 'monitor.alarm_setting.delete', 'monitor.alarm_setting', '1609298917548ZckborYxorCG', 'itsm.itsm_my_work.query', 'itsm.itsm_my_work', 'task', 'fortress.overview.query', 'fortress.overview', 'fortress.execution.query', 'fortress.execution.add', 'fortress.execution.delete', 'fortress.execution', 'fortress.taskPlan.query', 'fortress.taskPlan.add', 'fortress.taskPlan.edit', 'fortress.taskPlan', 'fortress.jobflow.software.query', 'fortress.jobflow.software.add', 'fortress.jobflow.software.edit', 'fortress.jobflow.software.delete', 'fortress.jobflow.software', 'cmdb', 'cmdb.model.127.query', 'cmdb.model.127.add', 'cmdb.model.127.edit', 'cmdb.model.127.delete', 'cmdb.model.127', 'cmdb.model.128.query', 'cmdb.model.128.add', 'cmdb.model.128.edit', 'cmdb.model.128.delete', 'cmdb.model.128', 'cmdb.model.113.query', 'cmdb.model.113.add', 'cmdb.model.113.edit', 'cmdb.model.113.delete', 'cmdb.model.113', 'cmdb.model.115.query', 'cmdb.model.115.add', 'cmdb.model.115.edit', 'cmdb.model.115.delete', 'cmdb.model.115', 'cmdb.model.114.query', 'cmdb.model.114.add', 'cmdb.model.114.edit', 'cmdb.model.114.delete', 'cmdb.model.114', 'cmdb.model.111.query', 'cmdb.model.111.add', 'cmdb.model.111.edit', 'cmdb.model.111.delete', 'cmdb.model.111', 'cmdb.model.110.query', 'cmdb.model.110.add', 'cmdb.model.110.edit', 'cmdb.model.110.delete', 'cmdb.model.110', 'cmdb.model.134.query', 'cmdb.model.134.add', 'cmdb.model.134.edit', 'cmdb.model.134.delete', 'cmdb.model.134', 'cmdb.model.117.query', 'cmdb.model.117.add', 'cmdb.model.117.edit', 'cmdb.model.117.delete', 'cmdb.model.117', 'cmdb.model.108.query', 'cmdb.model.108.add', 'cmdb.model.108.edit', 'cmdb.model.108.delete', 'cmdb.model.108', 'cmdb.model.119.query', 'cmdb.model.119.add', 'cmdb.model.119.edit', 'cmdb.model.119.delete', 'cmdb.model.119', 'cmdb.model.109.query', 'cmdb.model.109.add', 'cmdb.model.109.edit', 'cmdb.model.109.delete', 'cmdb.model.109', 'cmdb.model.129.query', 'cmdb.model.129.add', 'cmdb.model.129.edit', 'cmdb.model.129.delete', 'cmdb.model.129', 'cmdb.model.135.query', 'cmdb.model.135.add', 'cmdb.model.135.edit', 'cmdb.model.135.delete', 'cmdb.model.135', 'cmdb.smart_cabinet_overview.query', 'cmdb.smart_cabinet_overview', 'cmdb.model.25.query', 'cmdb.model.25.add', 'cmdb.model.25.edit', 'cmdb.model.25.delete', 'cmdb.model.25', 'cmdb.model.26.query', 'cmdb.model.26.add', 'cmdb.model.26.edit', 'cmdb.model.26.delete', 'cmdb.model.26', 'cmdb.model.27.query', 'cmdb.model.27.add', 'cmdb.model.27.edit', 'cmdb.model.27.delete', 'cmdb.model.27', 'cmdb.smart_cabinet_u_record.query', 'cmdb.smart_cabinet_u_record', '16027437934676D8LLsZK1M', 'cmdb.model.51.query', 'cmdb.model.51', 'cmdb.model.54.query', 'cmdb.model.54', 'cmdb.model.55.query', 'cmdb.model.55', 'cmdb.model.53.query', 'cmdb.model.53', 'cmdb.model.56.query', 'cmdb.model.56', 'cmdb.model.52.query', 'cmdb.model.52', 'configure', 'configure.device.query', 'configure.device.edit', 'configure.device.delete', 'configure.device.pull', 'configure.device.recover', 'configure.device', 'kbase', 'kbase.source.query', 'kbase.source.delete', 'kbase.source.edit', 'kbase.source.comment', 'kbase.source']}",
+      "time" : {
+        "start" : 1610505757841,
+        "stop" : 1610505757841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {}}",
+      "time" : {
+        "start" : 1610505757841,
+        "stop" : 1610505757841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.301154s",
+      "time" : {
+        "start" : 1610505757841,
+        "stop" : 1610505757841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '角色-权限修改', 'method': 'post', 'url': 'https://192.168.1.205/api/auth/role/auth/update', 'data': {'id': '12', 'permission_code': ['monitor.overview', 'monitor.overview.query', 'monitor.overview.edit', 'monitor.alarm_info', 'monitor.alarm_info.query', 'monitor.alarm_info.edit', 'monitor.alarm_info.delete', 'monitor', 'monitor.device.137.query', 'monitor.device.137.edit', 'monitor.device.137', 'monitor.device.22.query', 'monitor.device.22.edit', 'monitor.device.22', 'monitor.device.5.query', 'monitor.device.5.edit', 'monitor.device.5', 'monitor.device.130.query', 'monitor.device.130.edit', 'monitor.device.130', 'monitor.device.131.query', 'monitor.device.131.edit', 'monitor.device.131', 'monitor.device.132.query', 'monitor.device.132.edit', 'monitor.device.132', 'monitor.device.133.query', 'monitor.device.133.edit', 'monitor.device.133', 'monitor.device.127.query', 'monitor.device.127.edit', 'monitor.device.127', 'monitor.device.128.query', 'monitor.device.128.edit', 'monitor.device.128', 'monitor.device.21.query', 'monitor.device.21.edit', 'monitor.device.21', 'monitor.device.136.query', 'monitor.device.136.edit', 'monitor.device.136', 'monitor.syslog.query', 'monitor.syslog.add', 'monitor.syslog.edit', 'monitor.syslog.delete', 'monitor.syslog', 'monitor.device.115.query', 'monitor.device.115.edit', 'monitor.device.115', 'monitor.device.114.query', 'monitor.device.114.edit', 'monitor.device.114', 'monitor.device.113.query', 'monitor.device.113.edit', 'monitor.device.113', 'monitor.device.111.query', 'monitor.device.111.edit', 'monitor.device.111', 'monitor.device.110.query', 'monitor.device.110.edit', 'monitor.device.110', 'monitor.device.134.query', 'monitor.device.134.edit', 'monitor.device.134', 'monitor.device.129.query', 'monitor.device.129.edit', 'monitor.device.129', 'monitor.device.135.query', 'monitor.device.135.edit', 'monitor.device.135', 'monitor.device.117.query', 'monitor.device.117.edit', 'monitor.device.117', 'monitor.device.119.query', 'monitor.device.119.edit', 'monitor.device.119', 'monitor.device.109.query', 'monitor.device.109.edit', 'monitor.device.109', 'monitor.device.108.query', 'monitor.device.108.edit', 'monitor.device.108', 'monitor.custom_topo.query', 'monitor.custom_topo.edit', 'monitor.custom_topo.manage', 'monitor.custom_topo', 'monitor.network_topo.query', 'monitor.network_topo.edit', 'monitor.network_topo', 'monitor.ecc.query', 'monitor.ecc.add', 'monitor.ecc.edit', 'monitor.ecc.delete', 'monitor.ecc', 'monitor.view3d.query', 'monitor.view3d.add', 'monitor.view3d.edit', 'monitor.view3d.delete', 'monitor.view3d', 'monitor.template.manage.query', 'monitor.template.manage.add', 'monitor.template.manage.edit', 'monitor.template.manage.delete', 'monitor.template.manage', 'monitor.alarm_setting.query', 'monitor.alarm_setting.add', 'monitor.alarm_setting.edit', 'monitor.alarm_setting.delete', 'monitor.alarm_setting', '1609298917548ZckborYxorCG', 'itsm.itsm_my_work.query', 'itsm.itsm_my_work', 'task', 'fortress.overview.query', 'fortress.overview', 'fortress.execution.query', 'fortress.execution.add', 'fortress.execution.delete', 'fortress.execution', 'fortress.taskPlan.query', 'fortress.taskPlan.add', 'fortress.taskPlan.edit', 'fortress.taskPlan', 'fortress.jobflow.software.query', 'fortress.jobflow.software.add', 'fortress.jobflow.software.edit', 'fortress.jobflow.software.delete', 'fortress.jobflow.software', 'cmdb', 'cmdb.model.127.query', 'cmdb.model.127.add', 'cmdb.model.127.edit', 'cmdb.model.127.delete', 'cmdb.model.127', 'cmdb.model.128.query', 'cmdb.model.128.add', 'cmdb.model.128.edit', 'cmdb.model.128.delete', 'cmdb.model.128', 'cmdb.model.113.query', 'cmdb.model.113.add', 'cmdb.model.113.edit', 'cmdb.model.113.delete', 'cmdb.model.113', 'cmdb.model.115.query', 'cmdb.model.115.add', 'cmdb.model.115.edit', 'cmdb.model.115.delete', 'cmdb.model.115', 'cmdb.model.114.query', 'cmdb.model.114.add', 'cmdb.model.114.edit', 'cmdb.model.114.delete', 'cmdb.model.114', 'cmdb.model.111.query', 'cmdb.model.111.add', 'cmdb.model.111.edit', 'cmdb.model.111.delete', 'cmdb.model.111', 'cmdb.model.110.query', 'cmdb.model.110.add', 'cmdb.model.110.edit', 'cmdb.model.110.delete', 'cmdb.model.110', 'cmdb.model.134.query', 'cmdb.model.134.add', 'cmdb.model.134.edit', 'cmdb.model.134.delete', 'cmdb.model.134', 'cmdb.model.117.query', 'cmdb.model.117.add', 'cmdb.model.117.edit', 'cmdb.model.117.delete', 'cmdb.model.117', 'cmdb.model.108.query', 'cmdb.model.108.add', 'cmdb.model.108.edit', 'cmdb.model.108.delete', 'cmdb.model.108', 'cmdb.model.119.query', 'cmdb.model.119.add', 'cmdb.model.119.edit', 'cmdb.model.119.delete', 'cmdb.model.119', 'cmdb.model.109.query', 'cmdb.model.109.add', 'cmdb.model.109.edit', 'cmdb.model.109.delete', 'cmdb.model.109', 'cmdb.model.129.query', 'cmdb.model.129.add', 'cmdb.model.129.edit', 'cmdb.model.129.delete', 'cmdb.model.129', 'cmdb.model.135.query', 'cmdb.model.135.add', 'cmdb.model.135.edit', 'cmdb.model.135.delete', 'cmdb.model.135', 'cmdb.smart_cabinet_overview.query', 'cmdb.smart_cabinet_overview', 'cmdb.model.25.query', 'cmdb.model.25.add', 'cmdb.model.25.edit', 'cmdb.model.25.delete', 'cmdb.model.25', 'cmdb.model.26.query', 'cmdb.model.26.add', 'cmdb.model.26.edit', 'cmdb.model.26.delete', 'cmdb.model.26', 'cmdb.model.27.query', 'cmdb.model.27.add', 'cmdb.model.27.edit', 'cmdb.model.27.delete', 'cmdb.model.27', 'cmdb.smart_cabinet_u_record.query', 'cmdb.smart_cabinet_u_record', '16027437934676D8LLsZK1M', 'cmdb.model.51.query', 'cmdb.model.51', 'cmdb.model.54.query', 'cmdb.model.54', 'cmdb.model.55.query', 'cmdb.model.55', 'cmdb.model.53.query', 'cmdb.model.53', 'cmdb.model.56.query', 'cmdb.model.56', 'cmdb.model.52.query', 'cmdb.model.52', 'configure', 'configure.device.query', 'configure.device.edit', 'configure.device.delete', 'configure.device.pull', 'configure.device.recover', 'configure.device', 'kbase', 'kbase.source.query', 'kbase.source.delete', 'kbase.source.edit', 'kbase.source.comment', 'kbase.source']}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "124b2f540ddaa7cf.json",
+  "parameterValues" : [ "{'title': '角色-权限修改', 'method': 'post', 'url': 'https://192.168.1.205/api/auth/role/auth/update', 'data': {'id': '12', 'permission_code': ['monitor.overview', 'monitor.overview.query', 'monitor.overview.edit', 'monitor.alarm_info', 'monitor.alarm_info.query', 'monitor.alarm_info.edit', 'monitor.alarm_info.delete', 'monitor', 'monitor.device.137.query', 'monitor.device.137.edit', 'monitor.device.137', 'monitor.device.22.query', 'monitor.device.22.edit', 'monitor.device.22', 'monitor.device.5.query', 'monitor.device.5.edit', 'monitor.device.5', 'monitor.device.130.query', 'monitor.device.130.edit', 'monitor.device.130', 'monitor.device.131.query', 'monitor.device.131.edit', 'monitor.device.131', 'monitor.device.132.query', 'monitor.device.132.edit', 'monitor.device.132', 'monitor.device.133.query', 'monitor.device.133.edit', 'monitor.device.133', 'monitor.device.127.query', 'monitor.device.127.edit', 'monitor.device.127', 'monitor.device.128.query', 'monitor.device.128.edit', 'monitor.device.128', 'monitor.device.21.query', 'monitor.device.21.edit', 'monitor.device.21', 'monitor.device.136.query', 'monitor.device.136.edit', 'monitor.device.136', 'monitor.syslog.query', 'monitor.syslog.add', 'monitor.syslog.edit', 'monitor.syslog.delete', 'monitor.syslog', 'monitor.device.115.query', 'monitor.device.115.edit', 'monitor.device.115', 'monitor.device.114.query', 'monitor.device.114.edit', 'monitor.device.114', 'monitor.device.113.query', 'monitor.device.113.edit', 'monitor.device.113', 'monitor.device.111.query', 'monitor.device.111.edit', 'monitor.device.111', 'monitor.device.110.query', 'monitor.device.110.edit', 'monitor.device.110', 'monitor.device.134.query', 'monitor.device.134.edit', 'monitor.device.134', 'monitor.device.129.query', 'monitor.device.129.edit', 'monitor.device.129', 'monitor.device.135.query', 'monitor.device.135.edit', 'monitor.device.135', 'monitor.device.117.query', 'monitor.device.117.edit', 'monitor.device.117', 'monitor.device.119.query', 'monitor.device.119.edit', 'monitor.device.119', 'monitor.device.109.query', 'monitor.device.109.edit', 'monitor.device.109', 'monitor.device.108.query', 'monitor.device.108.edit', 'monitor.device.108', 'monitor.custom_topo.query', 'monitor.custom_topo.edit', 'monitor.custom_topo.manage', 'monitor.custom_topo', 'monitor.network_topo.query', 'monitor.network_topo.edit', 'monitor.network_topo', 'monitor.ecc.query', 'monitor.ecc.add', 'monitor.ecc.edit', 'monitor.ecc.delete', 'monitor.ecc', 'monitor.view3d.query', 'monitor.view3d.add', 'monitor.view3d.edit', 'monitor.view3d.delete', 'monitor.view3d', 'monitor.template.manage.query', 'monitor.template.manage.add', 'monitor.template.manage.edit', 'monitor.template.manage.delete', 'monitor.template.manage', 'monitor.alarm_setting.query', 'monitor.alarm_setting.add', 'monitor.alarm_setting.edit', 'monitor.alarm_setting.delete', 'monitor.alarm_setting', '1609298917548ZckborYxorCG', 'itsm.itsm_my_work.query', 'itsm.itsm_my_work', 'task', 'fortress.overview.query', 'fortress.overview', 'fortress.execution.query', 'fortress.execution.add', 'fortress.execution.delete', 'fortress.execution', 'fortress.taskPlan.query', 'fortress.taskPlan.add', 'fortress.taskPlan.edit', 'fortress.taskPlan', 'fortress.jobflow.software.query', 'fortress.jobflow.software.add', 'fortress.jobflow.software.edit', 'fortress.jobflow.software.delete', 'fortress.jobflow.software', 'cmdb', 'cmdb.model.127.query', 'cmdb.model.127.add', 'cmdb.model.127.edit', 'cmdb.model.127.delete', 'cmdb.model.127', 'cmdb.model.128.query', 'cmdb.model.128.add', 'cmdb.model.128.edit', 'cmdb.model.128.delete', 'cmdb.model.128', 'cmdb.model.113.query', 'cmdb.model.113.add', 'cmdb.model.113.edit', 'cmdb.model.113.delete', 'cmdb.model.113', 'cmdb.model.115.query', 'cmdb.model.115.add', 'cmdb.model.115.edit', 'cmdb.model.115.delete', 'cmdb.model.115', 'cmdb.model.114.query', 'cmdb.model.114.add', 'cmdb.model.114.edit', 'cmdb.model.114.delete', 'cmdb.model.114', 'cmdb.model.111.query', 'cmdb.model.111.add', 'cmdb.model.111.edit', 'cmdb.model.111.delete', 'cmdb.model.111', 'cmdb.model.110.query', 'cmdb.model.110.add', 'cmdb.model.110.edit', 'cmdb.model.110.delete', 'cmdb.model.110', 'cmdb.model.134.query', 'cmdb.model.134.add', 'cmdb.model.134.edit', 'cmdb.model.134.delete', 'cmdb.model.134', 'cmdb.model.117.query', 'cmdb.model.117.add', 'cmdb.model.117.edit', 'cmdb.model.117.delete', 'cmdb.model.117', 'cmdb.model.108.query', 'cmdb.model.108.add', 'cmdb.model.108.edit', 'cmdb.model.108.delete', 'cmdb.model.108', 'cmdb.model.119.query', 'cmdb.model.119.add', 'cmdb.model.119.edit', 'cmdb.model.119.delete', 'cmdb.model.119', 'cmdb.model.109.query', 'cmdb.model.109.add', 'cmdb.model.109.edit', 'cmdb.model.109.delete', 'cmdb.model.109', 'cmdb.model.129.query', 'cmdb.model.129.add', 'cmdb.model.129.edit', 'cmdb.model.129.delete', 'cmdb.model.129', 'cmdb.model.135.query', 'cmdb.model.135.add', 'cmdb.model.135.edit', 'cmdb.model.135.delete', 'cmdb.model.135', 'cmdb.smart_cabinet_overview.query', 'cmdb.smart_cabinet_overview', 'cmdb.model.25.query', 'cmdb.model.25.add', 'cmdb.model.25.edit', 'cmdb.model.25.delete', 'cmdb.model.25', 'cmdb.model.26.query', 'cmdb.model.26.add', 'cmdb.model.26.edit', 'cmdb.model.26.delete', 'cmdb.model.26', 'cmdb.model.27.query', 'cmdb.model.27.add', 'cmdb.model.27.edit', 'cmdb.model.27.delete', 'cmdb.model.27', 'cmdb.smart_cabinet_u_record.query', 'cmdb.smart_cabinet_u_record', '16027437934676D8LLsZK1M', 'cmdb.model.51.query', 'cmdb.model.51', 'cmdb.model.54.query', 'cmdb.model.54', 'cmdb.model.55.query', 'cmdb.model.55', 'cmdb.model.53.query', 'cmdb.model.53', 'cmdb.model.56.query', 'cmdb.model.56', 'cmdb.model.52.query', 'cmdb.model.52', 'configure', 'configure.device.query', 'configure.device.edit', 'configure.device.delete', 'configure.device.pull', 'configure.device.recover', 'configure.device', 'kbase', 'kbase.source.query', 'kbase.source.delete', 'kbase.source.edit', 'kbase.source.comment', 'kbase.source']}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

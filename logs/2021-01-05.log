@@ -1,0 +1,498 @@
+2021-01-05 10:50:17,491 DEFAULT INFO method:post
+2021-01-05 10:50:17,491 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 10:50:17,491 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 10:50:17,672 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '74958a9a-6faf-4ac2-998c-a8e3e38bc744'}}
+2021-01-05 10:50:17,703 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-05 10:50:17,758 DEFAULT INFO method:post
+2021-01-05 10:50:17,758 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-05 10:50:17,758 DEFAULT INFO data:{'parent_id': 0, 'name': 'w125w', 'module': 'cmdb_model'}
+2021-01-05 10:50:17,795 DEFAULT INFO {'code': 1, 'message': 'CmdbSysGroupNameAlreadyExists: w125w', 'data': {}}
+2021-01-05 10:50:17,834 DEFAULT INFO 【测试用例test_190】===============>> 【FAIL！】
+2021-01-05 10:50:17,937 DEFAULT INFO method:post
+2021-01-05 10:50:17,937 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-05 10:50:17,937 DEFAULT INFO data:{'name': 'modul46', 'group_id': '', 'name_en': 'modul46', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-05 10:50:17,973 DEFAULT INFO {'code': 2, 'message': 'CmdbModelEnglishNameExists', 'data': {}}
+2021-01-05 10:50:18,014 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-05 10:50:18,060 DEFAULT INFO 本次共执行3条用例
+测试通过的有1条，测试失败的有2条
+成功率为33.300000000000004%，失败率为66.7%
+2021-01-05 10:54:25,057 DEFAULT INFO 删除旧的结果集……
+2021-01-05 10:54:26,006 DEFAULT INFO method:post
+2021-01-05 10:54:26,007 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 10:54:26,007 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 10:54:26,192 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b9a51bb6-fc6a-4f13-a345-6f3a344d2c70'}}
+2021-01-05 10:54:26,223 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-05 10:54:26,272 DEFAULT INFO method:post
+2021-01-05 10:54:26,272 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-05 10:54:26,272 DEFAULT INFO data:{'parent_id': 0, 'name': 'w126w', 'module': 'cmdb_model'}
+2021-01-05 10:54:26,305 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 10289}}
+2021-01-05 10:54:26,342 DEFAULT INFO 【测试用例test_190】===============>> 【PASS！】
+2021-01-05 10:54:26,440 DEFAULT INFO method:post
+2021-01-05 10:54:26,441 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-05 10:54:26,441 DEFAULT INFO data:{'name': 'modul47', 'group_id': '', 'name_en': 'modul47', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-05 10:54:26,481 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': 1061}}
+2021-01-05 10:54:26,522 DEFAULT INFO 【测试用例test_210】===============>> 【PASS！】
+2021-01-05 10:54:26,575 DEFAULT INFO 本次共执行3条用例
+测试通过的有3条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 10:54:26,630 DEFAULT INFO 生成报告……
+2021-01-05 14:29:29,675 DEFAULT INFO 删除旧的结果集……
+2021-01-05 14:29:30,320 DEFAULT INFO method:post
+2021-01-05 14:29:30,320 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 14:29:30,320 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 14:29:30,548 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '7425485a-7c5b-44b0-ab33-8d7e2c51d243'}}
+2021-01-05 14:29:30,582 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-05 14:29:30,625 DEFAULT INFO method:post
+2021-01-05 14:29:30,625 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-05 14:29:30,625 DEFAULT INFO data:{'parent_id': 0, 'name': 'w127w', 'module': 'cmdb_model'}
+2021-01-05 14:29:30,706 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 10291}}
+2021-01-05 14:29:30,748 DEFAULT INFO 【测试用例test_190】===============>> 【PASS！】
+2021-01-05 14:29:30,842 DEFAULT INFO method:post
+2021-01-05 14:29:30,842 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-05 14:29:30,843 DEFAULT INFO data:{'name': 'modul48', 'group_id': '10291', 'name_en': 'modul48', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-05 14:29:30,889 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': 1063}}
+2021-01-05 14:29:30,923 DEFAULT INFO 【测试用例test_210】===============>> 【PASS！】
+2021-01-05 14:29:30,971 DEFAULT INFO 本次共执行3条用例
+测试通过的有3条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 14:29:30,991 DEFAULT INFO 生成报告……
+2021-01-05 15:44:22,263 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-05 15:44:22,263 DEFAULT INFO method:post
+2021-01-05 15:44:22,263 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 15:44:22,263 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 15:44:22,418 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-05 15:44:22,448 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-05 15:44:22,498 DEFAULT INFO method:post
+2021-01-05 15:44:22,498 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 15:44:22,498 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 15:44:22,554 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '4f34dd6e-08fa-4deb-8c17-3963f11d6600'}}
+2021-01-05 15:44:22,592 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-05 15:44:22,631 DEFAULT INFO 本次共执行2条用例
+测试通过的有0条，测试失败的有2条
+成功率为0.0%，失败率为100.0%
+2021-01-05 15:45:21,218 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-05 15:45:21,218 DEFAULT INFO method:post
+2021-01-05 15:45:21,218 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 15:45:21,218 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 15:45:21,367 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-05 15:45:21,398 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-05 15:45:21,439 DEFAULT INFO method:post
+2021-01-05 15:45:21,440 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 15:45:21,440 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 15:45:21,522 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'c6228041-2389-4b31-b832-67ba23feb237'}}
+2021-01-05 15:45:21,569 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-05 15:45:21,609 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-05 15:46:21,668 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-05 15:46:21,668 DEFAULT INFO method:post
+2021-01-05 15:46:21,668 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 15:46:21,668 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 15:46:21,811 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-05 15:46:21,839 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-05 15:46:21,874 DEFAULT INFO method:post
+2021-01-05 15:46:21,874 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 15:46:21,874 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 15:46:22,080 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '973c0f4b-b8d3-494c-848c-f7342bc4dd60'}}
+2021-01-05 15:46:22,120 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-05 15:46:22,157 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-05 15:48:05,618 DEFAULT INFO 删除旧的结果集……
+2021-01-05 15:48:06,260 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-05 15:48:06,260 DEFAULT INFO method:post
+2021-01-05 15:48:06,260 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 15:48:06,260 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 15:48:06,456 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-05 15:48:06,485 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-05 15:48:06,527 DEFAULT INFO method:post
+2021-01-05 15:48:06,527 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 15:48:06,527 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 15:48:06,615 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '28ef4470-7a63-489d-a51d-56c01342042b'}}
+2021-01-05 15:48:06,650 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-05 15:48:06,684 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-05 15:48:06,740 DEFAULT INFO 生成报告……
+2021-01-05 15:54:03,137 DEFAULT INFO method:post
+2021-01-05 15:54:03,137 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 15:54:03,137 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 15:54:03,344 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'da4ddca3-b79f-468a-9204-c0743e949ed0'}}
+2021-01-05 15:54:03,377 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 15:54:03,422 DEFAULT INFO method:post
+2021-01-05 15:54:03,423 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 15:54:03,423 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 15:54:03,488 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 15:54:03,524 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 15:54:03,562 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 15:56:40,009 DEFAULT INFO method:post
+2021-01-05 15:56:40,009 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 15:56:40,009 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 15:56:40,182 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '6d7b63c4-3f92-4306-87df-15c97c37cbb4'}}
+2021-01-05 15:56:40,215 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 15:56:40,271 DEFAULT INFO method:post
+2021-01-05 15:56:40,271 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 15:56:40,271 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 15:56:40,314 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 15:56:40,350 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 15:56:40,394 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 16:04:55,521 DEFAULT INFO method:post
+2021-01-05 16:04:55,521 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 16:04:55,521 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 16:04:56,195 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9359f82d-6c59-439d-8560-5645c84023f3'}}
+2021-01-05 16:04:56,232 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 16:04:56,287 DEFAULT INFO method:post
+2021-01-05 16:04:56,288 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 16:04:56,288 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 16:04:56,342 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 16:04:56,378 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 16:04:56,425 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 16:05:31,660 DEFAULT INFO method:post
+2021-01-05 16:05:31,660 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 16:05:31,660 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 16:05:31,870 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '196989a6-3570-4c59-9f7c-612cac85c87c'}}
+2021-01-05 16:05:31,900 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 16:05:31,947 DEFAULT INFO method:post
+2021-01-05 16:05:31,947 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 16:05:31,947 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 16:05:32,006 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 16:05:32,046 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 16:05:32,091 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 16:06:18,221 DEFAULT INFO method:post
+2021-01-05 16:06:18,222 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 16:06:18,222 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 16:06:18,410 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b47ef0da-1c24-4593-be4a-939c93530626'}}
+2021-01-05 16:06:18,446 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 16:06:18,499 DEFAULT INFO method:post
+2021-01-05 16:06:18,499 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 16:06:18,499 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 16:06:18,541 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 16:06:18,584 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 16:06:18,620 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 16:07:11,435 DEFAULT INFO method:post
+2021-01-05 16:07:11,435 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 16:07:11,435 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 16:07:11,608 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b426e2dc-529a-4fda-8ebf-b6c72f7e542e'}}
+2021-01-05 16:07:11,639 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 16:07:11,691 DEFAULT INFO method:post
+2021-01-05 16:07:11,691 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 16:07:11,691 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 16:07:11,754 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 16:07:11,790 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 16:07:11,826 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 16:07:57,786 DEFAULT INFO method:post
+2021-01-05 16:07:57,787 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 16:07:57,787 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 16:07:57,971 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5d264b9e-dba9-42b9-9dc2-9c8a73f5fb69'}}
+2021-01-05 16:07:57,982 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 16:07:57,995 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 16:09:03,198 DEFAULT INFO method:post
+2021-01-05 16:09:03,198 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 16:09:03,198 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 16:09:03,463 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'fc346c9c-f2ef-4bd3-a818-73664a48d207'}}
+2021-01-05 16:09:03,507 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 16:09:03,552 DEFAULT INFO method:post
+2021-01-05 16:09:03,552 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 16:09:03,553 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': 1065, 'delete_attr_list': []}
+2021-01-05 16:09:03,637 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 16:09:03,678 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 16:09:03,723 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 16:38:54,554 DEFAULT INFO method:post
+2021-01-05 16:38:54,554 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 16:38:54,554 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 16:38:54,726 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '2437048b-ec53-4f17-bbb6-9af3a86925eb'}}
+2021-01-05 16:38:54,757 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 16:38:54,813 DEFAULT INFO method:post
+2021-01-05 16:38:54,813 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/relation/add
+2021-01-05 16:38:54,813 DEFAULT INFO data:{'relation_name': 'model02', 'relation_from': 1065, 'relation_to': 2, 'relation_n2n': '1-N', 'relation_action': ''}
+2021-01-05 16:38:54,858 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 1067}}
+2021-01-05 16:38:54,897 DEFAULT INFO 【测试用例test_017】===============>> 【PASS！】
+2021-01-05 16:38:54,948 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 16:50:56,233 DEFAULT INFO method:post
+2021-01-05 16:50:56,233 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 16:50:56,233 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 16:50:56,422 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'f554949a-9ec9-48d8-a10a-229bc2f7ee85'}}
+2021-01-05 16:50:56,453 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 16:50:56,502 DEFAULT INFO method:post
+2021-01-05 16:50:56,502 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/layout/update
+2021-01-05 16:50:56,502 DEFAULT INFO data:{'model_id': 1065, 'layout_list': {'name': 'table', 'content': '{"attr_setting":{"card":[{"attr_id":10580,"show":true},{"attr_id":10581,"show":true},{"attr_id":10582,"show":true},{"attr_id":10583,"show":true},{"attr_id":10584,"show":true}],"row":[{"attr_id":10580,"show":true,"sort":false},{"attr_id":10581,"show":true,"sort":false},{"attr_id":10582,"show":true,"sort":false},{"attr_id":10583,"show":true,"sort":false},{"attr_id":10584,"show":true,"sort":false},{"attr_id":10585,"show":true,"sort":false},{"attr_id":10586,"show":true,"sort":false}]},"type":"list"}'}}
+2021-01-05 16:50:56,536 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-05 16:50:56,587 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-05 16:50:56,636 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-05 16:51:47,240 DEFAULT INFO method:post
+2021-01-05 16:51:47,241 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 16:51:47,241 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 16:51:47,419 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '4275073f-99a8-4c52-9023-3bad29c5d259'}}
+2021-01-05 16:51:47,456 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 16:51:47,503 DEFAULT INFO method:post
+2021-01-05 16:51:47,503 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/layout/update
+2021-01-05 16:51:47,503 DEFAULT INFO data:{'model_id': 1065, 'layout_list': {'name': 'table', 'content': '{"attr_setting":{"card":[{"attr_id":10580,"show":true},{"attr_id":10581,"show":true},{"attr_id":10582,"show":true},{"attr_id":10583,"show":true},{"attr_id":10584,"show":true}],"row":[{"attr_id":10580,"show":true,"sort":false},{"attr_id":10581,"show":true,"sort":false},{"attr_id":10582,"show":true,"sort":false},{"attr_id":10583,"show":true,"sort":false},{"attr_id":10584,"show":true,"sort":false},{"attr_id":10585,"show":true,"sort":false},{"attr_id":10586,"show":true,"sort":false}]},"type":"list"}'}}
+2021-01-05 16:51:47,545 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 16:51:47,580 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-05 16:51:47,622 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-05 16:54:35,026 DEFAULT INFO method:post
+2021-01-05 16:54:35,027 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 16:54:35,027 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 16:54:35,210 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'e4374786-67a5-4fef-9034-78d1f34154b7'}}
+2021-01-05 16:54:35,243 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 16:54:35,294 DEFAULT INFO method:post
+2021-01-05 16:54:35,295 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/layout/update
+2021-01-05 16:54:35,295 DEFAULT INFO data:{'model_id': 1065, 'layout_list': {'name': 'table', 'content': '{"attr_setting":{"card":[{"attr_id":10580,"show":true},{"attr_id":10581,"show":true},{"attr_id":10582,"show":true},{"attr_id":10583,"show":true},{"attr_id":10584,"show":true}],"row":[{"attr_id":10580,"show":true,"sort":false},{"attr_id":10581,"show":true,"sort":false},{"attr_id":10582,"show":true,"sort":false},{"attr_id":10583,"show":true,"sort":false},{"attr_id":10584,"show":true,"sort":false},{"attr_id":10585,"show":true,"sort":false},{"attr_id":10586,"show":true,"sort":false}]},"type":"list"}'}}
+2021-01-05 16:54:35,336 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 16:54:35,372 DEFAULT INFO 【测试用例test_006】===============>> 【PASS！】
+2021-01-05 16:54:35,421 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 17:10:47,500 DEFAULT INFO method:post
+2021-01-05 17:10:47,500 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 17:10:47,500 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 17:10:47,663 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '598ada4e-387b-4e07-82e1-e40bd9756ac7'}}
+2021-01-05 17:10:47,672 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 17:10:47,689 DEFAULT INFO method:post
+2021-01-05 17:10:47,691 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-05 17:10:47,691 DEFAULT INFO data:{'parent_id': 0, 'name': 'w127w', 'module': 'cmdb_model'}
+2021-01-05 17:10:47,727 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 10292}}
+2021-01-05 17:10:47,739 DEFAULT INFO 【测试用例test_002】===============>> 【PASS！】
+2021-01-05 17:10:47,764 DEFAULT INFO method:post
+2021-01-05 17:10:47,764 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-05 17:10:47,764 DEFAULT INFO data:{'name': 'modul48', 'group_id': '10292', 'name_en': 'modul48', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-05 17:10:47,808 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': 1066}}
+2021-01-05 17:10:47,825 DEFAULT INFO 【测试用例test_003】===============>> 【PASS！】
+2021-01-05 17:10:47,869 DEFAULT INFO method:post
+2021-01-05 17:10:47,869 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 17:10:47,869 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': '1066', 'delete_attr_list': []}
+2021-01-05 17:10:47,926 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 17:10:47,943 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 17:10:47,981 DEFAULT INFO method:post
+2021-01-05 17:10:47,981 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/relation/add
+2021-01-05 17:10:47,981 DEFAULT INFO data:{'relation_name': 'model02', 'relation_from': '1066', 'relation_to': 2, 'relation_n2n': '1-N', 'relation_action': ''}
+2021-01-05 17:10:48,024 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 1069}}
+2021-01-05 17:10:48,040 DEFAULT INFO 【测试用例test_005】===============>> 【PASS！】
+2021-01-05 17:10:48,074 DEFAULT INFO method:post
+2021-01-05 17:10:48,075 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/layout/update
+2021-01-05 17:10:48,075 DEFAULT INFO data:{'model_id': 'True', 'layout_list': {'name': 'table', 'content': '{"attr_setting":{"card":[{"attr_id":10580,"show":true},{"attr_id":10581,"show":true},{"attr_id":10582,"show":true},{"attr_id":10583,"show":true},{"attr_id":10584,"show":true}],"row":[{"attr_id":10580,"show":true,"sort":false},{"attr_id":10581,"show":true,"sort":false},{"attr_id":10582,"show":true,"sort":false},{"attr_id":10583,"show":true,"sort":false},{"attr_id":10584,"show":true,"sort":false},{"attr_id":10585,"show":true,"sort":false},{"attr_id":10586,"show":true,"sort":false}]},"type":"list"}'}}
+2021-01-05 17:10:48,106 DEFAULT INFO {'code': 2, 'message': 'CmdbModelDoesNotExist', 'data': {}}
+2021-01-05 17:10:48,116 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-05 17:10:48,127 DEFAULT INFO 本次共执行6条用例
+测试通过的有5条，测试失败的有1条
+成功率为83.3%，失败率为16.7%
+2021-01-05 17:15:07,971 DEFAULT INFO 删除旧的结果集……
+2021-01-05 17:15:08,607 DEFAULT INFO method:post
+2021-01-05 17:15:08,607 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 17:15:08,607 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 17:15:08,940 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '6856f3a6-b3a3-43c5-94f0-91f04cb86bec'}}
+2021-01-05 17:15:08,953 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 17:15:08,969 DEFAULT INFO method:post
+2021-01-05 17:15:08,969 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-05 17:15:08,969 DEFAULT INFO data:{'parent_id': 0, 'name': 'w127w', 'module': 'cmdb_model'}
+2021-01-05 17:15:09,035 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 10293}}
+2021-01-05 17:15:09,049 DEFAULT INFO 【测试用例test_002】===============>> 【PASS！】
+2021-01-05 17:15:09,079 DEFAULT INFO method:post
+2021-01-05 17:15:09,079 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-05 17:15:09,079 DEFAULT INFO data:{'name': 'modul48', 'group_id': '10293', 'name_en': 'modul48', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-05 17:15:09,200 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': 1067}}
+2021-01-05 17:15:09,215 DEFAULT INFO 【测试用例test_003】===============>> 【PASS！】
+2021-01-05 17:15:09,247 DEFAULT INFO method:post
+2021-01-05 17:15:09,247 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 17:15:09,247 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': '1067', 'delete_attr_list': []}
+2021-01-05 17:15:09,333 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 17:15:09,349 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 17:15:09,374 DEFAULT INFO method:post
+2021-01-05 17:15:09,374 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/relation/add
+2021-01-05 17:15:09,374 DEFAULT INFO data:{'relation_name': 'model02', 'relation_from': '1067', 'relation_to': 2, 'relation_n2n': '1-N', 'relation_action': ''}
+2021-01-05 17:15:09,433 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 1070}}
+2021-01-05 17:15:09,448 DEFAULT INFO 【测试用例test_005】===============>> 【PASS！】
+2021-01-05 17:15:09,478 DEFAULT INFO method:post
+2021-01-05 17:15:09,478 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/layout/update
+2021-01-05 17:15:09,478 DEFAULT INFO data:{'model_id': '1067', 'layout_list': {'name': 'table', 'content': '{"attr_setting":{"card":[{"attr_id":10580,"show":true},{"attr_id":10581,"show":true},{"attr_id":10582,"show":true},{"attr_id":10583,"show":true},{"attr_id":10584,"show":true}],"row":[{"attr_id":10580,"show":true,"sort":false},{"attr_id":10581,"show":true,"sort":false},{"attr_id":10582,"show":true,"sort":false},{"attr_id":10583,"show":true,"sort":false},{"attr_id":10584,"show":true,"sort":false},{"attr_id":10585,"show":true,"sort":false},{"attr_id":10586,"show":true,"sort":false}]},"type":"list"}'}}
+2021-01-05 17:15:09,551 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 17:15:09,564 DEFAULT INFO 【测试用例test_006】===============>> 【PASS！】
+2021-01-05 17:15:09,574 DEFAULT INFO 本次共执行6条用例
+测试通过的有6条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 17:15:09,606 DEFAULT INFO 生成报告……
+2021-01-05 17:27:38,120 DEFAULT INFO 删除旧的结果集……
+2021-01-05 17:27:38,745 DEFAULT INFO method:post
+2021-01-05 17:27:38,745 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 17:27:38,746 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 17:27:38,957 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8d8e9926-2835-4627-a885-586b1664ad58'}}
+2021-01-05 17:27:38,964 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 17:27:38,981 DEFAULT INFO method:post
+2021-01-05 17:27:38,981 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-05 17:27:38,981 DEFAULT INFO data:{'parent_id': 0, 'name': 'w127w', 'module': 'cmdb_model'}
+2021-01-05 17:27:39,020 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 10295}}
+2021-01-05 17:27:39,032 DEFAULT INFO 【测试用例test_002】===============>> 【PASS！】
+2021-01-05 17:27:39,058 DEFAULT INFO method:post
+2021-01-05 17:27:39,058 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-05 17:27:39,058 DEFAULT INFO data:{'name': 'modul48', 'group_id': '10295', 'name_en': 'modul48', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-05 17:27:39,114 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': 1069}}
+2021-01-05 17:27:39,126 DEFAULT INFO 【测试用例test_003】===============>> 【PASS！】
+2021-01-05 17:27:39,152 DEFAULT INFO method:post
+2021-01-05 17:27:39,152 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 17:27:39,153 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': '1069', 'delete_attr_list': []}
+2021-01-05 17:27:39,201 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 17:27:39,215 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 17:27:39,247 DEFAULT INFO method:post
+2021-01-05 17:27:39,247 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/relation/add
+2021-01-05 17:27:39,247 DEFAULT INFO data:{'relation_name': 'model02', 'relation_from': '1069', 'relation_to': 2, 'relation_n2n': '1-N', 'relation_action': ''}
+2021-01-05 17:27:39,292 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 1071}}
+2021-01-05 17:27:39,305 DEFAULT INFO 【测试用例test_005】===============>> 【PASS！】
+2021-01-05 17:27:39,337 DEFAULT INFO method:post
+2021-01-05 17:27:39,337 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/layout/update
+2021-01-05 17:27:39,337 DEFAULT INFO data:{'model_id': '1069', 'layout_list': {'name': 'table', 'content': '{"attr_setting":{"card":[{"attr_id":10580,"show":true},{"attr_id":10581,"show":true},{"attr_id":10582,"show":true},{"attr_id":10583,"show":true},{"attr_id":10584,"show":true}],"row":[{"attr_id":10580,"show":true,"sort":false},{"attr_id":10581,"show":true,"sort":false},{"attr_id":10582,"show":true,"sort":false},{"attr_id":10583,"show":true,"sort":false},{"attr_id":10584,"show":true,"sort":false},{"attr_id":10585,"show":true,"sort":false},{"attr_id":10586,"show":true,"sort":false}]},"type":"list"}'}}
+2021-01-05 17:27:39,381 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 17:27:39,392 DEFAULT INFO 【测试用例test_006】===============>> 【PASS！】
+2021-01-05 17:27:39,407 DEFAULT INFO 本次共执行6条用例
+测试通过的有6条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 17:27:39,438 DEFAULT INFO 生成报告……
+2021-01-05 17:50:39,560 DEFAULT INFO method:post
+2021-01-05 17:50:39,560 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 17:50:39,560 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 17:50:39,751 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '67588fe1-2a61-4f2a-b42d-9d88b593746b'}}
+2021-01-05 17:50:39,758 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 17:50:39,774 DEFAULT INFO method:post
+2021-01-05 17:50:39,774 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-05 17:50:39,775 DEFAULT INFO data:{'parent_id': 0, 'name': 'w127w', 'module': 'cmdb_model'}
+2021-01-05 17:50:39,815 DEFAULT INFO {'code': 1, 'message': 'CmdbSysGroupNameAlreadyExists: w127w', 'data': {}}
+2021-01-05 17:50:39,826 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-05 17:50:39,858 DEFAULT INFO method:post
+2021-01-05 17:50:39,858 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-05 17:50:39,859 DEFAULT INFO data:{'name': 'modul48', 'group_id': '10295', 'name_en': 'modul48', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-05 17:50:39,923 DEFAULT INFO {'code': 2, 'message': 'CmdbModelEnglishNameExists', 'data': {}}
+2021-01-05 17:50:39,939 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-05 17:50:39,972 DEFAULT INFO method:post
+2021-01-05 17:50:39,972 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 17:50:39,973 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': '1069', 'delete_attr_list': []}
+2021-01-05 17:50:40,020 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 17:50:40,033 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 17:50:40,070 DEFAULT INFO method:post
+2021-01-05 17:50:40,070 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/relation/add
+2021-01-05 17:50:40,070 DEFAULT INFO data:{'relation_name': 'model02', 'relation_from': '1069', 'relation_to': 2, 'relation_n2n': '1-N', 'relation_action': ''}
+2021-01-05 17:50:40,110 DEFAULT INFO {'code': 1, 'message': 'CmdbModelDuplicateRelationName', 'data': {}}
+2021-01-05 17:50:40,125 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-05 17:50:40,149 DEFAULT INFO method:post
+2021-01-05 17:50:40,149 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/layout/update
+2021-01-05 17:50:40,149 DEFAULT INFO data:{'model_id': '1069', 'layout_list': {'name': 'table', 'content': '{"attr_setting":{"card":[{"attr_id":10580,"show":true},{"attr_id":10581,"show":true},{"attr_id":10582,"show":true},{"attr_id":10583,"show":true},{"attr_id":10584,"show":true}],"row":[{"attr_id":10580,"show":true,"sort":false},{"attr_id":10581,"show":true,"sort":false},{"attr_id":10582,"show":true,"sort":false},{"attr_id":10583,"show":true,"sort":false},{"attr_id":10584,"show":true,"sort":false},{"attr_id":10585,"show":true,"sort":false},{"attr_id":10586,"show":true,"sort":false}]},"type":"list"}'}}
+2021-01-05 17:50:40,191 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 17:50:40,201 DEFAULT INFO 【测试用例test_006】===============>> 【PASS！】
+2021-01-05 17:50:40,214 DEFAULT INFO 本次共执行6条用例
+测试通过的有3条，测试失败的有3条
+成功率为50.0%，失败率为50.0%
+2021-01-05 17:51:21,666 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-05 17:51:21,666 DEFAULT INFO method:post
+2021-01-05 17:51:21,666 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/collect-attr/new
+2021-01-05 17:51:21,666 DEFAULT INFO data:{'attr_name': '主机名', 'model_id': 1069, 'value_type': 'text', 'cycle': 3600, 'remark': '', 'conditions': [{'judge': 'all', 'search_unit_list': [], 'script_id': 0, 'script_key': '', 'source': [10002]}]}
+2021-01-05 17:51:21,814 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-05 17:51:21,842 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-05 17:51:21,888 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-05 17:51:46,093 DEFAULT INFO method:post
+2021-01-05 17:51:46,093 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 17:51:46,093 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 17:51:46,275 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '77c724d0-8886-4c31-9628-b692426ae288'}}
+2021-01-05 17:51:46,313 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 17:51:46,382 DEFAULT INFO method:post
+2021-01-05 17:51:46,382 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/collect-attr/new
+2021-01-05 17:51:46,382 DEFAULT INFO data:{'attr_name': '主机名', 'model_id': 1069, 'value_type': 'text', 'cycle': 3600, 'remark': '', 'conditions': [{'judge': 'all', 'search_unit_list': [], 'script_id': 0, 'script_key': '', 'source': [10002]}]}
+2021-01-05 17:51:46,420 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 44}}
+2021-01-05 17:51:46,456 DEFAULT INFO 【测试用例test_007】===============>> 【PASS！】
+2021-01-05 17:51:46,499 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 18:04:47,671 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-05 18:04:47,671 DEFAULT INFO method:post
+2021-01-05 18:04:47,671 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/collect-attr/update
+2021-01-05 18:04:47,671 DEFAULT INFO data:{'attr_name': '设备序列号', 'model_id': 1069, 'value_type': 'text', 'cycle': 3600, 'remark': '', 'conditions': [{'judge': 'all', 'search_unit_list': [], 'script_id': 0, 'script_key': '', 'source': [10003]}], 'id_list': [45]}
+2021-01-05 18:04:47,831 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-05 18:04:47,887 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-05 18:04:47,940 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-05 18:05:11,689 DEFAULT INFO method:post
+2021-01-05 18:05:11,690 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 18:05:11,690 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 18:05:11,892 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '1b50cdc3-af34-4fdc-a6f9-bb36c2ab2f6c'}}
+2021-01-05 18:05:11,924 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 18:05:11,993 DEFAULT INFO method:post
+2021-01-05 18:05:11,993 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/collect-attr/update
+2021-01-05 18:05:11,993 DEFAULT INFO data:{'attr_name': '设备序列号', 'model_id': 1069, 'value_type': 'text', 'cycle': 3600, 'remark': '', 'conditions': [{'judge': 'all', 'search_unit_list': [], 'script_id': 0, 'script_key': '', 'source': [10003]}], 'id_list': [45]}
+2021-01-05 18:05:12,041 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-05 18:05:12,078 DEFAULT INFO 【测试用例test_009】===============>> 【PASS！】
+2021-01-05 18:05:12,136 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 18:17:01,495 DEFAULT INFO 删除旧的结果集……
+2021-01-05 18:17:02,097 DEFAULT INFO method:post
+2021-01-05 18:17:02,097 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-05 18:17:02,097 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-05 18:17:02,426 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'a484658b-8bb1-4808-83b5-3cb878c7d151'}}
+2021-01-05 18:17:02,437 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-05 18:17:02,454 DEFAULT INFO method:post
+2021-01-05 18:17:02,454 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-05 18:17:02,454 DEFAULT INFO data:{'parent_id': 0, 'name': 'w127w', 'module': 'cmdb_model'}
+2021-01-05 18:17:02,528 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 10296}}
+2021-01-05 18:17:02,543 DEFAULT INFO 【测试用例test_002】===============>> 【PASS！】
+2021-01-05 18:17:02,568 DEFAULT INFO method:post
+2021-01-05 18:17:02,568 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-05 18:17:02,569 DEFAULT INFO data:{'name': 'modul48', 'group_id': '10296', 'name_en': 'modul48', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-05 18:17:02,658 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': 1070}}
+2021-01-05 18:17:02,674 DEFAULT INFO 【测试用例test_003】===============>> 【PASS！】
+2021-01-05 18:17:02,708 DEFAULT INFO method:post
+2021-01-05 18:17:02,708 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/collect-attr/new
+2021-01-05 18:17:02,708 DEFAULT INFO data:{'attr_name': '主机名', 'model_id': '1070', 'value_type': 'text', 'cycle': 3600, 'remark': '', 'conditions': [{'judge': 'all', 'search_unit_list': [], 'script_id': 0, 'script_key': '', 'source': [10002]}]}
+2021-01-05 18:17:02,792 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 46}}
+2021-01-05 18:17:02,804 DEFAULT INFO 【测试用例test_004】===============>> 【PASS！】
+2021-01-05 18:17:02,835 DEFAULT INFO method:post
+2021-01-05 18:17:02,835 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/attr/update
+2021-01-05 18:17:02,835 DEFAULT INFO data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': '1070', 'delete_attr_list': []}
+2021-01-05 18:17:02,910 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 18:17:02,924 DEFAULT INFO 【测试用例test_005】===============>> 【PASS！】
+2021-01-05 18:17:02,957 DEFAULT INFO method:post
+2021-01-05 18:17:02,957 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/relation/add
+2021-01-05 18:17:02,958 DEFAULT INFO data:{'relation_name': 'model02', 'relation_from': '1070', 'relation_to': 2, 'relation_n2n': '1-N', 'relation_action': ''}
+2021-01-05 18:17:03,031 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 1074}}
+2021-01-05 18:17:03,047 DEFAULT INFO 【测试用例test_006】===============>> 【PASS！】
+2021-01-05 18:17:03,071 DEFAULT INFO method:post
+2021-01-05 18:17:03,071 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/layout/update
+2021-01-05 18:17:03,071 DEFAULT INFO data:{'model_id': '1070', 'layout_list': {'name': 'table', 'content': '{"attr_setting":{"card":[{"attr_id":10580,"show":true},{"attr_id":10581,"show":true},{"attr_id":10582,"show":true},{"attr_id":10583,"show":true},{"attr_id":10584,"show":true}],"row":[{"attr_id":10580,"show":true,"sort":false},{"attr_id":10581,"show":true,"sort":false},{"attr_id":10582,"show":true,"sort":false},{"attr_id":10583,"show":true,"sort":false},{"attr_id":10584,"show":true,"sort":false},{"attr_id":10585,"show":true,"sort":false},{"attr_id":10586,"show":true,"sort":false}]},"type":"list"}'}}
+2021-01-05 18:17:03,152 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': True}}
+2021-01-05 18:17:03,167 DEFAULT INFO 【测试用例test_007】===============>> 【PASS！】
+2021-01-05 18:17:03,199 DEFAULT INFO method:post
+2021-01-05 18:17:03,199 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/collect-attr/update
+2021-01-05 18:17:03,199 DEFAULT INFO data:{'attr_name': '设备序列号', 'model_id': '1070', 'value_type': 'text', 'cycle': 3600, 'remark': '', 'conditions': [{'judge': 'all', 'search_unit_list': [], 'script_id': 0, 'script_key': '', 'source': [10003]}], 'id_list': [45]}
+2021-01-05 18:17:03,249 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-05 18:17:03,261 DEFAULT INFO 【测试用例test_008】===============>> 【PASS！】
+2021-01-05 18:17:03,272 DEFAULT INFO 本次共执行8条用例
+测试通过的有8条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-05 18:17:03,311 DEFAULT INFO 生成报告……

@@ -1,0 +1,150 @@
+{
+  "uid" : "80dbdf22b5402ac3",
+  "name" : "模型设置-关系管理新增关系",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "b442f54c72cfc7276f3ab1ba77adda77",
+  "time" : {
+    "start" : 1610505757648,
+    "stop" : 1610505757648,
+    "duration" : 0
+  },
+  "description" : "post https://192.168.1.205/api/cmdb/model/relation/add",
+  "descriptionHtml" : "<p>post https://192.168.1.205/api/cmdb/model/relation/add</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "post https://192.168.1.205/api/cmdb/model/relation/add",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:post",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/model/relation/add",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'relation_name': 'model02', 'relation_from': '1104', 'relation_to': 2, 'relation_n2n': '1-N', 'relation_action': ''}",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'id': 1106}}",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.041185s",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '模型设置-关系管理新增关系', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/relation/add', 'data': {'relation_name': 'model02', 'relation_from': '1104', 'relation_to': 2, 'relation_n2n': '1-N', 'relation_action': ''}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80dbdf22b5402ac3.json",
+  "parameterValues" : [ "{'title': '模型设置-关系管理新增关系', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/relation/add', 'data': {'relation_name': 'model02', 'relation_from': '1104', 'relation_to': 2, 'relation_n2n': '1-N', 'relation_action': ''}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

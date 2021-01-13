@@ -1,0 +1,150 @@
+{
+  "uid" : "3f4d59cf6642cb49",
+  "name" : "探针管理-任务详情",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "59c7632371d7f2f50949c33caa810a6f",
+  "time" : {
+    "start" : 1610505757762,
+    "stop" : 1610505757762,
+    "duration" : 0
+  },
+  "description" : "get https://192.168.1.205/api/cmdb/agent/task/detail",
+  "descriptionHtml" : "<p>get https://192.168.1.205/api/cmdb/agent/task/detail</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "get https://192.168.1.205/api/cmdb/agent/task/detail",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:get",
+      "time" : {
+        "start" : 1610505757762,
+        "stop" : 1610505757762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/agent/task/detail",
+      "time" : {
+        "start" : 1610505757762,
+        "stop" : 1610505757762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'task_type': 3}",
+      "time" : {
+        "start" : 1610505757762,
+        "stop" : 1610505757762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'count': 10, 'finish': 10, 'finish_time': '2020-12-19 10:34:38', 'items': [{'ip': '172.16.20.118', 'os': '', 'remark': '凭证检测异常', 'start_time': '2020-12-19 10:30:34', 'status': 4, 'update_time': '2020-12-19 10:30:39'}, {'ip': '172.16.20.243', 'os': '', 'remark': '凭证检测异常', 'start_time': '2020-12-19 10:30:34', 'status': 4, 'update_time': '2020-12-19 10:30:39'}, {'ip': '172.16.20.147', 'os': '', 'remark': '凭证检测异常', 'start_time': '2020-12-19 10:30:34', 'status': 4, 'update_time': '2020-12-19 10:30:39'}, {'ip': '172.16.20.244', 'os': '', 'remark': '凭证检测异常', 'start_time': '2020-12-19 10:30:34', 'status': 4, 'update_time': '2020-12-19 10:30:39'}, {'ip': '192.168.1.149', 'os': 'linux', 'remark': '超时', 'start_time': '2020-12-19 10:30:34', 'status': 4, 'update_time': '2020-12-19 10:34:38'}, {'ip': '192.168.1.147', 'os': 'aix', 'remark': '执行出错', 'start_time': '2020-12-19 10:30:34', 'status': 4, 'update_time': '2020-12-19 10:30:34'}, {'ip': '192.168.1.1', 'os': '', 'remark': '凭证检测异常', 'start_time': '2020-12-19 10:30:34', 'status': 4, 'update_time': '2020-12-19 10:30:39'}, {'ip': '192.168.1.12', 'os': '', 'remark': '凭证检测异常', 'start_time': '2020-12-19 10:30:34', 'status': 4, 'update_time': '2020-12-19 10:30:39'}, {'ip': '1.1.1.1', 'os': '', 'remark': '凭证检测异常', 'start_time': '2020-12-19 10:30:34', 'status': 4, 'update_time': '2020-12-19 10:30:39'}, {'ip': '192.168.1.205', 'os': 'linux', 'remark': '', 'start_time': '2020-12-19 10:30:34', 'status': 3, 'update_time': '2020-12-19 10:30:40'}], 'start_time': '2020-12-19 10:30:34', 'summary': {'fail': 9, 'skip': 0, 'success': 1}, 'update_time': ''}}",
+      "time" : {
+        "start" : 1610505757762,
+        "stop" : 1610505757762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.035805s",
+      "time" : {
+        "start" : 1610505757762,
+        "stop" : 1610505757762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '探针管理-任务详情', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/agent/task/detail', 'data': {'task_type': 3}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f4d59cf6642cb49.json",
+  "parameterValues" : [ "{'title': '探针管理-任务详情', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/agent/task/detail', 'data': {'task_type': 3}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

@@ -1,0 +1,150 @@
+{
+  "uid" : "a98920ca449b66e9",
+  "name" : "采集项模型-采集项详情",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "7872cc508d0fbca46ecad7bd11fe63e4",
+  "time" : {
+    "start" : 1610505757793,
+    "stop" : 1610505757793,
+    "duration" : 0
+  },
+  "description" : "get https://192.168.1.205/api/cmdb/model/collect-attr/detail",
+  "descriptionHtml" : "<p>get https://192.168.1.205/api/cmdb/model/collect-attr/detail</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "get https://192.168.1.205/api/cmdb/model/collect-attr/detail",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:get",
+      "time" : {
+        "start" : 1610505757793,
+        "stop" : 1610505757793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/model/collect-attr/detail",
+      "time" : {
+        "start" : 1610505757793,
+        "stop" : 1610505757793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'id': 1}",
+      "time" : {
+        "start" : 1610505757793,
+        "stop" : 1610505757793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'model_id': 22, 'attr_name': '主机名', 'value_type': 'text', 'cycle': 600, 'remark': '', 'conditions': [{'search_unit_list': [{'attr_id': 10000, 'attr_name': 'IP', 'attr_name_en': 'ip', 'operator': 'noempty', 'search': None}], 'collect_way': '', 'script_key': '', 'script_id': 0, 'script_name': '', 'command_key': '', 'command_id': 0, 'source': [10002], 'source_name': ['SNMP/主机名/通用-主机名']}]}}",
+      "time" : {
+        "start" : 1610505757793,
+        "stop" : 1610505757793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.035462s",
+      "time" : {
+        "start" : 1610505757793,
+        "stop" : 1610505757793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '采集项模型-采集项详情', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/model/collect-attr/detail', 'data': {'id': 1}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a98920ca449b66e9.json",
+  "parameterValues" : [ "{'title': '采集项模型-采集项详情', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/model/collect-attr/detail', 'data': {'id': 1}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

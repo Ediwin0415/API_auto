@@ -1,0 +1,150 @@
+{
+  "uid" : "c15598e9349e2b84",
+  "name" : "凭证管理-新增",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "a703bbe28772cb33f7fc0087b258f3a9",
+  "time" : {
+    "start" : 1610505757713,
+    "stop" : 1610505757713,
+    "duration" : 0
+  },
+  "description" : "post https://192.168.1.205/api/cmdb/model/instance/add/12",
+  "descriptionHtml" : "<p>post https://192.168.1.205/api/cmdb/model/instance/add/12</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "post https://192.168.1.205/api/cmdb/model/instance/add/12",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:post",
+      "time" : {
+        "start" : 1610505757713,
+        "stop" : 1610505757713,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/model/instance/add/12",
+      "time" : {
+        "start" : 1610505757713,
+        "stop" : 1610505757713,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'model_id': 12, 'attr': {'name': 'SNMP凭证', 'protocol': [57], 'content': '{\"port\":161,\"version\":\"v2c\",\"community\":\"123456\"}', 'usefor': [67, 68], 'type': [70], 'use_model': [1070], 'remark': '', 'check_ip': '192.168.2.13', 'deadline': '5', 'cli_setting': ''}}",
+      "time" : {
+        "start" : 1610505757713,
+        "stop" : 1610505757713,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'id': 6426}}",
+      "time" : {
+        "start" : 1610505757713,
+        "stop" : 1610505757713,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.156956s",
+      "time" : {
+        "start" : 1610505757713,
+        "stop" : 1610505757713,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '凭证管理-新增', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/instance/add/12', 'data': {'model_id': 12, 'attr': {'name': 'SNMP凭证', 'protocol': [57], 'content': '{\"port\":161,\"version\":\"v2c\",\"community\":\"123456\"}', 'usefor': [67, 68], 'type': [70], 'use_model': [1070], 'remark': '', 'check_ip': '192.168.2.13', 'deadline': '5', 'cli_setting': ''}}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c15598e9349e2b84.json",
+  "parameterValues" : [ "{'title': '凭证管理-新增', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/instance/add/12', 'data': {'model_id': 12, 'attr': {'name': 'SNMP凭证', 'protocol': [57], 'content': '{\"port\":161,\"version\":\"v2c\",\"community\":\"123456\"}', 'usefor': [67, 68], 'type': [70], 'use_model': [1070], 'remark': '', 'check_ip': '192.168.2.13', 'deadline': '5', 'cli_setting': ''}}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

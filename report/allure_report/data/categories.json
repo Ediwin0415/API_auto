@@ -1,0 +1,130 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'fail' == 'pass'\n  - fail\n  + pass",
+      "children" : [ {
+        "name" : "配置中心-字典管理新增",
+        "uid" : "6668c12499683418",
+        "parentUid" : "89c6b20813b581f1569d8e6f8751c3a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610505757664,
+          "stop" : 1610505757664,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '配置中心-字典管理新增', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/sys/dict/add', 'data': {'name': '设备用途', 'attr': ['取值'], 'attr_list': [['5']]}, 'result': 'fail', 'res': <Response [200]>}" ]
+      }, {
+        "name" : "配置中心-字典管理更新",
+        "uid" : "7ad15d3aa12303fd",
+        "parentUid" : "89c6b20813b581f1569d8e6f8751c3a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610505757696,
+          "stop" : 1610505757696,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '配置中心-字典管理更新', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/sys/dict/update', 'data': {'name': '设备用途', 'attr': ['取值'], 'id': 1008, 'attr_list': [{'id': 1035, 'sort_index': 0, 'value': '[\"路由器\"]'}, {'id': 0, 'sort_index': 1, 'value': '[\"交换机\"]'}]}, 'result': 'fail', 'res': <Response [200]>}" ]
+      }, {
+        "name" : "配置中心-字典管理删除",
+        "uid" : "e371fc91a42376ec",
+        "parentUid" : "89c6b20813b581f1569d8e6f8751c3a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610505757713,
+          "stop" : 1610505757713,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '配置中心-字典管理删除', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/sys/dict/batch/delete', 'data': {'id_list': [1009]}, 'result': 'fail', 'res': <Response [200]>}" ]
+      }, {
+        "name" : "凭证管理-更新标签",
+        "uid" : "5a59f132ed68fb99",
+        "parentUid" : "89c6b20813b581f1569d8e6f8751c3a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610505757746,
+          "stop" : 1610505757746,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '凭证管理-更新标签', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/tag/update', 'data': {'id': 5, 'name': '22', 'content': '{\"list\": [{\"attr\": \"id\", \"search\": [6372], \"operator\": \"=\"}], \"model_id\": 12}', 'search': '6426'}, 'result': 'fail', 'res': <Response [200]>}" ]
+      }, {
+        "name" : "角色添加",
+        "uid" : "d94c707d9be16026",
+        "parentUid" : "89c6b20813b581f1569d8e6f8751c3a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610505757825,
+          "stop" : 1610505757825,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '角色添加', 'method': 'post', 'url': 'https://192.168.1.205/api/auth/role/add', 'data': {'name': 'test3', 'is_function_admin': 0}, 'result': 'fail', 'res': <Response [200]>}" ]
+      }, {
+        "name" : "部门小组信息更新",
+        "uid" : "acb62cfd3e94b626",
+        "parentUid" : "89c6b20813b581f1569d8e6f8751c3a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610505757857,
+          "stop" : 1610505757857,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '部门小组信息更新', 'method': 'post', 'url': 'https://192.168.1.205/api/auth/department/update', 'data': {'id': 10010, 'name': '123'}, 'result': 'fail', 'res': <Response [200]>}" ]
+      }, {
+        "name" : "IPMI、WMI数据源-详情",
+        "uid" : "7701523f30df1db6",
+        "parentUid" : "89c6b20813b581f1569d8e6f8751c3a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610505757904,
+          "stop" : 1610505757904,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': 'IPMI、WMI数据源-详情', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/data/source/command/detail', 'data': {'id': 11}, 'result': 'fail', 'res': <Response [200]>}" ]
+      }, {
+        "name" : "实例-信息更新-入库审查状态",
+        "uid" : "b13bedeb18e1c9b",
+        "parentUid" : "89c6b20813b581f1569d8e6f8751c3a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610505757952,
+          "stop" : 1610505757952,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '实例-信息更新-入库审查状态', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/instance/audit/status/update', 'data': {'model_id': 22, 'status': 2}, 'result': 'fail', 'res': <Response [200]>}" ]
+      }, {
+        "name" : "实例-结构体保存",
+        "uid" : "18a3fc6a7cf877c4",
+        "parentUid" : "89c6b20813b581f1569d8e6f8751c3a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610505757984,
+          "stop" : 1610505757984,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '实例-结构体保存', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/instance/struct/save', 'data': {'instance_id': 3999, 'struct_attr_id': 7050, 'struct_list': '{\"id\":0,\"content\":\"\"}'}, 'result': 'fail', 'res': <Response [200]>}" ]
+      } ],
+      "uid" : "89c6b20813b581f1569d8e6f8751c3a6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,150 @@
+{
+  "uid" : "cb197665a687decf",
+  "name" : "角色-删除",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "fe55b08a76661ae20b616b9c851a2dff",
+  "time" : {
+    "start" : 1610505757841,
+    "stop" : 1610505757841,
+    "duration" : 0
+  },
+  "description" : "post https://192.168.1.205/api/auth/role/batch/delete",
+  "descriptionHtml" : "<p>post https://192.168.1.205/api/auth/role/batch/delete</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "post https://192.168.1.205/api/auth/role/batch/delete",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:post",
+      "time" : {
+        "start" : 1610505757841,
+        "stop" : 1610505757841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/auth/role/batch/delete",
+      "time" : {
+        "start" : 1610505757841,
+        "stop" : 1610505757841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'id_list': [8], 'force': 1}",
+      "time" : {
+        "start" : 1610505757841,
+        "stop" : 1610505757841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'count': 0}}",
+      "time" : {
+        "start" : 1610505757841,
+        "stop" : 1610505757841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.036282s",
+      "time" : {
+        "start" : 1610505757841,
+        "stop" : 1610505757841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '角色-删除', 'method': 'post', 'url': 'https://192.168.1.205/api/auth/role/batch/delete', 'data': {'id_list': [8], 'force': 1}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb197665a687decf.json",
+  "parameterValues" : [ "{'title': '角色-删除', 'method': 'post', 'url': 'https://192.168.1.205/api/auth/role/batch/delete', 'data': {'id_list': [8], 'force': 1}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

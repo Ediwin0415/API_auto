@@ -1,0 +1,5 @@
+2021-01-02 15:00:09,247 DEFAULT INFO aaa
+2021-01-02 15:00:09,248 DEFAULT WARNING aaa
+2021-01-02 20:23:39,482 DEFAULT INFO method:POST
+2021-01-02 20:23:39,482 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-02 20:23:39,483 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}

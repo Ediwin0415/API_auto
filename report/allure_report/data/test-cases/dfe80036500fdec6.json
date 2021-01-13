@@ -1,0 +1,150 @@
+{
+  "uid" : "dfe80036500fdec6",
+  "name" : "数据源-查看脚本详情",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "22d959d0303774e9c2b6789e3da8b47b",
+  "time" : {
+    "start" : 1610505757889,
+    "stop" : 1610505757889,
+    "duration" : 0
+  },
+  "description" : "get https://192.168.1.205/api/cmdb/data/source/script/detail",
+  "descriptionHtml" : "<p>get https://192.168.1.205/api/cmdb/data/source/script/detail</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "get https://192.168.1.205/api/cmdb/data/source/script/detail",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:get",
+      "time" : {
+        "start" : 1610505757889,
+        "stop" : 1610505757889,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/data/source/script/detail",
+      "time" : {
+        "start" : 1610505757889,
+        "stop" : 1610505757889,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'id': '108'}",
+      "time" : {
+        "start" : 1610505757889,
+        "stop" : 1610505757889,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'id': 108, 'name': '111', 'remark': '', 'group_id': 2, 'file_id': 659, 'file_type': 'python', 'file_exec_cmd': 'python 11.txt', 'timeout': 60, 'model_id': 1080, 'input_params_map': '[]', 'output_params_map': '[{\"name\":\"11\",\"data_source\":{\"id\":10092,\"name\":\"11\",\"expression\":\"\"}}]', 'is_custom': 1, 'create_time': '2021-01-13 10:42:25', 'update_time': '2021-01-13 10:42:25', 'create_user_id': 40, 'model_name': 'modul48', 'file_path': '/fileproxy/auth/cmdb/script/5a6daeb4-8d7e-4445-b45f-20acaaaad395/demo.py', 'file_name': 'demo.py', 'group_path_name': '脚本'}}",
+      "time" : {
+        "start" : 1610505757889,
+        "stop" : 1610505757889,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.0358s",
+      "time" : {
+        "start" : 1610505757889,
+        "stop" : 1610505757889,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '数据源-查看脚本详情', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/data/source/script/detail', 'data': {'id': '108'}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfe80036500fdec6.json",
+  "parameterValues" : [ "{'title': '数据源-查看脚本详情', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/data/source/script/detail', 'data': {'id': '108'}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

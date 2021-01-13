@@ -1,0 +1,1101 @@
+[ {
+  "uid" : "69a9f9e23ed0864",
+  "name" : "数据源-删除脚本",
+  "time" : {
+    "start" : 1610505757889,
+    "stop" : 1610505757889,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1ae418944a5c6783",
+  "name" : "探针列表-探针的关联实例列表",
+  "time" : {
+    "start" : 1610505758000,
+    "stop" : 1610505758000,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7ad15d3aa12303fd",
+  "name" : "配置中心-字典管理更新",
+  "time" : {
+    "start" : 1610505757696,
+    "stop" : 1610505757696,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "e9f2b21112592b30",
+  "name" : "配置中心-字典管理查询",
+  "time" : {
+    "start" : 1610505757696,
+    "stop" : 1610505757696,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a98920ca449b66e9",
+  "name" : "采集项模型-采集项详情",
+  "time" : {
+    "start" : 1610505757793,
+    "stop" : 1610505757793,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4ae32954a9683c61",
+  "name" : "实例-快捷查询",
+  "time" : {
+    "start" : 1610505757952,
+    "stop" : 1610505757952,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d04ca2bd4c90a94c",
+  "name" : "脚本数据源-查询",
+  "time" : {
+    "start" : 1610505757873,
+    "stop" : 1610505757889,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e1fdc35fa519dcfd",
+  "name" : "用户自定义保存(全部)",
+  "time" : {
+    "start" : 1610505757825,
+    "stop" : 1610505757825,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d669750aaf11626e",
+  "name" : "资料管理-部门列表",
+  "time" : {
+    "start" : 1610505757809,
+    "stop" : 1610505757809,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2e045bee7026fd39",
+  "name" : "配置中心-凭证详情",
+  "time" : {
+    "start" : 1610505757729,
+    "stop" : 1610505757729,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e49c4b95161d76a4",
+  "name" : "部门新增",
+  "time" : {
+    "start" : 1610505757857,
+    "stop" : 1610505757857,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d94c707d9be16026",
+  "name" : "角色添加",
+  "time" : {
+    "start" : 1610505757825,
+    "stop" : 1610505757825,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "5cdfd61215acfbd3",
+  "name" : "网络设备-导入实例",
+  "time" : {
+    "start" : 1610505757920,
+    "stop" : 1610505757920,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e62f9d8e8aa5d342",
+  "name" : "凭证-规则绑定实例",
+  "time" : {
+    "start" : 1610505757936,
+    "stop" : 1610505757936,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c558878c034ec2e7",
+  "name" : "实例-结构体查询",
+  "time" : {
+    "start" : 1610505757968,
+    "stop" : 1610505757968,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cb37e741d72a2c3b",
+  "name" : "检查token是否有效",
+  "time" : {
+    "start" : 1610505757809,
+    "stop" : 1610505757809,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa24973a7a959783",
+  "name" : "配置中心-删除凭证",
+  "time" : {
+    "start" : 1610505757729,
+    "stop" : 1610505757729,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "525fb6a8ac82c151",
+  "name" : "模型配置-列表样式保存",
+  "time" : {
+    "start" : 1610505757648,
+    "stop" : 1610505757648,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d9779ea7d34e26ad",
+  "name" : "设备扫描-任务编辑",
+  "time" : {
+    "start" : 1610505758015,
+    "stop" : 1610505758015,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f643e2b4f4566b6b",
+  "name" : "模型配置-新增分组成功",
+  "time" : {
+    "start" : 1610505757632,
+    "stop" : 1610505757632,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "eb9ba22cd7a3982d",
+  "name" : "模型实例数量统计",
+  "time" : {
+    "start" : 1610505757952,
+    "stop" : 1610505757952,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "19004a3a8f5e10ee",
+  "name" : "配置中心-凭证更新",
+  "time" : {
+    "start" : 1610505757713,
+    "stop" : 1610505757713,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b447c3dd594318af",
+  "name" : "公告详情",
+  "time" : {
+    "start" : 1610505758000,
+    "stop" : 1610505758000,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "88833cbf48e737e3",
+  "name" : "凭证-检测有效性",
+  "time" : {
+    "start" : 1610505757968,
+    "stop" : 1610505757968,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6933e43b0ef8fd3d",
+  "name" : "模型设置-关系管理删除关系",
+  "time" : {
+    "start" : 1610505757793,
+    "stop" : 1610505757793,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "eb7577235094c905",
+  "name" : "IPMI、WMI数据源-查询",
+  "time" : {
+    "start" : 1610505757889,
+    "stop" : 1610505757889,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "59bc9bc08ac351d6",
+  "name" : "配置中心-弃用模型",
+  "time" : {
+    "start" : 1610505757778,
+    "stop" : 1610505757778,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "60b40897b3db9303",
+  "name" : "网络设备-导入实例",
+  "time" : {
+    "start" : 1610505757904,
+    "stop" : 1610505757904,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e371fc91a42376ec",
+  "name" : "配置中心-字典管理删除",
+  "time" : {
+    "start" : 1610505757713,
+    "stop" : 1610505757713,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "6668c12499683418",
+  "name" : "配置中心-字典管理新增",
+  "time" : {
+    "start" : 1610505757664,
+    "stop" : 1610505757664,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "e9c793f3cf03cac7",
+  "name" : "数据源-脚本新增/编辑",
+  "time" : {
+    "start" : 1610505757873,
+    "stop" : 1610505757873,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b040a8fff8cb07e3",
+  "name" : "部门小组删除",
+  "time" : {
+    "start" : 1610505757857,
+    "stop" : 1610505757857,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "75370467cc69f8f6",
+  "name" : "模型配置-新增模型",
+  "time" : {
+    "start" : 1610505757648,
+    "stop" : 1610505757648,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f3bb6d177cebc68",
+  "name" : "采集项模型-CMDB采集项更新",
+  "time" : {
+    "start" : 1610505757664,
+    "stop" : 1610505757664,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b13bedeb18e1c9b",
+  "name" : "实例-信息更新-入库审查状态",
+  "time" : {
+    "start" : 1610505757952,
+    "stop" : 1610505757952,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "155bc20f94445400",
+  "name" : "模型配置-关系管理列表",
+  "time" : {
+    "start" : 1610505757809,
+    "stop" : 1610505757809,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cb197665a687decf",
+  "name" : "角色-删除",
+  "time" : {
+    "start" : 1610505757841,
+    "stop" : 1610505757841,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3f3c4b2c13fb7954",
+  "name" : "凭证-规则关联实例列表",
+  "time" : {
+    "start" : 1610505757936,
+    "stop" : 1610505757936,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2633cbc97eaf4930",
+  "name" : "登录",
+  "time" : {
+    "start" : 1610505757632,
+    "stop" : 1610505757632,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c58a644640288001",
+  "name" : "配置中心-搜索凭证",
+  "time" : {
+    "start" : 1610505757729,
+    "stop" : 1610505757729,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa817ca50874dac1",
+  "name" : "网络设备-导入实例信息",
+  "time" : {
+    "start" : 1610505757920,
+    "stop" : 1610505757920,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6728d454ca9df11e",
+  "name" : "配置中心-采集项模型",
+  "time" : {
+    "start" : 1610505757825,
+    "stop" : 1610505757825,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "124b2f540ddaa7cf",
+  "name" : "角色-权限修改",
+  "time" : {
+    "start" : 1610505757841,
+    "stop" : 1610505757841,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1e8660897e866765",
+  "name" : "实例-目录树模型属性值枚举",
+  "time" : {
+    "start" : 1610505757920,
+    "stop" : 1610505757920,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8a7cd25fb67d3fa7",
+  "name" : "模型设置-模型字段",
+  "time" : {
+    "start" : 1610505757648,
+    "stop" : 1610505757648,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bb205b2cfa3dad35",
+  "name" : "渠道队列",
+  "time" : {
+    "start" : 1610505758015,
+    "stop" : 1610505758015,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3a4f117e32953f28",
+  "name" : "凭证-规则解绑实例",
+  "time" : {
+    "start" : 1610505757936,
+    "stop" : 1610505757936,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "18a3fc6a7cf877c4",
+  "name" : "实例-结构体保存",
+  "time" : {
+    "start" : 1610505757984,
+    "stop" : 1610505757984,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "acb62cfd3e94b626",
+  "name" : "部门小组信息更新",
+  "time" : {
+    "start" : 1610505757857,
+    "stop" : 1610505757857,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "300a59bfe9a507ac",
+  "name" : "配置中心-高级搜索凭证",
+  "time" : {
+    "start" : 1610505757729,
+    "stop" : 1610505757729,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5a59f132ed68fb99",
+  "name" : "凭证管理-更新标签",
+  "time" : {
+    "start" : 1610505757746,
+    "stop" : 1610505757746,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "f935951f01915abb",
+  "name" : "配置中心-关系链删除",
+  "time" : {
+    "start" : 1610505757778,
+    "stop" : 1610505757778,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "80dbdf22b5402ac3",
+  "name" : "模型设置-关系管理新增关系",
+  "time" : {
+    "start" : 1610505757648,
+    "stop" : 1610505757648,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d92e6e98ccaabeba",
+  "name" : "修改公告",
+  "time" : {
+    "start" : 1610505758000,
+    "stop" : 1610505758000,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d155e411e7ce2861",
+  "name" : "配置中心-关系链更新",
+  "time" : {
+    "start" : 1610505757746,
+    "stop" : 1610505757746,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ea43695627da0018",
+  "name" : "IPMI、WMI数据源-新增/更新",
+  "time" : {
+    "start" : 1610505757889,
+    "stop" : 1610505757889,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e4667c1ebd77b2af",
+  "name" : "CMDB数据源-详情",
+  "time" : {
+    "start" : 1610505757873,
+    "stop" : 1610505757873,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "645b19ada7073e7f",
+  "name" : "实例-结构体详情",
+  "time" : {
+    "start" : 1610505757968,
+    "stop" : 1610505757968,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5c5638f23c967c00",
+  "name" : "CMDB数据源-新增",
+  "time" : {
+    "start" : 1610505757857,
+    "stop" : 1610505757857,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e7a1dabb83aa4e73",
+  "name" : "采集项模型-采集项",
+  "time" : {
+    "start" : 1610505757778,
+    "stop" : 1610505757793,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "55ac0b64a98d56fe",
+  "name" : "用户登录日志查询",
+  "time" : {
+    "start" : 1610505757825,
+    "stop" : 1610505757825,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fd79c74a4fb891f6",
+  "name" : "实例-IP列表",
+  "time" : {
+    "start" : 1610505757936,
+    "stop" : 1610505757936,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2ab0188c49af9709",
+  "name" : "采集项模型-CMDB采集项新增",
+  "time" : {
+    "start" : 1610505757648,
+    "stop" : 1610505757648,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6331424425bc81fd",
+  "name" : "CMDB数据源-移动复制分组",
+  "time" : {
+    "start" : 1610505757873,
+    "stop" : 1610505757873,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "437fb3a464ccf5fe",
+  "name" : "公告列表",
+  "time" : {
+    "start" : 1610505757984,
+    "stop" : 1610505757984,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "de5d1cfdb63de908",
+  "name" : "CMDB数据源-列表",
+  "time" : {
+    "start" : 1610505757873,
+    "stop" : 1610505757873,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e8a397574b84e553",
+  "name" : "配置中心-关系链新增",
+  "time" : {
+    "start" : 1610505757746,
+    "stop" : 1610505757746,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "91126de262799ff",
+  "name" : "配置中心-导出凭证",
+  "time" : {
+    "start" : 1610505757729,
+    "stop" : 1610505757729,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c18a0611899ac647",
+  "name" : "配置中心-恢复模型",
+  "time" : {
+    "start" : 1610505757778,
+    "stop" : 1610505757778,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7dae051977f539b6",
+  "name" : "配置中心-关系拓扑",
+  "time" : {
+    "start" : 1610505757793,
+    "stop" : 1610505757793,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c15598e9349e2b84",
+  "name" : "凭证管理-新增",
+  "time" : {
+    "start" : 1610505757713,
+    "stop" : 1610505757713,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "781a43710e2d64fa",
+  "name" : "配置中心-关系链列表",
+  "time" : {
+    "start" : 1610505757746,
+    "stop" : 1610505757746,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "deb61a8970ad308a",
+  "name" : "发布公告",
+  "time" : {
+    "start" : 1610505757984,
+    "stop" : 1610505757984,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ffdb3330a148d74c",
+  "name" : "探针管理-探针库",
+  "time" : {
+    "start" : 1610505757778,
+    "stop" : 1610505757778,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ac2784f7bcfb55c0",
+  "name" : "LDAP-国信用户同步",
+  "time" : {
+    "start" : 1610505757809,
+    "stop" : 1610505757825,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1b0d3eae14752f0b",
+  "name" : "设备扫描-任务配置查询",
+  "time" : {
+    "start" : 1610505758031,
+    "stop" : 1610505758031,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "64e480af839c1f03",
+  "name" : "配置中心-模型配置使用中模型列表",
+  "time" : {
+    "start" : 1610505757778,
+    "stop" : 1610505757778,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cd63cc78183111f9",
+  "name" : "用户自定义列表(全部)",
+  "time" : {
+    "start" : 1610505757825,
+    "stop" : 1610505757825,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c7b005b9cf52f704",
+  "name" : "渠道测试",
+  "time" : {
+    "start" : 1610505758015,
+    "stop" : 1610505758015,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9a957716ffbd7a9",
+  "name" : "实例-查询视图数据",
+  "time" : {
+    "start" : 1610505757920,
+    "stop" : 1610505757920,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3b75229c516e4ac0",
+  "name" : "资料管理-个人信息更新",
+  "time" : {
+    "start" : 1610505757809,
+    "stop" : 1610505757809,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3f4d59cf6642cb49",
+  "name" : "探针管理-任务详情",
+  "time" : {
+    "start" : 1610505757762,
+    "stop" : 1610505757762,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e0cf8d02e4537854",
+  "name" : "配置中心-关系链列表",
+  "time" : {
+    "start" : 1610505757793,
+    "stop" : 1610505757793,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "eb73bb16ea977c1d",
+  "name" : "凭证管理-新增标签",
+  "time" : {
+    "start" : 1610505757729,
+    "stop" : 1610505757729,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "127eada5f34af5b",
+  "name" : "CMDB日志记录",
+  "time" : {
+    "start" : 1610505757762,
+    "stop" : 1610505757762,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d176b7c55c30b521",
+  "name" : "人员-删除",
+  "time" : {
+    "start" : 1610505757841,
+    "stop" : 1610505757841,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3dc45091259bba9e",
+  "name" : "探针管理-探针列表",
+  "time" : {
+    "start" : 1610505757762,
+    "stop" : 1610505757762,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d2337566693157b6",
+  "name" : "CMDB日志记录高级搜索",
+  "time" : {
+    "start" : 1610505757762,
+    "stop" : 1610505757762,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "55f617facf4f1c47",
+  "name" : "区控连通性检测",
+  "time" : {
+    "start" : 1610505758031,
+    "stop" : 1610505758031,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ab9de638c3380275",
+  "name" : "实例附件列表",
+  "time" : {
+    "start" : 1610505757968,
+    "stop" : 1610505757968,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "579be00e54bd856c",
+  "name" : "IPMI、WMI数据源-删除",
+  "time" : {
+    "start" : 1610505757904,
+    "stop" : 1610505757904,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "40fe6fb7fa7b0f50",
+  "name" : "发布公告",
+  "time" : {
+    "start" : 1610505758000,
+    "stop" : 1610505758000,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f234c5daa0148d37",
+  "name" : "角色-权限详情",
+  "time" : {
+    "start" : 1610505757841,
+    "stop" : 1610505757841,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "655188858530810d",
+  "name" : "实例-IP列表",
+  "time" : {
+    "start" : 1610505757920,
+    "stop" : 1610505757920,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c59b74efa59bdb5c",
+  "name" : "模型设置-关系管理更新关系",
+  "time" : {
+    "start" : 1610505757793,
+    "stop" : 1610505757793,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4b8f4c311e224157",
+  "name" : "人员新增",
+  "time" : {
+    "start" : 1610505757841,
+    "stop" : 1610505757841,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dfe80036500fdec6",
+  "name" : "数据源-查看脚本详情",
+  "time" : {
+    "start" : 1610505757889,
+    "stop" : 1610505757889,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "838e57e571aa022c",
+  "name" : "安装管理-待安装探针的关联实例列表",
+  "time" : {
+    "start" : 1610505758000,
+    "stop" : 1610505758000,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7701523f30df1db6",
+  "name" : "IPMI、WMI数据源-详情",
+  "time" : {
+    "start" : 1610505757904,
+    "stop" : 1610505757904,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "9b221573f7ac6b32",
+  "name" : "模型设置-指定条件列表",
+  "time" : {
+    "start" : 1610505757778,
+    "stop" : 1610505757778,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a214b3bc3f4bede2",
+  "name" : "密钥自动生成",
+  "time" : {
+    "start" : 1610505757984,
+    "stop" : 1610505757984,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7ff55f7cb5901ac4",
+  "name" : "探针管理-探针库",
+  "time" : {
+    "start" : 1610505758000,
+    "stop" : 1610505758000,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f0ae7255f7a02e98",
+  "name" : "渠道修改",
+  "time" : {
+    "start" : 1610505758015,
+    "stop" : 1610505758015,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "660054453d121836",
+  "name" : "视图管理-视图编辑-关系列表",
+  "time" : {
+    "start" : 1610505757809,
+    "stop" : 1610505757809,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e1c5f2f086bf9be",
+  "name" : "凭证-测试",
+  "time" : {
+    "start" : 1610505757968,
+    "stop" : 1610505757968,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4e9c3c19a9c3a1ce",
+  "name" : "探针管理-采集器列表",
+  "time" : {
+    "start" : 1610505757762,
+    "stop" : 1610505757762,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e88b419c5be346b3",
+  "name" : "渠道队列",
+  "time" : {
+    "start" : 1610505758015,
+    "stop" : 1610505758015,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a74fdc1b7c0a42cf",
+  "name" : "渠道列表",
+  "time" : {
+    "start" : 1610505758015,
+    "stop" : 1610505758015,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "80b8e41f1243e024",
+  "name" : "二维码-获取实例详情",
+  "time" : {
+    "start" : 1610505757984,
+    "stop" : 1610505757984,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5ea698de9c4ea83d",
+  "name" : "实例-关系图谱",
+  "time" : {
+    "start" : 1610505757952,
+    "stop" : 1610505757952,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

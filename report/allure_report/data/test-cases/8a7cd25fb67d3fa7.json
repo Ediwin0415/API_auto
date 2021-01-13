@@ -1,0 +1,150 @@
+{
+  "uid" : "8a7cd25fb67d3fa7",
+  "name" : "模型设置-模型字段",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "429b30e57c1644c4db7c130014850d89",
+  "time" : {
+    "start" : 1610505757648,
+    "stop" : 1610505757648,
+    "duration" : 0
+  },
+  "description" : "post https://192.168.1.205/api/cmdb/model/attr/update",
+  "descriptionHtml" : "<p>post https://192.168.1.205/api/cmdb/model/attr/update</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "post https://192.168.1.205/api/cmdb/model/attr/update",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:post",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/model/attr/update",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': '1104', 'delete_attr_list': []}",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'result': True}}",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.056865s",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '模型设置-模型字段', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/attr/update', 'data': {'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': '1104', 'delete_attr_list': []}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a7cd25fb67d3fa7.json",
+  "parameterValues" : [ "{'title': '模型设置-模型字段', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/attr/update', 'data': {'attr': [{'name': '资产编号', 'name_en': 'asset_tag', 'primary_key': 'true', 'default_show': 'false', 'required': 'true', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 0, 'id': 10580}, {'name': '主机名', 'name_en': 'hostname', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'true', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {'max_length': 256, 'min_length': 0, 'value_default': '', 'validator_type': '', 'validator_expr': '', 'target': ''}, 'value_type': 'text', 'sort_index': 1, 'id': 10581}, {'name': 'IP', 'name_en': 'ip', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'true', 'value_rule': {}, 'value_type': 'ip', 'sort_index': 2, 'id': 10582}, {'name': '凭证', 'name_en': 'voucher', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'limit_type': []}, 'value_type': 'voucher', 'sort_index': 3, 'id': 10583}, {'name': '设备型号', 'name_en': 'brand_model', 'primary_key': 'false', 'default_show': 'false', 'required': 'false', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'relation_ids': [1]}, 'value_type': 'brand_model', 'sort_index': 4, 'id': 10584}, {'name': '运营状态', 'name_en': 'status', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'private_dict': 0, 'value_default': 0, 'dict_id': 2}, 'value_type': 'select', 'sort_index': 5, 'id': 10585}, {'name': '过保时间', 'name_en': 'expire_manage_switch', 'primary_key': 'false', 'default_show': 'false', 'required': 'true', 'unique': 'false', 'list_show': 'false', 'edit_show': 'true', 'batch_edit_show': 'true', 'custom': 'true', 'column_search': 'true', 'global_search': 'false', 'value_rule': {'type': 'input', 'date_format': 'datetime', 'deadline_inform_switch': 'false', 'expire_manage_switch': 'true'}, 'value_type': 'date', 'sort_index': 6, 'id': 10586}], 'primary_key': ['asset_tag'], 'id': '1104', 'delete_attr_list': []}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

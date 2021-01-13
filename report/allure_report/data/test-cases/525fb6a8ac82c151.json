@@ -1,0 +1,150 @@
+{
+  "uid" : "525fb6a8ac82c151",
+  "name" : "模型配置-列表样式保存",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "af6c08f57a93d8a43d628a538739a34d",
+  "time" : {
+    "start" : 1610505757648,
+    "stop" : 1610505757648,
+    "duration" : 0
+  },
+  "description" : "post https://192.168.1.205/api/cmdb/model/layout/update",
+  "descriptionHtml" : "<p>post https://192.168.1.205/api/cmdb/model/layout/update</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "post https://192.168.1.205/api/cmdb/model/layout/update",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:post",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/model/layout/update",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'model_id': '1104', 'layout_list': {'name': 'table', 'content': '{\"attr_setting\":{\"card\":[{\"attr_id\":10580,\"show\":true},{\"attr_id\":10581,\"show\":true},{\"attr_id\":10582,\"show\":true},{\"attr_id\":10583,\"show\":true},{\"attr_id\":10584,\"show\":true}],\"row\":[{\"attr_id\":10580,\"show\":true,\"sort\":false},{\"attr_id\":10581,\"show\":true,\"sort\":false},{\"attr_id\":10582,\"show\":true,\"sort\":false},{\"attr_id\":10583,\"show\":true,\"sort\":false},{\"attr_id\":10584,\"show\":true,\"sort\":false},{\"attr_id\":10585,\"show\":true,\"sort\":false},{\"attr_id\":10586,\"show\":true,\"sort\":false}]},\"type\":\"list\"}'}}",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'result': True}}",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.03983s",
+      "time" : {
+        "start" : 1610505757648,
+        "stop" : 1610505757648,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '模型配置-列表样式保存', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/layout/update', 'data': {'model_id': '1104', 'layout_list': {'name': 'table', 'content': '{\"attr_setting\":{\"card\":[{\"attr_id\":10580,\"show\":true},{\"attr_id\":10581,\"show\":true},{\"attr_id\":10582,\"show\":true},{\"attr_id\":10583,\"show\":true},{\"attr_id\":10584,\"show\":true}],\"row\":[{\"attr_id\":10580,\"show\":true,\"sort\":false},{\"attr_id\":10581,\"show\":true,\"sort\":false},{\"attr_id\":10582,\"show\":true,\"sort\":false},{\"attr_id\":10583,\"show\":true,\"sort\":false},{\"attr_id\":10584,\"show\":true,\"sort\":false},{\"attr_id\":10585,\"show\":true,\"sort\":false},{\"attr_id\":10586,\"show\":true,\"sort\":false}]},\"type\":\"list\"}'}}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "525fb6a8ac82c151.json",
+  "parameterValues" : [ "{'title': '模型配置-列表样式保存', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/layout/update', 'data': {'model_id': '1104', 'layout_list': {'name': 'table', 'content': '{\"attr_setting\":{\"card\":[{\"attr_id\":10580,\"show\":true},{\"attr_id\":10581,\"show\":true},{\"attr_id\":10582,\"show\":true},{\"attr_id\":10583,\"show\":true},{\"attr_id\":10584,\"show\":true}],\"row\":[{\"attr_id\":10580,\"show\":true,\"sort\":false},{\"attr_id\":10581,\"show\":true,\"sort\":false},{\"attr_id\":10582,\"show\":true,\"sort\":false},{\"attr_id\":10583,\"show\":true,\"sort\":false},{\"attr_id\":10584,\"show\":true,\"sort\":false},{\"attr_id\":10585,\"show\":true,\"sort\":false},{\"attr_id\":10586,\"show\":true,\"sort\":false}]},\"type\":\"list\"}'}}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

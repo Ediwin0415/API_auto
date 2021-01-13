@@ -1,0 +1,150 @@
+{
+  "uid" : "88833cbf48e737e3",
+  "name" : "凭证-检测有效性",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "8316b47cb6709ed5fb6c7d5334cc3cc8",
+  "time" : {
+    "start" : 1610505757968,
+    "stop" : 1610505757968,
+    "duration" : 0
+  },
+  "description" : "post https://192.168.1.205/api/cmdb/model/instance/voucher/check",
+  "descriptionHtml" : "<p>post https://192.168.1.205/api/cmdb/model/instance/voucher/check</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "post https://192.168.1.205/api/cmdb/model/instance/voucher/check",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:post",
+      "time" : {
+        "start" : 1610505757968,
+        "stop" : 1610505757968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/model/instance/voucher/check",
+      "time" : {
+        "start" : 1610505757968,
+        "stop" : 1610505757968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'instance_list': [3999], 'voucher_id': 4457}",
+      "time" : {
+        "start" : 1610505757968,
+        "stop" : 1610505757968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'instance_list': [{'check': 1, 'errmsg': 'CmdbInstanceNoIPCanBeDetected'}]}}",
+      "time" : {
+        "start" : 1610505757968,
+        "stop" : 1610505757968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.040336s",
+      "time" : {
+        "start" : 1610505757968,
+        "stop" : 1610505757968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '凭证-检测有效性', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/instance/voucher/check', 'data': {'instance_list': [3999], 'voucher_id': 4457}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88833cbf48e737e3.json",
+  "parameterValues" : [ "{'title': '凭证-检测有效性', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/instance/voucher/check', 'data': {'instance_list': [3999], 'voucher_id': 4457}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

@@ -1,0 +1,150 @@
+{
+  "uid" : "e7a1dabb83aa4e73",
+  "name" : "采集项模型-采集项",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "8c567116cce3d611450f08c93542662a",
+  "time" : {
+    "start" : 1610505757778,
+    "stop" : 1610505757793,
+    "duration" : 15
+  },
+  "description" : "get https://192.168.1.205/api/cmdb/model/collect-attr/search",
+  "descriptionHtml" : "<p>get https://192.168.1.205/api/cmdb/model/collect-attr/search</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "get https://192.168.1.205/api/cmdb/model/collect-attr/search",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:get",
+      "time" : {
+        "start" : 1610505757778,
+        "stop" : 1610505757793,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/model/collect-attr/search",
+      "time" : {
+        "start" : 1610505757793,
+        "stop" : 1610505757793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'limit': 10, 'offset': 0}",
+      "time" : {
+        "start" : 1610505757793,
+        "stop" : 1610505757793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'count': 69, 'list': [{'id': 1, 'model_id': 22, 'attr_name': '主机名', 'value_type': 'text', 'cycle': 600, 'conditions': '[{\"judge\":\"any\",\"search_unit_list\":[{\"attr_id\":10000,\"operator\":\"noempty\"}],\"script_key\":\"\",\"script_id\":0,\"source\":[10002]}]', 'remark': '', 'create_user_id': 1, 'create_time': '2020-06-17 20:07:51', 'update_time': '2020-06-17 20:07:51', 'struct': None}, {'id': 2, 'model_id': 22, 'attr_name': '设备序列号', 'value_type': 'text', 'cycle': 3600, 'conditions': '[{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[3]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10017]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[11]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10009]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[19]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10014]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[20]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10006]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"!=\",\"search\":[3,11,19,20]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10003]}]', 'remark': '', 'create_user_id': 1, 'create_time': '2020-06-17 20:09:37', 'update_time': '2020-12-01 16:59:27', 'struct': None}, {'id': 3, 'model_id': 22, 'attr_name': '软件版本', 'value_type': 'text', 'cycle': 3600, 'conditions': '[{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[20]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10007]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[11]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10010]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[19]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10015]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"!=\",\"search\":[3,11,19]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10004]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"operator\":\"=\",\"search\":[3]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10018]}]', 'remark': '', 'create_user_id': 1, 'create_time': '2020-06-17 20:17:28', 'update_time': '2020-12-01 17:00:19', 'struct': None}, {'id': 4, 'model_id': 22, 'attr_name': '设备型号', 'value_type': 'text', 'cycle': 3600, 'conditions': '[{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[3]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10016]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[2]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10020]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[19]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10012]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[11]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10008]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"=\",\"search\":[20]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10005]},{\"judge\":\"all\",\"search_unit_list\":[{\"attr_id\":10109,\"attr_name\":\"品牌\",\"attr_name_en\":\"brand\",\"operator\":\"!=\",\"search\":[3,2,19,11,20]}],\"script_id\":0,\"script_key\":\"\",\"source\":[10001]}]', 'remark': '', 'create_user_id': 1, 'create_time': '2020-06-17 20:32:31', 'update_time': '2020-12-01 17:00:34', 'struct': None}, {'id': 5, 'model_id': 127, 'attr_name': '主机名', 'value_type': 'text', 'cycle': 86400, 'conditions': '[{\"judge\":\"all\",\"search_unit_list\":[],\"script_key\":\"hostname\",\"script_id\":100,\"source\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}]', 'remark': '', 'create_user_id': 1, 'create_time': '2020-09-01 16:00:00', 'update_time': '2020-09-01 16:03:37', 'struct': None}, {'id': 6, 'model_id': 127, 'attr_name': 'OS 名称', 'value_type': 'text', 'cycle': 86400, 'conditions': '[{\"judge\":\"all\",\"search_unit_list\":[],\"script_key\":\"osName\",\"script_id\":100,\"source\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}]', 'remark': '', 'create_user_id': 1, 'create_time': '2020-09-01 16:00:00', 'update_time': '2020-09-01 16:18:27', 'struct': None}, {'id': 7, 'model_id': 127, 'attr_name': 'OS 版本', 'value_type': 'text', 'cycle': 86400, 'conditions': '[{\"judge\":\"all\",\"search_unit_list\":[],\"script_key\":\"osVersion\",\"script_id\":100,\"source\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}]', 'remark': '', 'create_user_id': 1, 'create_time': '2020-09-01 16:00:00', 'update_time': '2020-09-01 16:07:59', 'struct': None}, {'id': 8, 'model_id': 127, 'attr_name': 'OS 配置', 'value_type': 'text', 'cycle': 86400, 'conditions': '[{\"judge\":\"all\",\"search_unit_list\":[],\"script_key\":\"osConfig\",\"script_id\":100,\"source\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}]', 'remark': '', 'create_user_id': 1, 'create_time': '2020-09-01 16:00:00', 'update_time': '2020-09-01 16:08:50', 'struct': None}, {'id': 9, 'model_id': 127, 'attr_name': 'OS 构件类型', 'value_type': 'text', 'cycle': 86400, 'conditions': '[{\"judge\":\"all\",\"search_unit_list\":[],\"script_key\":\"osComponentType\",\"script_id\":100,\"source\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}]', 'remark': '', 'create_user_id': 1, 'create_time': '2020-09-01 16:00:00', 'update_time': '2020-09-01 16:09:16', 'struct': None}, {'id': 10, 'model_id': 127, 'attr_name': 'OS 初始安装日期', 'value_type': 'text', 'cycle': 86400, 'conditions': '[{\"judge\":\"all\",\"search_unit_list\":[],\"script_key\":\"installDate\",\"script_id\":100,\"source\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}]', 'remark': '', 'create_user_id': 1, 'create_time': '2020-09-01 16:00:00', 'update_time': '2020-09-01 16:09:54', 'struct': None}]}}",
+      "time" : {
+        "start" : 1610505757793,
+        "stop" : 1610505757793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.035213s",
+      "time" : {
+        "start" : 1610505757793,
+        "stop" : 1610505757793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '采集项模型-采集项', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/model/collect-attr/search', 'data': {'limit': 10, 'offset': 0}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7a1dabb83aa4e73.json",
+  "parameterValues" : [ "{'title': '采集项模型-采集项', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/model/collect-attr/search', 'data': {'limit': 10, 'offset': 0}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

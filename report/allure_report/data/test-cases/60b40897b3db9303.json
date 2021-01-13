@@ -1,0 +1,150 @@
+{
+  "uid" : "60b40897b3db9303",
+  "name" : "网络设备-导入实例",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "a9f2f2a9dabd790fedef32978b804fc8",
+  "time" : {
+    "start" : 1610505757904,
+    "stop" : 1610505757904,
+    "duration" : 0
+  },
+  "description" : "post https://192.168.1.205/api/cmdb/model/instance/import/22",
+  "descriptionHtml" : "<p>post https://192.168.1.205/api/cmdb/model/instance/import/22</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "post https://192.168.1.205/api/cmdb/model/instance/import/22",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:post",
+      "time" : {
+        "start" : 1610505757904,
+        "stop" : 1610505757904,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/model/instance/import/22",
+      "time" : {
+        "start" : 1610505757904,
+        "stop" : 1610505757904,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'model_id': 22, 'url': '/web_static/login/normal/3275fcdfb63c1d43208d08734cbd31f2/网络设备_1610075435.xlsx'}",
+      "time" : {
+        "start" : 1610505757904,
+        "stop" : 1610505757904,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'msg_id': '16105057463723373584022'}}",
+      "time" : {
+        "start" : 1610505757904,
+        "stop" : 1610505757904,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.0395s",
+      "time" : {
+        "start" : 1610505757904,
+        "stop" : 1610505757904,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '网络设备-导入实例', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/instance/import/22', 'data': {'model_id': 22, 'url': '/web_static/login/normal/3275fcdfb63c1d43208d08734cbd31f2/网络设备_1610075435.xlsx'}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60b40897b3db9303.json",
+  "parameterValues" : [ "{'title': '网络设备-导入实例', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/instance/import/22', 'data': {'model_id': 22, 'url': '/web_static/login/normal/3275fcdfb63c1d43208d08734cbd31f2/网络设备_1610075435.xlsx'}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

@@ -1,0 +1,150 @@
+{
+  "uid" : "eb9ba22cd7a3982d",
+  "name" : "模型实例数量统计",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "41ed21cc934431b369d3376b5e435f9f",
+  "time" : {
+    "start" : 1610505757952,
+    "stop" : 1610505757952,
+    "duration" : 0
+  },
+  "description" : "get https://192.168.1.205/api/cmdb/model/instance/count",
+  "descriptionHtml" : "<p>get https://192.168.1.205/api/cmdb/model/instance/count</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "get https://192.168.1.205/api/cmdb/model/instance/count",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:get",
+      "time" : {
+        "start" : 1610505757952,
+        "stop" : 1610505757952,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/model/instance/count",
+      "time" : {
+        "start" : 1610505757952,
+        "stop" : 1610505757952,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{}",
+      "time" : {
+        "start" : 1610505757952,
+        "stop" : 1610505757952,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'count': 4517, 'list': [{'id': 1, 'name': '机房', 'name_en': 'idc', 'icon': '90', 'instance_num': 16}, {'id': 2, 'name': '机柜', 'name_en': 'rack', 'icon': '91', 'instance_num': 102}, {'id': 3, 'name': '网段', 'name_en': 'ip_segment', 'icon': '12', 'instance_num': 0}, {'id': 5, 'name': '专线', 'name_en': 'line', 'icon': '13', 'instance_num': 1}, {'id': 6, 'name': '配件', 'name_en': 'part', 'icon': '92', 'instance_num': 0}, {'id': 7, 'name': 'U位', 'name_en': 'u_place', 'icon': '74', 'instance_num': 3458}, {'id': 8, 'name': 'IP', 'name_en': 'ip', 'icon': '11', 'instance_num': 10}, {'id': 9, 'name': '端口', 'name_en': 'port', 'icon': '55', 'instance_num': 112}, {'id': 10, 'name': '品牌', 'name_en': 'brand', 'icon': '76', 'instance_num': 79}, {'id': 11, 'name': '设备型号', 'name_en': 'brand_model', 'icon': '0', 'instance_num': 1}, {'id': 12, 'name': '凭证', 'name_en': 'voucher', 'icon': '75', 'instance_num': 12}, {'id': 21, 'name': '物理机', 'name_en': 'server', 'icon': '69', 'instance_num': 13}, {'id': 22, 'name': '网络设备', 'name_en': 'network', 'icon': '39', 'instance_num': 56}, {'id': 23, 'name': '探针', 'name_en': 'agent', 'icon': '77', 'instance_num': 9}, {'id': 25, 'name': '区控主机', 'name_en': 'ubit_host', 'icon': '36', 'instance_num': 1}, {'id': 26, 'name': '机柜终端', 'name_en': 'ubit_terminal', 'icon': '0', 'instance_num': 2}, {'id': 27, 'name': '电子标签', 'name_en': 'ubit_tag', 'icon': '74', 'instance_num': 18}, {'id': 50, 'name': '云平台', 'name_en': 'cloud', 'icon': '82', 'instance_num': 6}, {'id': 51, 'name': '阿里云ECS', 'name_en': 'aliyun_ecs', 'icon': '84', 'instance_num': 0}, {'id': 52, 'name': '阿里云盘', 'name_en': 'aliyun_disk', 'icon': '0', 'instance_num': 0}, {'id': 53, 'name': '阿里云OSS', 'name_en': 'aliyun_oss', 'icon': '0', 'instance_num': 1}, {'id': 54, 'name': '阿里云RDS', 'name_en': 'aliyun_rds', 'icon': '0', 'instance_num': 0}, {'id': 55, 'name': '阿里云Redis', 'name_en': 'aliyun_redis', 'icon': '0', 'instance_num': 0}, {'id': 56, 'name': '阿里云SLB', 'name_en': 'aliyun_slb', 'icon': '0', 'instance_num': 0}, {'id': 60, 'name': '虚拟机', 'name_en': 'virtual', 'icon': '0', 'instance_num': 145}, {'id': 61, 'name': '宿主机', 'name_en': 'host_machine', 'icon': '0', 'instance_num': 6}, {'id': 70, 'name': '集群', 'name_en': 'Cluster', 'icon': '89', 'instance_num': 2}, {'id': 71, 'name': '节点', 'name_en': 'Node', 'icon': '87', 'instance_num': 3}, {'id': 72, 'name': '容器组', 'name_en': 'Pod', 'icon': '88', 'instance_num': 83}, {'id': 73, 'name': '容器', 'name_en': 'Container', 'icon': '71', 'instance_num': 126}, {'id': 74, 'name': '服务', 'name_en': 'service', 'icon': '52', 'instance_num': 27}, {'id': 75, 'name': '命名空间', 'name_en': 'namespace', 'icon': '60', 'instance_num': 19}, {'id': 81, 'name': '腾讯云CVM', 'name_en': 'tencent_cvm', 'icon': '0', 'instance_num': 0}, {'id': 83, 'name': '腾讯云CDB', 'name_en': 'tencent_mysql', 'icon': '0', 'instance_num': 0}, {'id': 84, 'name': '腾讯云SQLServer', 'name_en': 'tencent_sqlserver', 'icon': '0', 'instance_num': 0}, {'id': 85, 'name': '腾讯云PostgreSQL', 'name_en': 'tencent_pgsql', 'icon': '0', 'instance_num': 0}, {'id': 86, 'name': '腾讯云Redis', 'name_en': 'tencent_redis', 'icon': '0', 'instance_num': 0}, {'id': 87, 'name': '腾讯云CLB', 'name_en': 'tencent_clb', 'icon': '0', 'instance_num': 0}, {'id': 108, 'name': 'Tomcat', 'name_en': 'tomcat', 'icon': '16', 'instance_num': 1}, {'id': 109, 'name': 'Weblogic', 'name_en': 'weblogic', 'icon': '17', 'instance_num': 0}, {'id': 110, 'name': 'Oracle', 'name_en': 'oracle', 'icon': '5', 'instance_num': 0}, {'id': 111, 'name': 'MySQL', 'name_en': 'mysql', 'icon': '4', 'instance_num': 1}, {'id': 112, 'name': 'Websphere', 'name_en': 'websphere', 'icon': '8', 'instance_num': 0}, {'id': 113, 'name': 'SQLServer', 'name_en': 'sqlserver', 'icon': '6', 'instance_num': 0}, {'id': 114, 'name': 'Sybase', 'name_en': 'sybase', 'icon': '79', 'instance_num': 0}, {'id': 115, 'name': 'DB2', 'name_en': 'db2', 'icon': '9', 'instance_num': 0}, {'id': 116, 'name': 'MongoDB', 'name_en': 'mongodb', 'icon': '2', 'instance_num': 0}, {'id': 117, 'name': 'Apache', 'name_en': 'apache', 'icon': '15', 'instance_num': 0}, {'id': 118, 'name': 'IIS', 'name_en': 'iis', 'icon': '0', 'instance_num': 0}, {'id': 119, 'name': 'Nginx', 'name_en': 'nginx', 'icon': '19', 'instance_num': 1}, {'id': 120, 'name': 'Exchange', 'name_en': 'exchange', 'icon': '0', 'instance_num': 0}, {'id': 121, 'name': 'Postfix', 'name_en': 'postfix', 'icon': '0', 'instance_num': 0}, {'id': 122, 'name': 'AD域控', 'name_en': 'ad', 'icon': '0', 'instance_num': 0}, {'id': 127, 'name': 'Windows', 'name_en': 'windows', 'icon': '23', 'instance_num': 25}, {'id': 128, 'name': 'Linux', 'name_en': 'linux', 'icon': '22', 'instance_num': 133}, {'id': 129, 'name': 'URL', 'name_en': 'url', 'icon': '13', 'instance_num': 0}, {'id': 130, 'name': 'F5', 'name_en': 'f5', 'icon': '0', 'instance_num': 4}, {'id': 131, 'name': 'Array', 'name_en': 'Array', 'icon': '0', 'instance_num': 0}, {'id': 132, 'name': 'Haproxy', 'name_en': 'Haproxy', 'icon': '0', 'instance_num': 0}, {'id': 133, 'name': 'LVS', 'name_en': 'lvs', 'icon': '0', 'instance_num': 0}, {'id': 134, 'name': 'Redis', 'name_en': 'Redis', 'icon': '18', 'instance_num': 0}, {'id': 135, 'name': 'OGG', 'name_en': 'OGG', 'icon': '0', 'instance_num': 0}, {'id': 136, 'name': '刀片机', 'name_en': 'reamer_machine', 'icon': '36', 'instance_num': 0}, {'id': 137, 'name': '业务系统', 'name_en': 'business', 'icon': '53', 'instance_num': 0}, {'id': 138, 'name': '电源', 'name_en': 'power', 'icon': '0', 'instance_num': 0}, {'id': 139, 'name': '新增', 'name_en': 'hyh_test01', 'icon': '0', 'instance_num': 3}, {'id': 140, 'name': '添加', 'name_en': 'Ediwin_test01', 'icon': '0', 'instance_num': 2}, {'id': 141, 'name': '机房1', 'name_en': 'Ediwin', 'icon': '0', 'instance_num': 0}, {'id': 142, 'name': '添加2', 'name_en': 'Ediwin_test02', 'icon': '0', 'instance_num': 1}, {'id': 143, 'name': '项目管理', 'name_en': 'xmgl', 'icon': '0', 'instance_num': 1}, {'id': 144, 'name': '1阿里云', 'name_en': 'aliyun', 'icon': '0', 'instance_num': 1}, {'id': 145, 'name': '企鹅', 'name_en': 'we', 'icon': '0', 'instance_num': 0}, {'id': 146, 'name': '温度', 'name_en': 'temp', 'icon': '0', 'instance_num': 1}, {'id': 147, 'name': 'xxxx', 'name_en': 'xxx', 'icon': '/fileproxy/noauth/cmdb/normal/e2a211b5-9933-4d62-ac86-35d36c6f4b1c/1.jpg', 'instance_num': 0}, {'id': 148, 'name': '模型1', 'name_en': 'test', 'icon': '/fileproxy/noauth/cmdb/normal/6e6ca077-5cb3-46e8-bb75-a50d4740a8a4/logonew.png', 'instance_num': 2}, {'id': 149, 'name': '33333', 'name_en': '33333', 'icon': '0', 'instance_num': 0}, {'id': 1000, 'name': 'zstack', 'name_en': 'zstack_zstack', 'icon': '0', 'instance_num': 7}, {'id': 1001, 'name': '镜像服务器', 'name_en': 'zstack_backup_storage', 'icon': '0', 'instance_num': 1}, {'id': 1002, 'name': '快照', 'name_en': 'zstack_volume_snapshot', 'icon': '0', 'instance_num': 0}, {'id': 1003, 'name': '负载均衡', 'name_en': 'zstack_load_balancer', 'icon': '0', 'instance_num': 0}, {'id': 1004, 'name': '端口转发', 'name_en': 'zstack_port_forwarding_rule', 'icon': '0', 'instance_num': 0}, {'id': 1005, 'name': '区域', 'name_en': 'zstack_zone', 'icon': '0', 'instance_num': 1}, {'id': 1006, 'name': '集群', 'name_en': 'zstack_cluster', 'icon': '0', 'instance_num': 1}, {'id': 1007, 'name': '物理机', 'name_en': 'zstack_host', 'icon': '0', 'instance_num': 1}, {'id': 1008, 'name': '云路由器', 'name_en': 'zstack_virtual_router_vm', 'icon': '0', 'instance_num': 0}, {'id': 1009, 'name': '云主机', 'name_en': 'zstack_vm_instance', 'icon': '0', 'instance_num': 6}, {'id': 1010, 'name': '三层网络', 'name_en': 'zstack_l3_network', 'icon': '0', 'instance_num': 1}, {'id': 1011, 'name': '主存储', 'name_en': 'zstack_primary_storage', 'icon': '0', 'instance_num': 1}, {'id': 1012, 'name': '计算规格', 'name_en': 'zstack_instance_offering', 'icon': '0', 'instance_num': 1}, {'id': 1013, 'name': '云盘', 'name_en': 'zstack_volume', 'icon': '0', 'instance_num': 6}, {'id': 1014, 'name': '镜像', 'name_en': 'zstack_image', 'icon': '0', 'instance_num': 3}, {'id': 1015, 'name': '云盘规格', 'name_en': 'zstack_disk_offering', 'icon': '0', 'instance_num': 1}, {'id': 1016, 'name': '安全组', 'name_en': 'zstack_security_group', 'icon': '0', 'instance_num': 0}, {'id': 1017, 'name': '弹性IP', 'name_en': 'zstack_eip', 'icon': '0', 'instance_num': 0}, {'id': 1018, 'name': '虚拟IP', 'name_en': 'zstack_vip', 'icon': '0', 'instance_num': 0}, {'id': 1019, 'name': 'w123', 'name_en': 'w123', 'icon': '0', 'instance_num': 0}, {'id': 1020, 'name': 'Hbase', 'name_en': 'Hbase', 'icon': '0', 'instance_num': 1}, {'id': 1021, 'name': '1234', 'name_en': '1234', 'icon': '0', 'instance_num': 0}, {'id': 1022, 'name': '12', 'name_en': '12', 'icon': '0', 'instance_num': 0}, {'id': 1023, 'name': 'test123', 'name_en': 'test123', 'icon': '0', 'instance_num': 0}, {'id': 1024, 'name': 'test1234', 'name_en': 'test1234', 'icon': '0', 'instance_num': 0}, {'id': 1025, 'name': 'test321', 'name_en': 'test321', 'icon': '0', 'instance_num': 0}, {'id': 1026, 'name': 'test3211', 'name_en': 'test3211', 'icon': '0', 'instance_num': 0}, {'id': 1027, 'name': 'test3212', 'name_en': 'test3212', 'icon': '0', 'instance_num': 0}, {'id': 1028, 'name': 'test3213', 'name_en': 'test3213', 'icon': '0', 'instance_num': 0}, {'id': 1029, 'name': 'test3214', 'name_en': 'test3214', 'icon': '0', 'instance_num': 0}, {'id': 1030, 'name': 'model01', 'name_en': 'model01', 'icon': '0', 'instance_num': 0}, {'id': 1031, 'name': 'modul02', 'name_en': 'modul02', 'icon': '0', 'instance_num': 0}, {'id': 1032, 'name': 'model03', 'name_en': 'model03', 'icon': '0', 'instance_num': 0}, {'id': 1033, 'name': 'modul04', 'name_en': 'modul04', 'icon': '0', 'instance_num': 0}, {'id': 1034, 'name': 'modul05', 'name_en': 'modul05', 'icon': '0', 'instance_num': 0}, {'id': 1035, 'name': 'modul06', 'name_en': 'modul06', 'icon': '0', 'instance_num': 0}, {'id': 1036, 'name': 'modul07', 'name_en': 'modul07', 'icon': '0', 'instance_num': 0}, {'id': 1037, 'name': 'modul08', 'name_en': 'modul08', 'icon': '0', 'instance_num': 0}, {'id': 1038, 'name': 'modul09', 'name_en': 'modul09', 'icon': '0', 'instance_num': 0}, {'id': 1039, 'name': 'modul10', 'name_en': 'modul10', 'icon': '0', 'instance_num': 0}, {'id': 1040, 'name': 'modul11', 'name_en': 'modul11', 'icon': '0', 'instance_num': 0}, {'id': 1041, 'name': 'modul12', 'name_en': 'modul12', 'icon': '0', 'instance_num': 0}, {'id': 1042, 'name': 'modul15', 'name_en': 'modul15', 'icon': '0', 'instance_num': 0}, {'id': 1043, 'name': 'modul16', 'name_en': 'modul16', 'icon': '0', 'instance_num': 0}, {'id': 1044, 'name': 'modul17', 'name_en': 'modul17', 'icon': '0', 'instance_num': 0}, {'id': 1045, 'name': 'modul18', 'name_en': 'modul18', 'icon': '0', 'instance_num': 0}, {'id': 1046, 'name': 'modul19', 'name_en': 'modul19', 'icon': '0', 'instance_num': 0}, {'id': 1047, 'name': 'modul21', 'name_en': 'modul21', 'icon': '0', 'instance_num': 0}, {'id': 1048, 'name': 'modul23', 'name_en': 'modul23', 'icon': '0', 'instance_num': 0}, {'id': 1049, 'name': 'modul30', 'name_en': 'modul30', 'icon': '0', 'instance_num': 0}, {'id': 1050, 'name': 'modul31', 'name_en': 'modul31', 'icon': '0', 'instance_num': 0}, {'id': 1051, 'name': 'modul32', 'name_en': 'modul32', 'icon': '0', 'instance_num': 0}, {'id': 1052, 'name': 'modul35', 'name_en': 'modul35', 'icon': '0', 'instance_num': 0}, {'id': 1053, 'name': 'modul36', 'name_en': 'modul36', 'icon': '0', 'instance_num': 0}, {'id': 1054, 'name': 'test_lk', 'name_en': 'test_lk', 'icon': '0', 'instance_num': 1}, {'id': 1055, 'name': 'modul37', 'name_en': 'modul37', 'icon': '0', 'instance_num': 0}, {'id': 1056, 'name': 'modul40', 'name_en': 'modul40', 'icon': '0', 'instance_num': 0}, {'id': 1057, 'name': 'modul41', 'name_en': 'modul41', 'icon': '0', 'instance_num': 0}, {'id': 1058, 'name': 'modul43', 'name_en': 'modul43', 'icon': '0', 'instance_num': 0}, {'id': 1059, 'name': 'modul45', 'name_en': 'modul45', 'icon': '0', 'instance_num': 0}, {'id': 1060, 'name': 'modul46', 'name_en': 'modul46', 'icon': '0', 'instance_num': 0}, {'id': 1061, 'name': 'modul47', 'name_en': 'modul47', 'icon': '0', 'instance_num': 0}, {'id': 1062, 'name': 'w123w', 'name_en': 'w123w', 'icon': '0', 'instance_num': 0}, {'id': 1063, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1064, 'name': 'model01', 'name_en': 'model01', 'icon': '0', 'instance_num': 0}, {'id': 1065, 'name': 'model01', 'name_en': 'model01', 'icon': '0', 'instance_num': 0}, {'id': 1066, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1067, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1068, 'name': 'model01', 'name_en': 'model01', 'icon': '0', 'instance_num': 0}, {'id': 1069, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1070, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1071, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1072, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1073, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1074, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1075, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1076, 'name': 'layout', 'name_en': 'layout', 'icon': '0', 'instance_num': 0}, {'id': 1077, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1078, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1079, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1080, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1081, 'name': 'nameEN', 'name_en': 'nameEN', 'icon': '0', 'instance_num': 1}, {'id': 1082, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1083, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1084, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1085, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1086, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1087, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1088, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1089, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1090, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1091, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1092, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1093, 'name': 'wd', 'name_en': 'wd', 'icon': '0', 'instance_num': 0}, {'id': 1094, 'name': 'fedel', 'name_en': 'xxxadafdasfdsaf', 'icon': '0', 'instance_num': 0}, {'id': 1095, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1096, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1097, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1098, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1099, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1100, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1101, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1102, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1103, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}, {'id': 1104, 'name': 'modul48', 'name_en': 'modul48', 'icon': '0', 'instance_num': 0}]}}",
+      "time" : {
+        "start" : 1610505757952,
+        "stop" : 1610505757952,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.826541s",
+      "time" : {
+        "start" : 1610505757952,
+        "stop" : 1610505757952,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '模型实例数量统计', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/model/instance/count', 'data': {}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb9ba22cd7a3982d.json",
+  "parameterValues" : [ "{'title': '模型实例数量统计', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/model/instance/count', 'data': {}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

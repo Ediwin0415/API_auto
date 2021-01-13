@@ -1,0 +1,150 @@
+{
+  "uid" : "e9f2b21112592b30",
+  "name" : "配置中心-字典管理查询",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "759a594242cb8b117264f1744df63a8b",
+  "time" : {
+    "start" : 1610505757696,
+    "stop" : 1610505757696,
+    "duration" : 0
+  },
+  "description" : "get https://192.168.1.205/api/cmdb/sys/dict/search",
+  "descriptionHtml" : "<p>get https://192.168.1.205/api/cmdb/sys/dict/search</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "get https://192.168.1.205/api/cmdb/sys/dict/search",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:get",
+      "time" : {
+        "start" : 1610505757696,
+        "stop" : 1610505757696,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/sys/dict/search",
+      "time" : {
+        "start" : 1610505757696,
+        "stop" : 1610505757696,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'limit': 10, 'offset': 0}",
+      "time" : {
+        "start" : 1610505757696,
+        "stop" : 1610505757696,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'count': 28, 'list': [{'id': 1007, 'name': '设备用途', 'attr': '[\"取值\"]', 'is_custom': 1, 'is_private': 0, 'create_user_id': 40, 'create_time': '2021-01-13 09:53:55', 'tag': None}, {'id': 501, 'name': '云平台', 'attr': '[\"取值\"]', 'is_custom': 0, 'is_private': 0, 'create_user_id': 0, 'create_time': '2020-10-10 18:18:49', 'tag': None}, {'id': 500, 'name': '云平台类型', 'attr': '[\"取值\"]', 'is_custom': 0, 'is_private': 0, 'create_user_id': 0, 'create_time': '2020-10-10 18:18:49', 'tag': None}, {'id': 29, 'name': '在线状态', 'attr': '[\"取值\"]', 'is_custom': 0, 'is_private': 0, 'create_user_id': 0, 'create_time': '2020-10-10 18:18:52', 'tag': None}, {'id': 28, 'name': '服务层级', 'attr': '[\"取值\"]', 'is_custom': 0, 'is_private': 0, 'create_user_id': 0, 'create_time': '2020-04-26 19:20:38', 'tag': None}, {'id': 27, 'name': '应用类型', 'attr': '[\"取值\"]', 'is_custom': 0, 'is_private': 0, 'create_user_id': 0, 'create_time': '2020-04-26 19:05:08', 'tag': None}, {'id': 26, 'name': '虚拟化平台类型', 'attr': '[\"取值\"]', 'is_custom': 0, 'is_private': 0, 'create_user_id': 0, 'create_time': '2020-04-26 16:00:35', 'tag': None}, {'id': 25, 'name': '凭证类型', 'attr': '[\"取值\"]', 'is_custom': 0, 'is_private': 0, 'create_user_id': 0, 'create_time': '2020-04-26 07:14:43', 'tag': None}, {'id': 24, 'name': '凭证用途', 'attr': '[\"取值\"]', 'is_custom': 0, 'is_private': 0, 'create_user_id': 0, 'create_time': '2020-04-26 07:14:43', 'tag': None}, {'id': 23, 'name': '凭证协议', 'attr': '[\"取值\"]', 'is_custom': 0, 'is_private': 0, 'create_user_id': 0, 'create_time': '2020-04-26 07:14:43', 'tag': None}]}}",
+      "time" : {
+        "start" : 1610505757696,
+        "stop" : 1610505757696,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.03869s",
+      "time" : {
+        "start" : 1610505757696,
+        "stop" : 1610505757696,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '配置中心-字典管理查询', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/sys/dict/search', 'data': {'limit': 10, 'offset': 0}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9f2b21112592b30.json",
+  "parameterValues" : [ "{'title': '配置中心-字典管理查询', 'method': 'get', 'url': 'https://192.168.1.205/api/cmdb/sys/dict/search', 'data': {'limit': 10, 'offset': 0}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

@@ -1,0 +1,150 @@
+{
+  "uid" : "e8a397574b84e553",
+  "name" : "配置中心-关系链新增",
+  "fullName" : "test_case.test_excel.TestExcel#test_excel",
+  "historyId" : "2262c280200b9c1af92bceb2c5aa70ff",
+  "time" : {
+    "start" : 1610505757746,
+    "stop" : 1610505757746,
+    "duration" : 0
+  },
+  "description" : "post https://192.168.1.205/api/cmdb/model/relation-chain/add",
+  "descriptionHtml" : "<p>post https://192.168.1.205/api/cmdb/model/relation-chain/add</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "post https://192.168.1.205/api/cmdb/model/relation-chain/add",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "method:post",
+      "time" : {
+        "start" : 1610505757746,
+        "stop" : 1610505757746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url:https://192.168.1.205/api/cmdb/model/relation-chain/add",
+      "time" : {
+        "start" : 1610505757746,
+        "stop" : 1610505757746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "data:{'name': '机房1', 'model_list': [{'model_id': 3, 'relation_id': 0}, {'model_id': 1, 'relation_id': 3}]}",
+      "time" : {
+        "start" : 1610505757746,
+        "stop" : 1610505757746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "res:{'code': 0, 'message': '', 'data': {'id': 7}}",
+      "time" : {
+        "start" : 1610505757746,
+        "stop" : 1610505757746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应时间:0.03738s",
+      "time" : {
+        "start" : 1610505757746,
+        "stop" : 1610505757746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T3GOI97"
+  }, {
+    "name" : "thread",
+    "value" : "1036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "{'title': '配置中心-关系链新增', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/relation-chain/add', 'data': {'name': '机房1', 'model_list': [{'model_id': 3, 'relation_id': 0}, {'model_id': 1, 'relation_id': 3}]}, 'result': 'pass', 'res': <Response [200]>}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8a397574b84e553.json",
+  "parameterValues" : [ "{'title': '配置中心-关系链新增', 'method': 'post', 'url': 'https://192.168.1.205/api/cmdb/model/relation-chain/add', 'data': {'name': '机房1', 'model_list': [{'model_id': 3, 'relation_id': 0}, {'model_id': 1, 'relation_id': 3}]}, 'result': 'pass', 'res': <Response [200]>}" ]
+}

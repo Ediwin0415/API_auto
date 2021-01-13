@@ -1,0 +1,2347 @@
+2021-01-03 13:58:15,139 DEFAULT INFO method:POST
+2021-01-03 13:58:15,139 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 13:58:15,140 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:37:35,493 DEFAULT INFO method:POST
+2021-01-03 14:37:35,493 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:37:35,493 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:37:35,635 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:37:35,635 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:38:17,703 DEFAULT INFO method:POST
+2021-01-03 14:38:17,704 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:38:17,704 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:38:17,838 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:38:17,838 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:38:52,840 DEFAULT INFO method:POST
+2021-01-03 14:38:52,840 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:38:52,840 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:38:52,957 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:38:52,957 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:42:50,686 DEFAULT INFO method:POST
+2021-01-03 14:42:50,687 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:42:50,687 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:42:50,825 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:42:50,825 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:43:02,228 DEFAULT INFO method:POST
+2021-01-03 14:43:02,229 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:43:02,229 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:43:02,352 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:43:02,353 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:43:02,359 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 14:43:02,388 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:02,388 DEFAULT INFO method:GET
+2021-01-03 14:43:02,388 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 14:43:02,388 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:43:02,464 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:43:02,478 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 14:43:02,490 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:02,491 DEFAULT INFO method:GET
+2021-01-03 14:43:02,491 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:43:02,491 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 14:43:02,570 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:43:02,587 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 14:43:02,612 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:02,612 DEFAULT INFO method:POST
+2021-01-03 14:43:02,612 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:43:02,612 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 14:43:02,694 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:43:02,710 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 14:43:02,747 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:02,748 DEFAULT INFO method:POST
+2021-01-03 14:43:02,748 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:43:02,748 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 14:43:02,831 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:43:02,849 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 14:43:02,875 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:02,876 DEFAULT INFO method:GET
+2021-01-03 14:43:02,876 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 14:43:02,876 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 14:43:02,970 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:43:02,985 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 14:43:03,016 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:03,016 DEFAULT INFO method:PUT
+2021-01-03 14:43:03,016 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 14:43:03,016 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 14:43:03,104 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 14:43:03,104 DEFAULT INFO 响应失败！
+2021-01-03 14:43:03,122 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 14:43:03,147 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:03,147 DEFAULT INFO method:POST
+2021-01-03 14:43:03,147 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 14:43:03,147 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 14:43:03,230 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:43:03,245 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 14:43:03,279 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:03,279 DEFAULT INFO method:GET
+2021-01-03 14:43:03,279 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:43:03,279 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:43:03,377 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:43:03,391 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 14:43:03,404 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:03,404 DEFAULT INFO method:GET
+2021-01-03 14:43:03,404 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:43:03,404 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 14:43:03,484 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:43:03,499 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 14:43:03,514 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:03,514 DEFAULT INFO method:POST
+2021-01-03 14:43:03,514 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:43:03,516 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 14:43:03,609 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:43:03,621 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 14:43:03,632 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:03,632 DEFAULT INFO method:GET
+2021-01-03 14:43:03,632 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:43:03,632 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 14:43:03,718 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:43:03,735 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 14:43:03,750 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:43:03,750 DEFAULT INFO method:POST
+2021-01-03 14:43:03,750 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 14:43:03,750 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 14:43:03,830 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:43:03,849 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 14:43:03,861 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 14:48:51,147 DEFAULT INFO method:POST
+2021-01-03 14:48:51,147 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:48:51,147 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:48:51,278 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:48:51,278 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:48:51,290 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 14:48:51,335 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:51,335 DEFAULT INFO method:GET
+2021-01-03 14:48:51,335 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 14:48:51,335 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:48:51,433 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:48:51,449 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 14:48:51,464 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:51,464 DEFAULT INFO method:GET
+2021-01-03 14:48:51,464 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:48:51,464 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 14:48:51,545 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:51,560 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 14:48:51,601 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:51,601 DEFAULT INFO method:POST
+2021-01-03 14:48:51,601 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:48:51,601 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 14:48:51,696 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:48:51,712 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 14:48:51,746 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:51,746 DEFAULT INFO method:POST
+2021-01-03 14:48:51,746 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:48:51,746 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 14:48:51,834 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:51,851 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 14:48:51,877 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:51,877 DEFAULT INFO method:GET
+2021-01-03 14:48:51,877 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 14:48:51,877 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 14:48:51,968 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:51,983 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 14:48:52,017 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:52,017 DEFAULT INFO method:PUT
+2021-01-03 14:48:52,018 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 14:48:52,018 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 14:48:52,098 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 14:48:52,098 DEFAULT INFO 响应失败！
+2021-01-03 14:48:52,111 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 14:48:52,154 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:52,154 DEFAULT INFO method:POST
+2021-01-03 14:48:52,154 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 14:48:52,154 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 14:48:52,233 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:48:52,248 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 14:48:52,286 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:52,286 DEFAULT INFO method:GET
+2021-01-03 14:48:52,286 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:48:52,286 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:48:52,367 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:48:52,380 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 14:48:52,393 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:52,393 DEFAULT INFO method:GET
+2021-01-03 14:48:52,393 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:48:52,393 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 14:48:52,477 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:52,492 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 14:48:52,509 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:52,510 DEFAULT INFO method:POST
+2021-01-03 14:48:52,510 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:48:52,510 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 14:48:52,598 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:52,610 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 14:48:52,622 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:52,623 DEFAULT INFO method:GET
+2021-01-03 14:48:52,623 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:48:52,623 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 14:48:52,703 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:52,722 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 14:48:52,739 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:52,739 DEFAULT INFO method:POST
+2021-01-03 14:48:52,740 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 14:48:52,740 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 14:48:52,820 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:52,832 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 14:48:52,844 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 14:48:53,179 DEFAULT INFO method:POST
+2021-01-03 14:48:53,179 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:48:53,179 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:48:53,298 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:48:53,298 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:48:53,308 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 14:48:53,340 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:53,341 DEFAULT INFO method:GET
+2021-01-03 14:48:53,341 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 14:48:53,341 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:48:53,422 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:48:53,440 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 14:48:53,453 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:53,453 DEFAULT INFO method:GET
+2021-01-03 14:48:53,453 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:48:53,453 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 14:48:53,537 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:53,552 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 14:48:53,584 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:53,585 DEFAULT INFO method:POST
+2021-01-03 14:48:53,585 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:48:53,585 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 14:48:53,672 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:48:53,689 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 14:48:53,718 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:53,718 DEFAULT INFO method:POST
+2021-01-03 14:48:53,718 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:48:53,718 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 14:48:53,809 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:53,824 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 14:48:53,854 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:53,855 DEFAULT INFO method:GET
+2021-01-03 14:48:53,855 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 14:48:53,855 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 14:48:53,940 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:53,955 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 14:48:53,982 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:53,982 DEFAULT INFO method:PUT
+2021-01-03 14:48:53,982 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 14:48:53,982 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 14:48:54,077 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 14:48:54,078 DEFAULT INFO 响应失败！
+2021-01-03 14:48:54,092 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 14:48:54,124 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:54,124 DEFAULT INFO method:POST
+2021-01-03 14:48:54,124 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 14:48:54,124 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 14:48:54,199 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:48:54,216 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 14:48:54,242 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:54,242 DEFAULT INFO method:GET
+2021-01-03 14:48:54,242 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:48:54,242 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:48:54,325 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:48:54,341 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 14:48:54,354 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:54,354 DEFAULT INFO method:GET
+2021-01-03 14:48:54,354 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:48:54,354 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 14:48:54,436 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:54,453 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 14:48:54,466 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:54,466 DEFAULT INFO method:POST
+2021-01-03 14:48:54,466 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:48:54,466 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 14:48:54,549 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:54,564 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 14:48:54,578 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:54,578 DEFAULT INFO method:GET
+2021-01-03 14:48:54,578 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:48:54,578 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 14:48:54,668 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:54,684 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 14:48:54,697 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:48:54,697 DEFAULT INFO method:POST
+2021-01-03 14:48:54,697 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 14:48:54,697 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 14:48:54,773 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:48:54,788 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 14:48:54,801 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 14:50:53,699 DEFAULT INFO method:POST
+2021-01-03 14:50:53,699 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:50:53,699 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:50:53,819 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:50:53,819 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:50:53,826 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 14:50:53,855 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:53,855 DEFAULT INFO method:GET
+2021-01-03 14:50:53,856 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 14:50:53,856 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:50:53,944 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:50:53,961 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 14:50:53,974 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:53,974 DEFAULT INFO method:GET
+2021-01-03 14:50:53,974 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:50:53,974 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 14:50:54,050 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:54,065 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 14:50:54,098 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:54,098 DEFAULT INFO method:POST
+2021-01-03 14:50:54,098 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:50:54,098 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 14:50:54,181 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:50:54,195 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 14:50:54,230 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:54,230 DEFAULT INFO method:POST
+2021-01-03 14:50:54,230 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:50:54,230 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 14:50:54,312 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:54,326 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 14:50:54,357 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:54,357 DEFAULT INFO method:GET
+2021-01-03 14:50:54,358 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 14:50:54,358 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 14:50:54,434 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:54,449 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 14:50:54,479 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:54,479 DEFAULT INFO method:PUT
+2021-01-03 14:50:54,479 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 14:50:54,479 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 14:50:54,562 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 14:50:54,562 DEFAULT INFO 响应失败！
+2021-01-03 14:50:54,575 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 14:50:54,608 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:54,608 DEFAULT INFO method:POST
+2021-01-03 14:50:54,608 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 14:50:54,608 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 14:50:54,688 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:50:54,702 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 14:50:54,732 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:54,732 DEFAULT INFO method:GET
+2021-01-03 14:50:54,732 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:50:54,732 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:50:54,812 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:50:54,826 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 14:50:54,840 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:54,840 DEFAULT INFO method:GET
+2021-01-03 14:50:54,841 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:50:54,841 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 14:50:54,915 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:54,929 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 14:50:54,948 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:54,948 DEFAULT INFO method:POST
+2021-01-03 14:50:54,948 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:50:54,948 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 14:50:55,028 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:55,043 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 14:50:55,059 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:55,059 DEFAULT INFO method:GET
+2021-01-03 14:50:55,059 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:50:55,059 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 14:50:55,141 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:55,155 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 14:50:55,172 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:55,172 DEFAULT INFO method:POST
+2021-01-03 14:50:55,172 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 14:50:55,173 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 14:50:55,258 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:55,272 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 14:50:55,286 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 14:50:55,590 DEFAULT INFO method:POST
+2021-01-03 14:50:55,590 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:50:55,591 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:50:55,701 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:50:55,701 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:50:55,707 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 14:50:55,738 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:55,739 DEFAULT INFO method:GET
+2021-01-03 14:50:55,739 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 14:50:55,739 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:50:55,818 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:50:55,836 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 14:50:55,852 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:55,853 DEFAULT INFO method:GET
+2021-01-03 14:50:55,853 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:50:55,853 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 14:50:55,941 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:55,954 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 14:50:55,986 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:55,986 DEFAULT INFO method:POST
+2021-01-03 14:50:55,986 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:50:55,986 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 14:50:56,063 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:50:56,077 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 14:50:56,117 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:56,118 DEFAULT INFO method:POST
+2021-01-03 14:50:56,118 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:50:56,118 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 14:50:56,193 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:56,211 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 14:50:56,238 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:56,239 DEFAULT INFO method:GET
+2021-01-03 14:50:56,239 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 14:50:56,239 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 14:50:56,315 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:56,329 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 14:50:56,365 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:56,365 DEFAULT INFO method:PUT
+2021-01-03 14:50:56,365 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 14:50:56,365 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 14:50:56,451 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 14:50:56,452 DEFAULT INFO 响应失败！
+2021-01-03 14:50:56,465 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 14:50:56,495 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:56,495 DEFAULT INFO method:POST
+2021-01-03 14:50:56,496 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 14:50:56,496 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 14:50:56,571 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:50:56,588 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 14:50:56,618 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:56,618 DEFAULT INFO method:GET
+2021-01-03 14:50:56,619 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:50:56,619 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:50:56,704 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:50:56,723 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 14:50:56,734 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:56,735 DEFAULT INFO method:GET
+2021-01-03 14:50:56,735 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:50:56,735 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 14:50:56,824 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:56,838 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 14:50:56,855 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:56,855 DEFAULT INFO method:POST
+2021-01-03 14:50:56,855 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:50:56,855 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 14:50:56,931 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:56,945 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 14:50:56,959 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:56,959 DEFAULT INFO method:GET
+2021-01-03 14:50:56,959 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:50:56,959 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 14:50:57,042 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:57,059 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 14:50:57,076 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:50:57,076 DEFAULT INFO method:POST
+2021-01-03 14:50:57,076 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 14:50:57,077 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 14:50:57,153 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:50:57,168 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 14:50:57,182 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 14:51:58,409 DEFAULT INFO method:POST
+2021-01-03 14:51:58,409 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:51:58,409 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:51:58,527 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:51:58,527 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:51:58,538 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 14:51:58,566 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:58,566 DEFAULT INFO method:GET
+2021-01-03 14:51:58,566 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 14:51:58,566 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:51:58,646 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:51:58,661 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 14:51:58,675 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:58,675 DEFAULT INFO method:GET
+2021-01-03 14:51:58,675 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:51:58,675 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 14:51:58,760 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:51:58,772 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 14:51:58,799 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:58,799 DEFAULT INFO method:POST
+2021-01-03 14:51:58,799 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:51:58,799 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 14:51:58,878 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:51:58,891 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 14:51:58,926 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:58,926 DEFAULT INFO method:POST
+2021-01-03 14:51:58,926 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:51:58,926 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 14:51:59,003 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:51:59,018 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 14:51:59,046 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:59,047 DEFAULT INFO method:GET
+2021-01-03 14:51:59,047 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 14:51:59,047 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 14:51:59,130 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:51:59,145 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 14:51:59,175 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:59,175 DEFAULT INFO method:PUT
+2021-01-03 14:51:59,175 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 14:51:59,175 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 14:51:59,271 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 14:51:59,271 DEFAULT INFO 响应失败！
+2021-01-03 14:51:59,285 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 14:51:59,312 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:59,312 DEFAULT INFO method:POST
+2021-01-03 14:51:59,312 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 14:51:59,312 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 14:51:59,397 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:51:59,411 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 14:51:59,440 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:59,440 DEFAULT INFO method:GET
+2021-01-03 14:51:59,440 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:51:59,440 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:51:59,522 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:51:59,539 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 14:51:59,553 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:59,553 DEFAULT INFO method:GET
+2021-01-03 14:51:59,553 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:51:59,553 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 14:51:59,632 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:51:59,647 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 14:51:59,663 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:59,664 DEFAULT INFO method:POST
+2021-01-03 14:51:59,664 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:51:59,664 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 14:51:59,746 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:51:59,759 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 14:51:59,773 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:59,773 DEFAULT INFO method:GET
+2021-01-03 14:51:59,773 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:51:59,773 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 14:51:59,858 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:51:59,873 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 14:51:59,887 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:51:59,887 DEFAULT INFO method:POST
+2021-01-03 14:51:59,887 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 14:51:59,887 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 14:51:59,968 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:51:59,983 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 14:51:59,996 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 14:54:06,376 DEFAULT INFO method:POST
+2021-01-03 14:54:06,376 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:54:06,376 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:54:06,499 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:54:06,499 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:54:06,506 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 14:54:06,539 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:06,539 DEFAULT INFO method:GET
+2021-01-03 14:54:06,539 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 14:54:06,539 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:54:06,619 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:54:06,638 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 14:54:06,652 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:06,652 DEFAULT INFO method:GET
+2021-01-03 14:54:06,652 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:54:06,653 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 14:54:06,743 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:54:06,759 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 14:54:06,785 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:06,785 DEFAULT INFO method:POST
+2021-01-03 14:54:06,785 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:54:06,785 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 14:54:06,869 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:54:06,887 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 14:54:06,926 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:06,926 DEFAULT INFO method:POST
+2021-01-03 14:54:06,927 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:54:06,927 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 14:54:07,013 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:54:07,030 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 14:54:07,056 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:07,056 DEFAULT INFO method:GET
+2021-01-03 14:54:07,056 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 14:54:07,057 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 14:54:07,139 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:54:07,155 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 14:54:07,193 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:07,193 DEFAULT INFO method:PUT
+2021-01-03 14:54:07,193 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 14:54:07,194 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 14:54:07,281 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 14:54:07,282 DEFAULT INFO 响应失败！
+2021-01-03 14:54:07,300 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 14:54:07,341 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:07,341 DEFAULT INFO method:POST
+2021-01-03 14:54:07,341 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 14:54:07,341 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 14:54:07,422 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:54:07,441 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 14:54:07,479 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:07,479 DEFAULT INFO method:GET
+2021-01-03 14:54:07,479 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:54:07,479 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:54:07,557 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:54:07,577 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 14:54:07,591 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:07,591 DEFAULT INFO method:GET
+2021-01-03 14:54:07,592 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:54:07,592 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 14:54:07,680 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:54:07,694 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 14:54:07,711 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:07,712 DEFAULT INFO method:POST
+2021-01-03 14:54:07,712 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:54:07,712 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 14:54:07,790 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:54:07,806 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 14:54:07,817 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:07,817 DEFAULT INFO method:GET
+2021-01-03 14:54:07,817 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:54:07,817 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 14:54:07,898 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:54:07,915 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 14:54:07,930 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:54:07,930 DEFAULT INFO method:POST
+2021-01-03 14:54:07,931 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 14:54:07,931 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 14:54:08,010 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:54:08,025 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 14:54:08,037 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 14:56:10,919 DEFAULT INFO method:POST
+2021-01-03 14:56:10,919 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 14:56:10,919 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 14:56:11,038 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 14:56:11,038 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 14:56:11,048 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 14:56:11,075 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:11,075 DEFAULT INFO method:GET
+2021-01-03 14:56:11,075 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 14:56:11,075 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:56:11,160 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:56:11,177 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 14:56:11,191 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:11,191 DEFAULT INFO method:GET
+2021-01-03 14:56:11,191 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:56:11,191 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 14:56:11,276 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:56:11,292 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 14:56:11,316 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:11,316 DEFAULT INFO method:POST
+2021-01-03 14:56:11,316 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:56:11,316 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 14:56:11,408 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:56:11,423 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 14:56:11,466 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:11,466 DEFAULT INFO method:POST
+2021-01-03 14:56:11,466 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:56:11,466 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 14:56:11,556 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:56:11,575 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 14:56:11,602 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:11,603 DEFAULT INFO method:GET
+2021-01-03 14:56:11,603 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 14:56:11,603 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 14:56:11,684 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:56:11,700 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 14:56:11,731 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:11,731 DEFAULT INFO method:PUT
+2021-01-03 14:56:11,731 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 14:56:11,731 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 14:56:11,821 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 14:56:11,822 DEFAULT INFO 响应失败！
+2021-01-03 14:56:11,839 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 14:56:11,866 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:11,867 DEFAULT INFO method:POST
+2021-01-03 14:56:11,867 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 14:56:11,867 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 14:56:11,950 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:56:11,964 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 14:56:11,996 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:11,996 DEFAULT INFO method:GET
+2021-01-03 14:56:11,996 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 14:56:11,996 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 14:56:12,084 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 14:56:12,101 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 14:56:12,113 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:12,113 DEFAULT INFO method:GET
+2021-01-03 14:56:12,113 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:56:12,114 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 14:56:12,198 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:56:12,214 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 14:56:12,230 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:12,230 DEFAULT INFO method:POST
+2021-01-03 14:56:12,230 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:56:12,231 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 14:56:12,317 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:56:12,335 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 14:56:12,346 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:12,346 DEFAULT INFO method:GET
+2021-01-03 14:56:12,347 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 14:56:12,347 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 14:56:12,453 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:56:12,467 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 14:56:12,481 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 14:56:12,481 DEFAULT INFO method:POST
+2021-01-03 14:56:12,481 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 14:56:12,481 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 14:56:12,562 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 14:56:12,579 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 14:56:12,593 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 15:00:45,284 DEFAULT INFO method:POST
+2021-01-03 15:00:45,284 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 15:00:45,284 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 15:00:45,410 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 15:00:45,410 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 15:00:45,425 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 15:00:45,441 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:45,441 DEFAULT INFO method:GET
+2021-01-03 15:00:45,457 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 15:00:45,457 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:00:45,547 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:00:45,547 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 15:00:45,562 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:45,562 DEFAULT INFO method:GET
+2021-01-03 15:00:45,562 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:00:45,562 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 15:00:45,639 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:45,655 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 15:00:45,687 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:45,687 DEFAULT INFO method:POST
+2021-01-03 15:00:45,687 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:00:45,687 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 15:00:45,772 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:00:45,788 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 15:00:45,823 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:45,823 DEFAULT INFO method:POST
+2021-01-03 15:00:45,823 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:00:45,823 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 15:00:45,924 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:45,939 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 15:00:45,955 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:45,955 DEFAULT INFO method:GET
+2021-01-03 15:00:45,955 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 15:00:45,955 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 15:00:46,050 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:46,065 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 15:00:46,097 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:46,097 DEFAULT INFO method:PUT
+2021-01-03 15:00:46,097 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 15:00:46,097 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 15:00:46,192 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 15:00:46,192 DEFAULT INFO 响应失败！
+2021-01-03 15:00:46,197 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 15:00:46,228 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:46,244 DEFAULT INFO method:POST
+2021-01-03 15:00:46,244 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 15:00:46,244 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 15:00:46,322 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:00:46,332 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 15:00:46,364 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:46,364 DEFAULT INFO method:GET
+2021-01-03 15:00:46,364 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:00:46,364 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:00:46,473 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:00:46,489 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 15:00:46,504 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:46,504 DEFAULT INFO method:GET
+2021-01-03 15:00:46,504 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:00:46,504 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 15:00:46,598 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:46,614 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 15:00:46,630 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:46,630 DEFAULT INFO method:POST
+2021-01-03 15:00:46,630 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:00:46,630 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 15:00:46,708 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:46,724 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 15:00:46,740 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:46,740 DEFAULT INFO method:GET
+2021-01-03 15:00:46,740 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:00:46,740 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 15:00:46,834 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:46,850 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 15:00:46,871 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:46,873 DEFAULT INFO method:POST
+2021-01-03 15:00:46,873 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 15:00:46,874 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 15:00:46,940 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:46,956 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 15:00:46,972 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 15:00:47,258 DEFAULT INFO method:POST
+2021-01-03 15:00:47,258 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 15:00:47,258 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 15:00:47,368 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 15:00:47,368 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 15:00:47,368 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 15:00:47,405 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:47,405 DEFAULT INFO method:GET
+2021-01-03 15:00:47,405 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 15:00:47,405 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:00:47,484 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:00:47,500 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 15:00:47,500 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:47,500 DEFAULT INFO method:GET
+2021-01-03 15:00:47,500 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:00:47,500 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 15:00:47,594 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:47,610 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 15:00:47,625 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:47,625 DEFAULT INFO method:POST
+2021-01-03 15:00:47,625 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:00:47,625 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 15:00:47,704 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:00:47,720 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 15:00:47,751 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:47,751 DEFAULT INFO method:POST
+2021-01-03 15:00:47,751 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:00:47,751 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 15:00:47,846 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:47,846 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 15:00:47,877 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:47,877 DEFAULT INFO method:GET
+2021-01-03 15:00:47,877 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 15:00:47,877 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 15:00:47,955 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:47,971 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 15:00:48,003 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:48,019 DEFAULT INFO method:PUT
+2021-01-03 15:00:48,019 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 15:00:48,019 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 15:00:48,097 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 15:00:48,097 DEFAULT INFO 响应失败！
+2021-01-03 15:00:48,113 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 15:00:48,145 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:48,145 DEFAULT INFO method:POST
+2021-01-03 15:00:48,145 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 15:00:48,145 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 15:00:48,223 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:00:48,239 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 15:00:48,280 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:48,280 DEFAULT INFO method:GET
+2021-01-03 15:00:48,280 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:00:48,280 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:00:48,369 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:00:48,385 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 15:00:48,385 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:48,385 DEFAULT INFO method:GET
+2021-01-03 15:00:48,385 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:00:48,385 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 15:00:48,464 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:48,479 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 15:00:48,495 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:48,495 DEFAULT INFO method:POST
+2021-01-03 15:00:48,495 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:00:48,495 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 15:00:48,590 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:48,605 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 15:00:48,605 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:48,605 DEFAULT INFO method:GET
+2021-01-03 15:00:48,605 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:00:48,605 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 15:00:48,715 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:48,731 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 15:00:48,747 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:00:48,747 DEFAULT INFO method:POST
+2021-01-03 15:00:48,747 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 15:00:48,747 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 15:00:48,826 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:00:48,842 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 15:00:48,842 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 15:01:44,591 DEFAULT INFO method:POST
+2021-01-03 15:01:44,591 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 15:01:44,591 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 15:01:44,700 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 15:01:44,700 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 15:01:44,716 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 15:01:44,750 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:44,750 DEFAULT INFO method:GET
+2021-01-03 15:01:44,750 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 15:01:44,750 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:01:44,831 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:01:44,846 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 15:01:44,846 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:44,846 DEFAULT INFO method:GET
+2021-01-03 15:01:44,846 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:01:44,846 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 15:01:44,940 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:01:44,957 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 15:01:44,988 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:44,988 DEFAULT INFO method:POST
+2021-01-03 15:01:44,988 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:01:44,988 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 15:01:45,067 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:01:45,089 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 15:01:45,122 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:45,122 DEFAULT INFO method:POST
+2021-01-03 15:01:45,122 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:01:45,122 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 15:01:45,219 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:01:45,362 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 15:01:45,393 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:45,393 DEFAULT INFO method:GET
+2021-01-03 15:01:45,393 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 15:01:45,393 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 15:01:45,488 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:01:45,488 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 15:01:45,519 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:45,519 DEFAULT INFO method:PUT
+2021-01-03 15:01:45,519 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 15:01:45,519 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 15:01:45,614 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 15:01:45,614 DEFAULT INFO 响应失败！
+2021-01-03 15:01:45,630 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 15:01:45,661 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:45,661 DEFAULT INFO method:POST
+2021-01-03 15:01:45,661 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 15:01:45,661 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 15:01:45,740 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:01:45,761 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 15:01:45,792 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:45,792 DEFAULT INFO method:GET
+2021-01-03 15:01:45,792 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:01:45,792 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:01:45,871 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:01:45,902 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 15:01:45,919 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:45,919 DEFAULT INFO method:GET
+2021-01-03 15:01:45,919 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:01:45,919 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 15:01:45,997 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:01:46,013 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 15:01:46,029 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:46,029 DEFAULT INFO method:POST
+2021-01-03 15:01:46,029 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:01:46,029 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 15:01:46,124 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:01:46,124 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 15:01:46,155 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:46,155 DEFAULT INFO method:GET
+2021-01-03 15:01:46,155 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:01:46,155 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 15:01:46,234 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:01:46,250 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 15:01:46,250 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:01:46,250 DEFAULT INFO method:POST
+2021-01-03 15:01:46,250 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 15:01:46,250 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 15:01:46,344 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:01:46,360 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 15:01:46,376 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 15:03:30,499 DEFAULT INFO method:POST
+2021-01-03 15:03:30,499 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 15:03:30,499 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 15:03:30,635 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 15:03:30,635 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 15:03:30,635 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 15:03:30,682 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:30,682 DEFAULT INFO method:GET
+2021-01-03 15:03:30,682 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 15:03:30,682 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:03:30,761 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:03:30,777 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 15:03:30,793 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:30,793 DEFAULT INFO method:GET
+2021-01-03 15:03:30,793 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:03:30,793 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 15:03:30,871 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:03:30,903 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 15:03:30,918 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:30,918 DEFAULT INFO method:POST
+2021-01-03 15:03:30,918 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:03:30,918 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 15:03:31,012 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:03:31,028 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 15:03:31,059 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:31,059 DEFAULT INFO method:POST
+2021-01-03 15:03:31,059 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:03:31,059 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 15:03:31,138 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:03:31,169 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 15:03:31,184 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:31,184 DEFAULT INFO method:GET
+2021-01-03 15:03:31,184 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 15:03:31,184 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 15:03:31,276 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:03:31,292 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 15:03:31,308 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:31,308 DEFAULT INFO method:PUT
+2021-01-03 15:03:31,308 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 15:03:31,308 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 15:03:31,404 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 15:03:31,404 DEFAULT INFO 响应失败！
+2021-01-03 15:03:31,420 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 15:03:31,451 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:31,451 DEFAULT INFO method:POST
+2021-01-03 15:03:31,451 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 15:03:31,451 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 15:03:31,546 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:03:31,546 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 15:03:31,577 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:31,577 DEFAULT INFO method:GET
+2021-01-03 15:03:31,577 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:03:31,577 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:03:31,671 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:03:31,687 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 15:03:31,702 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:31,702 DEFAULT INFO method:GET
+2021-01-03 15:03:31,702 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:03:31,702 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 15:03:31,782 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:03:31,797 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 15:03:31,813 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:31,813 DEFAULT INFO method:POST
+2021-01-03 15:03:31,813 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:03:31,813 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 15:03:31,891 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:03:31,907 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 15:03:31,923 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:31,923 DEFAULT INFO method:GET
+2021-01-03 15:03:31,923 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:03:31,923 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 15:03:32,001 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:03:32,017 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 15:03:32,033 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:03:32,033 DEFAULT INFO method:POST
+2021-01-03 15:03:32,033 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 15:03:32,033 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 15:03:32,111 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:03:32,143 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 15:03:32,159 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 15:08:22,348 DEFAULT INFO 删除旧的结果集.....
+2021-01-03 15:08:22,850 DEFAULT INFO method:POST
+2021-01-03 15:08:22,850 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 15:08:22,850 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 15:08:22,965 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 15:08:22,965 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 15:08:22,965 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 15:08:22,996 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:22,996 DEFAULT INFO method:GET
+2021-01-03 15:08:22,996 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 15:08:22,996 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:08:23,090 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:08:23,105 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 15:08:23,121 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:23,121 DEFAULT INFO method:GET
+2021-01-03 15:08:23,121 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:08:23,121 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 15:08:23,203 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:08:23,219 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 15:08:23,250 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:23,250 DEFAULT INFO method:POST
+2021-01-03 15:08:23,250 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:08:23,250 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 15:08:23,329 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:08:23,345 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 15:08:23,376 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:23,376 DEFAULT INFO method:POST
+2021-01-03 15:08:23,376 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:08:23,376 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 15:08:23,470 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:08:23,470 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 15:08:23,502 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:23,502 DEFAULT INFO method:GET
+2021-01-03 15:08:23,502 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 15:08:23,502 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 15:08:23,580 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:08:23,596 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 15:08:23,628 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:23,628 DEFAULT INFO method:PUT
+2021-01-03 15:08:23,628 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 15:08:23,628 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 15:08:23,722 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 15:08:23,722 DEFAULT INFO 响应失败！
+2021-01-03 15:08:23,737 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 15:08:23,769 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:23,769 DEFAULT INFO method:POST
+2021-01-03 15:08:23,769 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 15:08:23,769 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 15:08:23,856 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:08:23,872 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 15:08:23,904 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:23,904 DEFAULT INFO method:GET
+2021-01-03 15:08:23,904 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:08:23,904 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:08:23,982 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:08:23,998 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 15:08:24,014 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:24,014 DEFAULT INFO method:GET
+2021-01-03 15:08:24,014 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:08:24,014 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 15:08:24,092 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:08:24,107 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 15:08:24,123 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:24,123 DEFAULT INFO method:POST
+2021-01-03 15:08:24,123 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:08:24,123 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 15:08:24,202 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:08:24,202 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 15:08:24,217 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:24,217 DEFAULT INFO method:GET
+2021-01-03 15:08:24,217 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:08:24,217 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 15:08:24,295 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:08:24,311 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 15:08:24,327 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:08:24,327 DEFAULT INFO method:POST
+2021-01-03 15:08:24,327 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 15:08:24,327 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 15:08:24,398 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:08:24,414 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 15:08:24,430 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 15:08:24,634 DEFAULT INFO 生成报告.....
+2021-01-03 15:12:05,462 DEFAULT INFO 删除旧的结果集.....
+2021-01-03 15:12:05,919 DEFAULT INFO method:POST
+2021-01-03 15:12:05,919 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/login/
+2021-01-03 15:12:05,919 DEFAULT INFO data:{'username': '13475410002', 'password': '888888', 'devicetoken': 'teacher', 'ostype': '3'}
+2021-01-03 15:12:06,073 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-03 15:12:06,073 DEFAULT INFO {'retcode': 1, 'msg': '用户名或密码错误'}
+2021-01-03 15:12:06,089 DEFAULT INFO 【测试用例test_001】===============>> 【FAIL！】
+2021-01-03 15:12:06,120 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:06,120 DEFAULT INFO method:GET
+2021-01-03 15:12:06,120 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_lessons/
+2021-01-03 15:12:06,120 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:12:06,214 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:12:06,219 DEFAULT INFO 【测试用例test_002】===============>> 【FAIL！】
+2021-01-03 15:12:06,243 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:06,243 DEFAULT INFO method:GET
+2021-01-03 15:12:06,243 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:12:06,243 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '2'}
+2021-01-03 15:12:06,322 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:12:06,338 DEFAULT INFO 【测试用例test_003】===============>> 【FAIL！】
+2021-01-03 15:12:06,369 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:06,369 DEFAULT INFO method:POST
+2021-01-03 15:12:06,369 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:12:06,369 DEFAULT INFO data:{'action': 'add', 'name': '哈哈哈', 'subjectid': '1', 'questionlist': '[["choice",[{"level":1,"id",:80852,"requireprocess":false}]],[]]'}
+2021-01-03 15:12:06,454 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:12:06,470 DEFAULT INFO 【测试用例test_004】===============>> 【FAIL！】
+2021-01-03 15:12:06,501 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:06,501 DEFAULT INFO method:POST
+2021-01-03 15:12:06,501 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:12:06,501 DEFAULT INFO data:{'action': 'add_task', 'recipients': '[["36301","测试"]]', 'examid': '9906', 'desc': '30', 'tasktype': 'exam', 'suggestspendtime': '30', 'questionlist': '[["choice",[{"level":1,"id":80852,"requireprocess":false}]],[]]', 'subjectid': '1'}
+2021-01-03 15:12:06,579 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:12:06,595 DEFAULT INFO 【测试用例test_005】===============>> 【FAIL！】
+2021-01-03 15:12:06,627 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:06,627 DEFAULT INFO method:GET
+2021-01-03 15:12:06,627 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/exams/
+2021-01-03 15:12:06,627 DEFAULT INFO data:{'action': 'mobile_get_info', 'resource_id': '9906'}
+2021-01-03 15:12:06,736 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:12:06,752 DEFAULT INFO 【测试用例test_006】===============>> 【FAIL！】
+2021-01-03 15:12:06,783 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:06,783 DEFAULT INFO method:PUT
+2021-01-03 15:12:06,783 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/{{test_004:id}}/
+2021-01-03 15:12:06,783 DEFAULT INFO data:{'action': 'modify', 'subjectid': '1', 'name': '改名字', 'questionlist': '[["choice",[{"level":0,"id":80833,"requireprocess":true}]],[]]'}
+2021-01-03 15:12:06,877 DEFAULT ERROR Expecting value: line 2 column 1 (char 1)
+2021-01-03 15:12:06,877 DEFAULT INFO 响应失败！
+2021-01-03 15:12:06,893 DEFAULT INFO 【测试用例test_007】===============>> 【FAIL！】
+2021-01-03 15:12:06,929 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:06,929 DEFAULT INFO method:POST
+2021-01-03 15:12:06,929 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/tasks/
+2021-01-03 15:12:06,929 DEFAULT INFO data:{'action': 'revoke', 'task_id': '9906'}
+2021-01-03 15:12:07,030 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:12:07,030 DEFAULT INFO 【测试用例test_008】===============>> 【FAIL！】
+2021-01-03 15:12:07,061 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:07,061 DEFAULT INFO method:GET
+2021-01-03 15:12:07,061 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/yj_exams/
+2021-01-03 15:12:07,061 DEFAULT INFO data:{'action': 'list', 'direction': 'ASC', 'exam_type': '1', 'firstid': '0', 'lastid': '0', 'numlimit': '10', 'searchkeyword': '', 'subjectid': '1'}
+2021-01-03 15:12:07,141 DEFAULT INFO {'retcode': 302, 'msg': '未登录', 'redirect': '/teacher/login/login.html'}
+2021-01-03 15:12:07,157 DEFAULT INFO 【测试用例test_009】===============>> 【FAIL！】
+2021-01-03 15:12:07,173 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:07,173 DEFAULT INFO method:GET
+2021-01-03 15:12:07,173 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:12:07,173 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '1'}
+2021-01-03 15:12:07,251 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:12:07,251 DEFAULT INFO 【测试用例test_010】===============>> 【FAIL！】
+2021-01-03 15:12:07,267 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:07,267 DEFAULT INFO method:POST
+2021-01-03 15:12:07,267 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:12:07,267 DEFAULT INFO data:{'action': 'add_task', 'customsgttagsummary': '[{"gradeid":3,"subjectid":1,"textbookvolid":1,"textbookunitid":"ZJ_17_0_0","textbookverid":3}]', 'desc': '2019-12-17 预习', 'name': '速度写作业', 'questionlist': '[[],[[15,[{"level":3,"id":18961,"requireprocess":[]},{"level":2,"id":19255,"requireprocess":[]}]]]]', 'recipients': '[[36097,"谭伟彬"]]', 'suggestspendtime': '30', 'task_preparation': '1'}
+2021-01-03 15:12:07,345 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:12:07,361 DEFAULT INFO 【测试用例test_011】===============>> 【FAIL！】
+2021-01-03 15:12:07,376 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:07,376 DEFAULT INFO method:GET
+2021-01-03 15:12:07,376 DEFAULT INFO url:http://njqa.zgyjyx.net/api/teacher/mobile/general_task/
+2021-01-03 15:12:07,376 DEFAULT INFO data:{'action': 'list_my_task_web', 'count': '10', 'is_paper': '2', 'page': '1', 'result_from': 'app', 'task_type': '6 '}
+2021-01-03 15:12:07,455 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:12:07,470 DEFAULT INFO 【测试用例test_012】===============>> 【FAIL！】
+2021-01-03 15:12:07,486 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-03 15:12:07,486 DEFAULT INFO method:POST
+2021-01-03 15:12:07,486 DEFAULT INFO url:http://njqa.zgyjyx.net/api/feedback/
+2021-01-03 15:12:07,486 DEFAULT INFO data:{'type': '20012', 'description': '测试1已经反馈', 'contact': '123456', 'action': 'add_feedback'}
+2021-01-03 15:12:07,602 DEFAULT INFO {'retcode': 99, 'msg': '未登录'}
+2021-01-03 15:12:07,618 DEFAULT INFO 【测试用例test_013】===============>> 【FAIL！】
+2021-01-03 15:12:07,634 DEFAULT INFO 本次共执行13条用例
+测试通过的有0条，测试失败的有13条
+成功率为0.0%，失败率为100.0%
+2021-01-03 15:12:07,819 DEFAULT INFO 生成报告.....
+2021-01-03 15:13:05,933 DEFAULT INFO 删除旧的结果集.....
+2021-01-03 15:13:06,580 DEFAULT INFO 生成报告.....
+2021-01-03 15:15:21,459 DEFAULT INFO 删除旧的结果集.....
+2021-01-03 15:15:22,094 DEFAULT INFO 生成报告.....
+2021-01-03 15:16:10,752 DEFAULT INFO 删除旧的结果集.....
+2021-01-03 15:16:11,409 DEFAULT INFO 生成报告.....
+2021-01-03 15:18:06,519 DEFAULT INFO 删除旧的结果集.....
+2021-01-03 15:18:07,142 DEFAULT INFO 生成报告.....
+2021-01-03 15:25:14,933 DEFAULT INFO 删除旧的结果集.....
+2021-01-03 15:25:15,578 DEFAULT INFO 生成报告.....
+2021-01-03 15:26:32,179 DEFAULT INFO 删除旧的结果集.....
+2021-01-03 15:26:32,839 DEFAULT INFO 生成报告.....
+2021-01-03 15:38:09,450 DEFAULT INFO 删除旧的结果集.....
+2021-01-03 15:38:10,068 DEFAULT INFO 生成报告.....
+2021-01-03 16:24:49,130 DEFAULT INFO method:POST
+2021-01-03 16:24:49,130 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 16:24:49,130 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 16:26:11,859 DEFAULT INFO method:POST
+2021-01-03 16:26:11,859 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 16:26:11,859 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 16:26:46,638 DEFAULT INFO method:POST
+2021-01-03 16:26:46,638 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 16:26:46,638 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 16:28:40,052 DEFAULT INFO method:POST
+2021-01-03 16:28:40,052 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 16:28:40,052 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 16:29:38,317 DEFAULT INFO method:POST
+2021-01-03 16:29:38,317 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 16:29:38,317 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 16:31:32,706 DEFAULT INFO method:POST
+2021-01-03 16:31:32,706 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 16:31:32,706 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:13:16,676 DEFAULT INFO method:POST
+2021-01-03 17:13:16,676 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 17:13:16,676 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:18:04,780 DEFAULT INFO method:POST
+2021-01-03 17:18:04,780 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 17:18:04,780 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:21:05,540 DEFAULT INFO method:POST
+2021-01-03 17:21:05,540 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 17:21:05,540 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:22:52,169 DEFAULT INFO method:POST
+2021-01-03 17:22:52,169 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 17:22:52,169 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:23:50,583 DEFAULT INFO method:POST
+2021-01-03 17:23:50,583 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 17:23:50,583 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:25:46,774 DEFAULT INFO method:POST
+2021-01-03 17:25:46,774 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 17:25:46,774 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:28:47,977 DEFAULT INFO method:POST
+2021-01-03 17:28:47,977 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 17:28:47,977 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:30:02,837 DEFAULT INFO method:POST
+2021-01-03 17:30:02,837 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 17:30:02,837 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:30:27,928 DEFAULT INFO method:POST
+2021-01-03 17:30:27,928 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 17:30:27,928 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:31:11,686 DEFAULT INFO method:POST
+2021-01-03 17:31:11,686 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 17:31:11,686 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:33:29,187 DEFAULT INFO method:POST
+2021-01-03 17:33:29,187 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 17:33:29,187 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:33:53,939 DEFAULT INFO method:POST
+2021-01-03 17:33:53,939 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 17:33:53,939 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 17:34:55,354 DEFAULT INFO method:POST
+2021-01-03 17:34:55,354 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 17:34:55,354 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:04:18,088 DEFAULT INFO method:POST
+2021-01-03 18:04:18,088 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:04:18,088 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:05:06,474 DEFAULT INFO method:POST
+2021-01-03 18:05:06,474 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:05:06,474 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:05:39,388 DEFAULT INFO method:POST
+2021-01-03 18:05:39,388 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:05:39,388 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:06:07,969 DEFAULT INFO method:POST
+2021-01-03 18:06:07,969 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:06:07,969 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:09:15,639 DEFAULT INFO method:POST
+2021-01-03 18:09:15,639 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:09:15,639 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:10:06,202 DEFAULT INFO method:POST
+2021-01-03 18:10:06,202 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:10:06,202 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:11:21,729 DEFAULT INFO method:POST
+2021-01-03 18:11:21,729 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:11:21,729 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:11:43,112 DEFAULT INFO method:POST
+2021-01-03 18:11:43,112 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:11:43,112 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:12:58,406 DEFAULT INFO method:POST
+2021-01-03 18:12:58,406 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:12:58,406 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:13:37,593 DEFAULT INFO method:POST
+2021-01-03 18:13:37,593 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:13:37,593 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:15:12,903 DEFAULT INFO method:POST
+2021-01-03 18:15:12,903 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:15:12,903 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:15:51,962 DEFAULT INFO method:POST
+2021-01-03 18:15:51,962 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:15:51,962 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:19:57,347 DEFAULT INFO method:POST
+2021-01-03 18:19:57,347 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:19:57,347 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:22:21,408 DEFAULT INFO method:post
+2021-01-03 18:22:21,408 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:22:21,408 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:22:21,408 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 18:22:21,408 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:22:21,408 DEFAULT INFO 响应失败！
+2021-01-03 18:22:21,439 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 18:22:21,486 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 18:24:05,889 DEFAULT INFO method:post
+2021-01-03 18:24:05,889 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:24:05,889 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:24:05,889 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 18:24:05,889 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:24:05,889 DEFAULT INFO 响应失败！
+2021-01-03 18:24:05,920 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 18:24:05,967 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 18:29:48,820 DEFAULT INFO method:post
+2021-01-03 18:29:48,820 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:29:48,820 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:29:48,820 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 18:29:48,820 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:29:48,820 DEFAULT INFO 响应失败！
+2021-01-03 18:30:15,650 DEFAULT INFO method:post
+2021-01-03 18:30:15,650 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:30:15,650 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:30:15,650 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 18:30:15,650 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:30:15,650 DEFAULT INFO 响应失败！
+2021-01-03 18:33:23,777 DEFAULT INFO method:post
+2021-01-03 18:33:23,777 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:33:23,777 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:33:23,777 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 18:33:23,777 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:33:23,777 DEFAULT INFO 响应失败！
+2021-01-03 18:34:38,951 DEFAULT INFO method:post
+2021-01-03 18:34:38,951 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:34:38,951 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:34:38,951 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 18:34:38,951 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:34:38,951 DEFAULT INFO 响应失败！
+2021-01-03 18:40:30,090 DEFAULT INFO method:post
+2021-01-03 18:40:30,090 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:40:30,090 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:40:30,090 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 18:40:30,090 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:40:30,090 DEFAULT INFO 响应失败！
+2021-01-03 18:40:30,121 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 18:40:30,153 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 18:42:01,901 DEFAULT INFO 删除旧的结果集.....
+2021-01-03 18:42:02,967 DEFAULT INFO method:post
+2021-01-03 18:42:02,967 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:42:02,967 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:42:02,967 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 18:42:02,967 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:42:02,967 DEFAULT INFO 响应失败！
+2021-01-03 18:42:02,999 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 18:42:03,030 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 18:42:03,155 DEFAULT INFO 生成报告.....
+2021-01-03 18:43:23,853 DEFAULT INFO method:POST
+2021-01-03 18:43:23,853 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:43:23,853 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:43:38,608 DEFAULT INFO method:POST
+2021-01-03 18:43:38,608 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:43:38,608 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:43:47,437 DEFAULT INFO method:post
+2021-01-03 18:43:47,437 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:43:47,437 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:43:47,437 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 18:43:47,437 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:43:47,437 DEFAULT INFO 响应失败！
+2021-01-03 18:43:47,453 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 18:43:47,500 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 18:44:31,638 DEFAULT INFO method:post
+2021-01-03 18:44:31,638 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:44:31,638 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:45:03,158 DEFAULT INFO method:post
+2021-01-03 18:45:03,158 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:45:03,158 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:45:18,270 DEFAULT INFO method:post
+2021-01-03 18:45:18,270 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:45:18,270 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:45:59,147 DEFAULT INFO method:post
+2021-01-03 18:45:59,147 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-03 18:45:59,147 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:46:14,912 DEFAULT INFO method:POST
+2021-01-03 18:46:14,912 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:46:14,912 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:46:20,424 DEFAULT INFO method:POST
+2021-01-03 18:46:20,440 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:46:20,440 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:47:52,298 DEFAULT INFO method:post
+2021-01-03 18:47:52,298 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:47:52,298 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:48:08,175 DEFAULT INFO method:post
+2021-01-03 18:48:08,175 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:48:08,175 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:49:14,171 DEFAULT INFO method:post
+2021-01-03 18:49:14,171 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:49:14,171 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:49:42,571 DEFAULT INFO method:post
+2021-01-03 18:49:42,571 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:49:42,571 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:49:42,587 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 18:49:42,587 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:49:42,587 DEFAULT INFO 响应失败！
+2021-01-03 18:49:42,602 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 18:50:03,556 DEFAULT INFO method:POST
+2021-01-03 18:50:03,556 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:50:03,556 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:53:34,244 DEFAULT INFO method:POST
+2021-01-03 18:53:34,244 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:53:34,244 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:54:01,048 DEFAULT INFO method:POST
+2021-01-03 18:54:01,048 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:54:01,048 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:55:13,875 DEFAULT INFO method:post
+2021-01-03 18:55:13,875 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:55:13,875 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:55:13,875 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 18:55:13,875 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:55:13,875 DEFAULT INFO 响应失败！
+2021-01-03 18:55:13,891 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 18:56:24,611 DEFAULT INFO method:post
+2021-01-03 18:56:24,611 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:56:24,611 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:56:24,611 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 18:56:24,611 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:56:24,611 DEFAULT INFO 响应失败！
+2021-01-03 18:56:24,642 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 18:57:16,036 DEFAULT INFO method:post
+2021-01-03 18:57:16,052 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:57:16,052 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:57:16,052 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 18:57:16,052 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:57:16,052 DEFAULT INFO 响应失败！
+2021-01-03 18:57:16,068 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 18:58:51,913 DEFAULT INFO method:post
+2021-01-03 18:58:51,913 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:58:51,913 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:59:08,242 DEFAULT INFO method:post
+2021-01-03 18:59:08,242 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 18:59:08,242 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 18:59:08,242 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 18:59:08,242 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 18:59:08,242 DEFAULT INFO 响应失败！
+2021-01-03 18:59:08,274 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:07:04,128 DEFAULT INFO method:POST
+2021-01-03 19:07:04,128 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:07:04,128 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:07:15,930 DEFAULT INFO method:post
+2021-01-03 19:07:15,930 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:07:15,930 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:07:15,930 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:07:15,930 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:07:15,930 DEFAULT INFO 响应失败！
+2021-01-03 19:07:15,961 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:08:38,792 DEFAULT INFO method:POST
+2021-01-03 19:08:38,792 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:08:38,792 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:08:45,835 DEFAULT INFO method:post
+2021-01-03 19:08:45,835 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:08:45,835 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:08:45,835 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:08:45,835 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:08:45,835 DEFAULT INFO 响应失败！
+2021-01-03 19:08:45,866 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:09:42,550 DEFAULT INFO method:post
+2021-01-03 19:09:42,550 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:09:42,550 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:09:42,550 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:09:42,550 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:09:42,550 DEFAULT INFO 响应失败！
+2021-01-03 19:09:42,581 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:10:30,186 DEFAULT INFO method:post
+2021-01-03 19:10:30,186 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:10:30,186 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:10:30,186 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:10:30,186 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:10:30,186 DEFAULT INFO 响应失败！
+2021-01-03 19:10:30,217 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:11:57,401 DEFAULT INFO method:POST
+2021-01-03 19:11:57,401 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:11:57,401 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:12:33,928 DEFAULT INFO method:POST
+2021-01-03 19:12:33,928 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:12:33,928 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:12:54,965 DEFAULT INFO method:POST
+2021-01-03 19:12:54,965 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:12:54,965 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:13:09,614 DEFAULT INFO method:POST
+2021-01-03 19:13:09,614 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:13:09,614 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:13:23,988 DEFAULT INFO method:POST
+2021-01-03 19:13:23,988 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:13:23,988 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:13:41,281 DEFAULT INFO method:post
+2021-01-03 19:13:41,281 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:13:41,281 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:13:41,281 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:13:41,281 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:13:41,281 DEFAULT INFO 响应失败！
+2021-01-03 19:13:41,297 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:15:57,877 DEFAULT INFO method:POST
+2021-01-03 19:15:57,877 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:15:57,877 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:16:06,826 DEFAULT INFO method:post
+2021-01-03 19:16:06,826 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:16:06,826 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:16:06,826 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:16:06,826 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:16:06,826 DEFAULT INFO 响应失败！
+2021-01-03 19:16:06,858 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:19:57,958 DEFAULT INFO method:post
+2021-01-03 19:19:57,958 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:19:57,958 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:19:57,958 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:19:57,958 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:19:57,958 DEFAULT INFO 响应失败！
+2021-01-03 19:19:57,989 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:21:45,392 DEFAULT INFO method:post
+2021-01-03 19:21:45,392 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:21:45,392 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:21:45,392 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:21:45,392 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:21:45,392 DEFAULT INFO 响应失败！
+2021-01-03 19:21:45,423 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:21:56,396 DEFAULT INFO method:post
+2021-01-03 19:21:56,396 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:21:56,396 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:21:56,396 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:21:56,396 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:21:56,396 DEFAULT INFO 响应失败！
+2021-01-03 19:21:56,427 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:22:35,727 DEFAULT INFO method:POST
+2021-01-03 19:22:35,727 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:22:35,727 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:22:43,299 DEFAULT INFO method:post
+2021-01-03 19:22:43,299 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:22:43,299 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:22:43,299 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:22:43,299 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:22:43,299 DEFAULT INFO 响应失败！
+2021-01-03 19:22:43,331 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:23:25,434 DEFAULT INFO method:post
+2021-01-03 19:23:25,434 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:23:25,434 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:23:25,434 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:23:25,434 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:23:25,434 DEFAULT INFO 响应失败！
+2021-01-03 19:23:25,466 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:23:50,442 DEFAULT INFO method:post
+2021-01-03 19:23:50,442 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:23:50,442 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:23:50,442 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'json'
+2021-01-03 19:23:50,442 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:23:50,442 DEFAULT INFO 响应失败！
+2021-01-03 19:23:50,473 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:25:09,278 DEFAULT INFO method:POST
+2021-01-03 19:25:09,278 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:25:09,278 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:27:48,520 DEFAULT INFO method:post
+2021-01-03 19:27:48,520 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:27:48,520 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:29:35,726 DEFAULT INFO method:POST
+2021-01-03 19:29:35,741 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:29:35,741 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:30:11,392 DEFAULT INFO method:POST
+2021-01-03 19:30:11,392 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:30:11,392 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:30:30,319 DEFAULT INFO method:post
+2021-01-03 19:30:30,319 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:30:30,319 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:30:47,466 DEFAULT INFO method:post
+2021-01-03 19:30:47,466 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:30:47,466 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:30:47,466 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:30:47,466 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:30:47,466 DEFAULT INFO 响应失败！
+2021-01-03 19:30:47,497 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:30:47,529 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 19:34:12,833 DEFAULT INFO method:POST
+2021-01-03 19:34:12,833 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:34:12,833 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:34:30,758 DEFAULT INFO method:POST
+2021-01-03 19:34:30,758 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:34:30,758 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:34:51,160 DEFAULT INFO method:POST
+2021-01-03 19:34:51,160 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:34:51,160 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:35:36,661 DEFAULT INFO method:POST
+2021-01-03 19:35:36,661 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:35:36,661 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:38:40,031 DEFAULT INFO method:post
+2021-01-03 19:38:40,031 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:38:40,031 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:38:40,031 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:38:40,031 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:38:40,031 DEFAULT INFO 响应失败！
+2021-01-03 19:38:40,047 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:38:40,098 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 19:41:33,501 DEFAULT INFO method:post
+2021-01-03 19:41:33,501 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:41:33,501 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:41:33,501 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:41:33,501 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:41:33,501 DEFAULT INFO 响应失败！
+2021-01-03 19:41:33,532 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:41:33,564 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 19:43:10,883 DEFAULT INFO method:post
+2021-01-03 19:43:10,883 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:43:10,883 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:43:10,883 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:43:10,883 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:43:10,883 DEFAULT INFO 响应失败！
+2021-01-03 19:43:10,899 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:43:10,946 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 19:43:31,328 DEFAULT INFO method:post
+2021-01-03 19:43:31,328 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:43:31,328 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:43:31,328 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:43:31,328 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:43:31,328 DEFAULT INFO 响应失败！
+2021-01-03 19:43:31,359 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:43:31,391 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 19:43:46,171 DEFAULT INFO method:post
+2021-01-03 19:43:46,171 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:43:46,171 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:43:46,171 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:43:46,171 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:43:46,171 DEFAULT INFO 响应失败！
+2021-01-03 19:43:46,202 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:43:46,233 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 19:44:01,163 DEFAULT INFO method:post
+2021-01-03 19:44:01,163 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:44:01,163 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:44:01,163 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:44:01,163 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:44:01,163 DEFAULT INFO 响应失败！
+2021-01-03 19:44:01,194 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:44:01,225 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 19:44:25,614 DEFAULT INFO method:post
+2021-01-03 19:44:25,614 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:44:25,614 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:44:25,614 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:44:25,614 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:44:25,614 DEFAULT INFO 响应失败！
+2021-01-03 19:44:25,645 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:44:25,677 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 19:47:26,350 DEFAULT INFO method:post
+2021-01-03 19:47:26,350 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:47:26,350 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:47:26,350 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:47:26,350 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:47:26,350 DEFAULT INFO 响应失败！
+2021-01-03 19:47:26,381 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:47:26,412 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 19:47:47,819 DEFAULT INFO method:POST
+2021-01-03 19:47:47,819 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:47:47,819 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:48:00,941 DEFAULT INFO method:post
+2021-01-03 19:48:00,941 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:48:00,941 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:48:00,941 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:48:00,941 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:48:00,941 DEFAULT INFO 响应失败！
+2021-01-03 19:48:00,956 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:48:01,003 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 19:51:23,450 DEFAULT INFO method:post
+2021-01-03 19:51:23,450 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:51:23,450 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:51:23,450 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:51:23,450 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:51:23,450 DEFAULT INFO 响应失败！
+2021-01-03 19:51:23,466 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:52:20,774 DEFAULT INFO method:post
+2021-01-03 19:52:20,774 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:52:20,774 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:52:20,774 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:52:20,774 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:52:20,774 DEFAULT INFO 响应失败！
+2021-01-03 19:52:20,812 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:55:58,816 DEFAULT INFO method:post
+2021-01-03 19:55:58,816 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:55:58,816 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:55:58,816 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:55:58,816 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:55:58,816 DEFAULT INFO 响应失败！
+2021-01-03 19:55:58,848 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 19:56:41,209 DEFAULT INFO method:POST
+2021-01-03 19:56:41,209 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:56:41,209 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:57:35,382 DEFAULT INFO method:post
+2021-01-03 19:57:35,382 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 19:57:35,382 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 19:57:35,382 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 19:57:35,382 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 19:57:35,382 DEFAULT INFO 响应失败！
+2021-01-03 19:57:35,398 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:01:20,217 DEFAULT INFO method:post
+2021-01-03 20:01:20,217 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:01:20,217 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:01:20,217 DEFAULT INFO method:post
+2021-01-03 20:01:20,217 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:01:20,217 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:01:20,217 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 20:01:20,217 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 20:01:20,217 DEFAULT INFO 响应失败！
+2021-01-03 20:01:20,248 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:02:55,258 DEFAULT INFO method:post
+2021-01-03 20:02:55,258 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:02:55,258 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:02:55,258 DEFAULT INFO method:post
+2021-01-03 20:02:55,258 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:02:55,258 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:02:55,258 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 20:02:55,258 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 20:02:55,258 DEFAULT INFO 响应失败！
+2021-01-03 20:02:55,290 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:03:07,694 DEFAULT INFO method:post
+2021-01-03 20:03:07,694 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:03:07,694 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:03:07,694 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 20:03:07,694 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 20:03:07,694 DEFAULT INFO 响应失败！
+2021-01-03 20:03:07,726 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:03:30,860 DEFAULT INFO method:POST
+2021-01-03 20:03:30,860 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:03:30,860 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:03:59,623 DEFAULT INFO method:POST
+2021-01-03 20:03:59,639 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:03:59,639 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:04:01,091 DEFAULT INFO method:POST
+2021-01-03 20:04:01,091 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:04:01,091 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:06:17,776 DEFAULT INFO method:post
+2021-01-03 20:06:17,776 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:06:17,776 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:06:17,776 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 20:06:17,776 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 20:06:17,776 DEFAULT INFO 响应失败！
+2021-01-03 20:06:17,808 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:07:06,908 DEFAULT INFO method:post
+2021-01-03 20:07:06,908 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:07:06,908 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:07:06,908 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 20:07:06,908 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 20:07:06,908 DEFAULT INFO 响应失败！
+2021-01-03 20:07:06,940 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:07:46,277 DEFAULT INFO method:post
+2021-01-03 20:07:46,277 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:07:46,277 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:07:46,277 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 20:07:46,277 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 20:07:46,277 DEFAULT INFO 响应失败！
+2021-01-03 20:07:46,308 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:09:14,172 DEFAULT INFO method:post
+2021-01-03 20:09:14,172 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:09:14,172 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:09:14,172 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 20:09:14,172 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 20:09:14,172 DEFAULT INFO 响应失败！
+2021-01-03 20:09:14,203 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:10:17,573 DEFAULT INFO method:post
+2021-01-03 20:10:17,573 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:10:17,573 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:10:17,573 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 20:10:17,573 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 20:10:17,573 DEFAULT INFO 响应失败！
+2021-01-03 20:10:17,608 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:10:44,022 DEFAULT INFO method:post
+2021-01-03 20:10:44,022 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:10:44,022 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:10:44,022 DEFAULT ERROR 写cookie错误！
+'NoneType' object has no attribute 'headers'
+2021-01-03 20:10:44,022 DEFAULT ERROR 'NoneType' object has no attribute 'json'
+2021-01-03 20:10:44,022 DEFAULT INFO 响应失败！
+2021-01-03 20:10:44,038 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:17:11,008 DEFAULT INFO method:post
+2021-01-03 20:17:11,008 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:17:11,008 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:17:11,227 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ed04345d-9b70-4c03-9132-4ab1b87b2da7'}}
+2021-01-03 20:17:11,259 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:18:37,396 DEFAULT INFO 删除旧的结果集……
+2021-01-03 20:18:38,007 DEFAULT INFO method:post
+2021-01-03 20:18:38,007 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:18:38,007 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:18:38,399 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8f60d3a5-4557-4a13-9b00-8bf7926e943f'}}
+2021-01-03 20:18:38,431 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:18:38,462 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:18:38,509 DEFAULT INFO 生成报告……
+2021-01-03 20:19:05,867 DEFAULT INFO method:post
+2021-01-03 20:19:05,867 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:19:05,867 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:19:06,118 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '2cd99c7a-3cbb-4a01-b482-fc23080c553d'}}
+2021-01-03 20:19:06,150 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:19:06,198 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:19:20,384 DEFAULT INFO method:post
+2021-01-03 20:19:20,384 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:19:20,384 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:19:20,588 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'e2e85742-a0c1-4daf-a076-791741452dc8'}}
+2021-01-03 20:19:20,619 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:19:20,651 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:20:00,496 DEFAULT INFO method:post
+2021-01-03 20:20:00,496 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:20:00,496 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:20:00,715 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '202903d1-7aba-444e-9548-b0a1828602cf'}}
+2021-01-03 20:20:00,762 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:20:00,794 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:20:24,309 DEFAULT INFO 删除旧的结果集……
+2021-01-03 20:20:24,814 DEFAULT INFO method:post
+2021-01-03 20:20:24,814 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:20:24,814 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:20:25,082 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '08831154-7c7d-4629-a60c-7b1e838c3519'}}
+2021-01-03 20:20:25,098 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:20:25,145 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:20:25,176 DEFAULT INFO 生成报告……
+2021-01-03 20:25:10,352 DEFAULT INFO 删除旧的结果集……
+2021-01-03 20:25:11,006 DEFAULT INFO method:post
+2021-01-03 20:25:11,006 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:25:11,006 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:25:11,325 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'f00633e5-47f1-4d9d-a29d-6e9252ecd967'}}
+2021-01-03 20:25:11,357 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:25:11,403 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:25:11,457 DEFAULT INFO 生成报告……
+2021-01-03 20:25:30,454 DEFAULT INFO method:post
+2021-01-03 20:25:30,454 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:25:30,454 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:25:30,723 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '00e10578-ec48-4fbe-b418-29901d4f1df5'}}
+2021-01-03 20:25:30,770 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:25:30,817 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:26:05,333 DEFAULT INFO method:post
+2021-01-03 20:26:05,333 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:26:05,333 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:26:05,617 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '99d8e96e-03ca-476b-b138-f8030f613a61'}}
+2021-01-03 20:26:05,648 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:26:05,696 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:26:23,066 DEFAULT INFO method:post
+2021-01-03 20:26:23,066 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:26:23,066 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:26:23,363 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'a3cd4651-5267-4aa4-94f9-f012469b2de7'}}
+2021-01-03 20:26:23,379 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:27:41,257 DEFAULT INFO method:post
+2021-01-03 20:27:41,257 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:27:41,257 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:27:41,506 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '065f4012-4b6a-4918-af04-340166349d94'}}
+2021-01-03 20:27:41,537 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:29:36,306 DEFAULT INFO method:post
+2021-01-03 20:29:36,306 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:29:36,306 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:29:36,635 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8f965fdf-c9a2-4a87-a3cb-f23effa0fc47'}}
+2021-01-03 20:29:36,666 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:29:36,713 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:29:37,088 DEFAULT INFO method:post
+2021-01-03 20:29:37,088 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:29:37,088 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:29:37,245 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '45bce2df-401d-4f1e-93fd-ed908b1f8344'}}
+2021-01-03 20:29:37,276 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:29:37,323 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:30:10,339 DEFAULT INFO method:post
+2021-01-03 20:30:10,339 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:30:10,339 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:30:10,670 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b3e5c1f6-7552-40fc-a8b0-fc8081c81390'}}
+2021-01-03 20:30:10,702 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:30:10,733 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:30:11,155 DEFAULT INFO method:post
+2021-01-03 20:30:11,155 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:30:11,155 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:30:11,392 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '0f8c07b6-ed95-46f2-b478-546b7a676de6'}}
+2021-01-03 20:30:11,423 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:30:11,455 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:30:44,071 DEFAULT INFO method:post
+2021-01-03 20:30:44,071 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:30:44,071 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:30:44,322 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5173c70f-1455-4473-9d02-f312661e0bd1'}}
+2021-01-03 20:30:44,354 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:30:44,385 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:30:44,745 DEFAULT INFO method:post
+2021-01-03 20:30:44,745 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:30:44,745 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:30:44,886 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '46d1d929-fa66-439a-a1d9-5e8862f1cd2a'}}
+2021-01-03 20:30:44,917 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:30:44,948 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:30:50,359 DEFAULT INFO method:post
+2021-01-03 20:30:50,359 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:30:50,359 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:30:50,594 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '35f7044e-1ed6-4dbd-ab6a-952f8d3448f3'}}
+2021-01-03 20:30:50,609 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:30:50,641 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:30:51,016 DEFAULT INFO method:post
+2021-01-03 20:30:51,016 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:30:51,016 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:30:51,142 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '6ef4080f-4781-48fc-8663-c42c0856f40b'}}
+2021-01-03 20:30:51,173 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:30:51,204 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:31:17,509 DEFAULT INFO method:post
+2021-01-03 20:31:17,509 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:31:17,509 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:31:17,756 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9e00f5e6-3d4c-4728-9d9d-820c49832252'}}
+2021-01-03 20:31:17,805 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:31:17,852 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:31:18,228 DEFAULT INFO method:post
+2021-01-03 20:31:18,228 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:31:18,228 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:31:18,337 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '3f722879-81b0-4939-b8dc-f2dd9bebb79d'}}
+2021-01-03 20:31:18,371 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:31:18,419 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:31:29,295 DEFAULT INFO method:post
+2021-01-03 20:31:29,295 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:31:29,295 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:31:29,739 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '44fad56c-94c1-4b6e-ab19-4f73012c9201'}}
+2021-01-03 20:31:29,770 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:31:29,817 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:31:30,232 DEFAULT INFO method:post
+2021-01-03 20:31:30,232 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:31:30,232 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:31:30,373 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '4e665116-6c10-4269-abf5-47f68e7cb8b7'}}
+2021-01-03 20:31:30,405 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:31:30,436 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:31:37,685 DEFAULT INFO method:post
+2021-01-03 20:31:37,685 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:31:37,685 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:31:37,937 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '619be7e7-e125-4272-b21b-e0014e325bd3'}}
+2021-01-03 20:31:37,958 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:31:37,989 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:31:38,349 DEFAULT INFO method:post
+2021-01-03 20:31:38,349 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:31:38,349 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:31:38,490 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '59bd56dd-ebfb-466b-b040-f60ee6334224'}}
+2021-01-03 20:31:38,522 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:31:38,569 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:33:44,617 DEFAULT INFO method:post
+2021-01-03 20:33:44,617 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:33:44,617 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:33:44,962 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '0c700400-edff-4dc6-82a5-5bf0a4bacb02'}}
+2021-01-03 20:33:44,993 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:33:45,025 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:33:45,468 DEFAULT INFO method:post
+2021-01-03 20:33:45,468 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:33:45,468 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:33:45,594 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '0135da64-915e-4bbe-a8d6-48b1ec84121e'}}
+2021-01-03 20:33:45,611 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:33:45,658 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:34:17,281 DEFAULT INFO method:post
+2021-01-03 20:34:17,281 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:34:17,281 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:34:17,599 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8e8a8311-d8ad-41f3-9a16-675d500c9246'}}
+2021-01-03 20:34:17,646 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:34:17,694 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:34:18,007 DEFAULT INFO method:post
+2021-01-03 20:34:18,007 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:34:18,007 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:34:18,129 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5c320519-fc72-4445-94ea-5adc5d8140a2'}}
+2021-01-03 20:34:18,163 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:34:18,210 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:37:04,377 DEFAULT INFO 删除旧的结果集……
+2021-01-03 20:37:05,051 DEFAULT INFO method:post
+2021-01-03 20:37:05,051 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:37:05,051 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:37:05,599 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '45a69160-d77d-4ee2-8c3e-db494190df4b'}}
+2021-01-03 20:37:05,615 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:37:05,646 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:37:05,662 DEFAULT INFO 生成报告……
+2021-01-03 20:42:34,622 DEFAULT INFO 删除旧的结果集……
+2021-01-03 20:42:35,222 DEFAULT INFO method:post
+2021-01-03 20:42:35,222 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:42:35,222 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:42:35,474 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '48210916-5e46-497d-894a-efd1f78f3019'}}
+2021-01-03 20:42:35,505 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:42:35,552 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:42:35,584 DEFAULT INFO 生成报告……
+2021-01-03 20:45:52,913 DEFAULT INFO method:post
+2021-01-03 20:45:52,913 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:45:52,913 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:45:53,135 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'fb089e54-adf8-4d96-b16e-b1062fd416a3'}}
+2021-01-03 20:45:53,167 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:45:53,198 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:45:53,654 DEFAULT INFO method:post
+2021-01-03 20:45:53,654 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:45:53,654 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:45:53,785 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '1234a10a-b702-4228-985e-130f64ddbbcb'}}
+2021-01-03 20:45:53,816 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:45:53,863 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:47:03,166 DEFAULT INFO method:post
+2021-01-03 20:47:03,166 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:47:03,166 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:47:03,393 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b3d76c6a-130a-423d-b1f1-70a0ea7ed039'}}
+2021-01-03 20:47:03,424 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:50:19,691 DEFAULT INFO method:post
+2021-01-03 20:50:19,691 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:50:19,691 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:50:19,911 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd5469ede-166e-42f3-afe6-609aa8b0294d'}}
+2021-01-03 20:50:19,943 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:50:19,989 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 20:51:19,087 DEFAULT INFO method:post
+2021-01-03 20:51:19,087 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 20:51:19,087 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 20:51:19,307 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd8cf76aa-eb7a-45cd-afe9-213b8c18b42f'}}
+2021-01-03 20:51:19,338 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 20:51:19,370 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 21:00:14,919 DEFAULT INFO method:post
+2021-01-03 21:00:14,919 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 21:00:14,919 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 21:00:35,332 DEFAULT INFO method:post
+2021-01-03 21:00:35,332 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 21:00:35,332 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 21:00:35,567 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd3c4b53a-b6aa-468a-9d82-45b8c59a8f80'}}
+2021-01-03 21:00:35,592 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 21:00:35,639 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 21:01:23,261 DEFAULT INFO method:post
+2021-01-03 21:01:23,261 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 21:01:23,261 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 21:01:23,527 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '458784cf-8bd6-4c75-94f8-677f180e090f'}}
+2021-01-03 21:01:23,558 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 21:01:23,589 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 21:04:31,659 DEFAULT INFO method:post
+2021-01-03 21:04:31,659 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 21:04:31,659 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 21:04:31,897 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5994697f-44cc-4f0e-afcd-967f7612125c'}}
+2021-01-03 21:04:31,929 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-03 21:04:31,960 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-03 21:05:02,857 DEFAULT INFO method:post
+2021-01-03 21:05:02,857 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-03 21:05:02,857 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-03 21:05:03,123 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'a90422ab-5173-48c3-9223-9b87127332f0'}}
+2021-01-03 21:05:03,154 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-03 21:05:03,187 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%

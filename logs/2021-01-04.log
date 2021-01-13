@@ -1,0 +1,1245 @@
+2021-01-04 09:12:18,604 DEFAULT INFO 删除旧的结果集……
+2021-01-04 09:12:19,438 DEFAULT INFO method:post
+2021-01-04 09:12:19,438 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:12:19,438 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:12:19,643 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'fda69d2c-96c0-4d07-8e81-79c75c274a50'}}
+2021-01-04 09:12:19,659 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:12:19,706 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 09:12:19,774 DEFAULT INFO 生成报告……
+2021-01-04 09:24:51,795 DEFAULT INFO 删除旧的结果集……
+2021-01-04 09:24:52,393 DEFAULT INFO method:post
+2021-01-04 09:24:52,393 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:24:52,393 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:24:52,598 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'c9a1ca2a-9a68-47ef-9a85-14ef30231fc4'}}
+2021-01-04 09:24:52,630 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:24:52,677 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 09:24:52,691 DEFAULT INFO 生成报告……
+2021-01-04 09:27:38,203 DEFAULT INFO 删除旧的结果集……
+2021-01-04 09:27:38,883 DEFAULT INFO method:post
+2021-01-04 09:27:38,883 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:27:38,883 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:27:39,082 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b106934f-b840-4776-9f59-1ddf75b68d64'}}
+2021-01-04 09:27:39,098 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:27:39,146 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 09:27:39,161 DEFAULT INFO 生成报告……
+2021-01-04 09:32:38,911 DEFAULT INFO method:post
+2021-01-04 09:32:38,911 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:32:38,911 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:32:39,085 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '302b4864-03b4-4cc8-82b8-3a2dfc1095eb'}}
+2021-01-04 09:32:39,117 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:32:39,164 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 09:32:56,781 DEFAULT INFO method:post
+2021-01-04 09:32:56,781 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:32:56,781 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:32:56,958 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '0916a42e-1274-4548-a02a-6b2c44447025'}}
+2021-01-04 09:32:56,990 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:32:57,037 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 09:33:30,701 DEFAULT INFO method:post
+2021-01-04 09:33:30,701 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:33:30,701 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:33:30,874 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '99ab062f-90ea-4411-9e74-714ca3400003'}}
+2021-01-04 09:33:30,899 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:33:30,930 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 09:35:52,875 DEFAULT INFO method:post
+2021-01-04 09:35:52,875 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:35:52,875 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:35:53,048 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '7d799bd1-71bb-407f-a48e-00c0918d3570'}}
+2021-01-04 09:35:53,079 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-04 09:35:53,111 DEFAULT INFO 本次共执行1条用例
+测试通过的有0条，测试失败的有1条
+成功率为0.0%，失败率为100.0%
+2021-01-04 09:40:23,436 DEFAULT INFO method:post
+2021-01-04 09:40:23,436 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:40:23,436 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:40:23,593 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ea1b1458-2976-4993-a29c-711396baf87a'}}
+2021-01-04 09:40:23,608 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:40:23,655 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 09:42:35,714 DEFAULT INFO method:post
+2021-01-04 09:42:35,714 DEFAULT INFO url:/api/cmdb/user/login
+2021-01-04 09:42:35,714 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:48:46,679 DEFAULT INFO method:post
+2021-01-04 09:48:46,679 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:48:46,679 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:48:46,837 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'de744483-7c15-4812-a38a-020de97a9a3f'}}
+2021-01-04 09:48:55,160 DEFAULT INFO method:post
+2021-01-04 09:48:55,160 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:48:55,160 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:48:55,301 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ba586a10-752c-4c69-b12d-a9ca7d89470c'}}
+2021-01-04 09:48:55,333 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:49:32,071 DEFAULT INFO method:post
+2021-01-04 09:49:32,071 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:49:32,071 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:49:32,228 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '37b52d59-af13-4101-b33d-99b0388fdc9a'}}
+2021-01-04 09:49:32,244 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:51:14,681 DEFAULT INFO method:post
+2021-01-04 09:51:14,681 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:51:14,681 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:51:15,019 DEFAULT ERROR 写cookie错误！
+'set-cookie'
+2021-01-04 09:51:15,019 DEFAULT INFO {'code': 1, 'message': 'rpc error: code = Unknown desc = EOF', 'data': {}}
+2021-01-04 09:51:15,050 DEFAULT INFO 【测试用例test_038】===============>> 【FAIL！】
+2021-01-04 09:51:54,756 DEFAULT INFO method:post
+2021-01-04 09:51:54,756 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:51:54,756 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:51:55,461 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ad5fe659-c963-4d94-9883-d142707bd5f8'}}
+2021-01-04 09:51:55,485 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:55:52,099 DEFAULT INFO method:post
+2021-01-04 09:55:52,099 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:55:52,099 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:55:52,256 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '37d1cf38-20e8-4be0-9065-9e2b29d19e3a'}}
+2021-01-04 09:55:52,303 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:58:49,546 DEFAULT INFO method:post
+2021-01-04 09:58:49,546 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:58:49,546 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:58:49,707 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd7090270-387a-4d19-bc59-190cc68133d7'}}
+2021-01-04 09:58:49,739 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 09:59:45,249 DEFAULT INFO method:post
+2021-01-04 09:59:45,249 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 09:59:45,249 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 09:59:45,406 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '16bf57d2-925a-4acf-b216-a1d435f7f154'}}
+2021-01-04 09:59:45,438 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:00:22,295 DEFAULT INFO method:post
+2021-01-04 10:00:22,295 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:00:22,295 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:00:22,461 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ba4a48be-b606-47cf-81e4-2eef3528f967'}}
+2021-01-04 10:00:22,477 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:03:19,198 DEFAULT INFO method:post
+2021-01-04 10:03:19,198 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:03:19,198 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:03:19,371 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '4eb69dec-91cd-4bda-bf10-4354c6de3a9c'}}
+2021-01-04 10:03:19,387 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:03:39,633 DEFAULT INFO method:post
+2021-01-04 10:03:39,633 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:03:39,633 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:03:39,791 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b1e92e5f-70e8-4636-825a-b84cf364f9b0'}}
+2021-01-04 10:03:39,806 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:04:45,744 DEFAULT INFO method:post
+2021-01-04 10:04:45,744 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:04:45,744 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:04:45,901 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '3205db37-77cc-425a-95f7-1a395f190427'}}
+2021-01-04 10:04:45,933 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:05:36,399 DEFAULT INFO method:post
+2021-01-04 10:05:36,399 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:05:36,399 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:05:36,558 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '100f407a-24f6-48a5-8535-12242d23b701'}}
+2021-01-04 10:05:36,606 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:05:36,653 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 10:06:04,743 DEFAULT INFO method:post
+2021-01-04 10:06:04,743 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:06:04,743 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:06:04,979 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '6fe27800-1a2d-4f8a-aee1-ce8f4df56ca0'}}
+2021-01-04 10:06:05,010 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:06:05,042 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 10:17:47,057 DEFAULT INFO method:post
+2021-01-04 10:17:47,057 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:17:47,057 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:17:47,212 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '4b4dc4a0-55f5-44f1-aded-c7a70022d8b4'}}
+2021-01-04 10:17:47,244 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:17:47,292 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 10:18:11,993 DEFAULT INFO method:post
+2021-01-04 10:18:11,993 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:18:11,993 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:18:12,189 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '53bc3af7-20f7-4c00-8af4-f2872ead5083'}}
+2021-01-04 10:18:12,220 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:20:01,498 DEFAULT INFO method:post
+2021-01-04 10:20:01,498 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:20:01,498 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:20:01,840 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '552233b7-aef4-4750-9596-90fcce046f69'}}
+2021-01-04 10:20:01,856 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:20:01,906 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 10:21:13,179 DEFAULT INFO method:post
+2021-01-04 10:21:13,179 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:21:13,179 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:21:13,419 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '09679b21-f71b-40bd-953f-a6c9940a4d93'}}
+2021-01-04 10:21:20,862 DEFAULT INFO method:post
+2021-01-04 10:21:20,862 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:21:20,862 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:21:21,131 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '542655ef-0842-4b31-b335-cfb82d1a8a6a'}}
+2021-01-04 10:21:21,163 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:21:21,194 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 10:22:09,651 DEFAULT INFO method:post
+2021-01-04 10:22:09,651 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:22:09,651 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:22:09,857 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5d58cecc-ed32-43db-bccd-99d002557532'}}
+2021-01-04 10:22:09,889 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:24:28,839 DEFAULT INFO method:post
+2021-01-04 10:24:28,839 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:24:28,839 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:24:29,011 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '3b3f7801-19d0-4630-b1e8-065527413866'}}
+2021-01-04 10:24:29,044 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:25:28,961 DEFAULT INFO method:post
+2021-01-04 10:25:28,961 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:25:28,961 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:25:29,135 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '233e1e3a-64f6-46b7-93ad-c85a7ec2d8d5'}}
+2021-01-04 10:25:29,166 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:32:45,677 DEFAULT INFO method:post
+2021-01-04 10:32:45,677 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:32:45,677 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:32:45,835 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8dfa7672-5121-472d-99c5-de1152d4a8c4'}}
+2021-01-04 10:32:45,867 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:36:26,791 DEFAULT INFO method:post
+2021-01-04 10:36:26,791 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:36:26,791 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:36:26,954 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'a7d0317a-2751-4aa9-8b34-97c19137a985'}}
+2021-01-04 10:36:26,991 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:37:00,466 DEFAULT INFO method:post
+2021-01-04 10:37:00,466 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:37:00,466 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:37:00,676 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'a81c95b9-72f9-4378-b577-4f9cabcd8dbd'}}
+2021-01-04 10:37:00,707 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:37:32,090 DEFAULT INFO method:post
+2021-01-04 10:37:32,090 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:37:32,090 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:37:32,251 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '3e1402fc-c865-488b-9fd8-aa552f1246c5'}}
+2021-01-04 10:37:32,273 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:39:32,943 DEFAULT INFO method:post
+2021-01-04 10:39:32,943 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:39:32,943 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:39:33,105 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '406cca3d-76a6-4e83-87b8-d393ca0d744d'}}
+2021-01-04 10:39:33,137 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:40:22,482 DEFAULT INFO method:post
+2021-01-04 10:40:22,482 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:40:22,482 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:40:22,645 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'f67a29c7-6d2c-4b0f-b307-7bd21e275cd6'}}
+2021-01-04 10:40:22,680 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:41:34,380 DEFAULT INFO method:post
+2021-01-04 10:41:34,380 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:41:34,380 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:41:34,555 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ec364e60-73af-4949-90ad-93f138e36d2b'}}
+2021-01-04 10:41:34,587 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:49:30,615 DEFAULT INFO method:post
+2021-01-04 10:49:30,615 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:49:30,616 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:49:30,776 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '6ffbc5e4-7ca0-4c0d-af29-ae53b601c6d2'}}
+2021-01-04 10:49:30,805 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:51:35,935 DEFAULT INFO method:post
+2021-01-04 10:51:35,935 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:51:35,935 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:51:36,112 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '26cac468-d8c6-4ab1-b343-3e2dd9ec639d'}}
+2021-01-04 10:51:36,143 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:51:55,736 DEFAULT INFO method:post
+2021-01-04 10:51:55,736 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:51:55,736 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:51:55,923 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'c6e569e4-22a2-49e0-aa8e-b9f0fb4d0477'}}
+2021-01-04 10:51:55,955 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:53:33,636 DEFAULT INFO method:post
+2021-01-04 10:53:33,636 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:53:33,636 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:53:33,811 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '91fccb38-5118-40c4-bf1a-72bb311fe7e5'}}
+2021-01-04 10:53:33,844 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:54:44,771 DEFAULT INFO method:post
+2021-01-04 10:54:44,771 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:54:44,771 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:54:44,930 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '96961a94-eebd-4191-a4a1-a9e569a3c2f7'}}
+2021-01-04 10:54:51,068 DEFAULT INFO method:post
+2021-01-04 10:54:51,068 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:54:51,068 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:54:51,226 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'f1311d80-05a0-46cd-b132-d2964058f975'}}
+2021-01-04 10:54:51,242 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:54:51,293 DEFAULT INFO method:post
+2021-01-04 10:54:51,293 DEFAULT INFO url:/api/cmdb/model/instance/add/
+2021-01-04 10:54:51,293 DEFAULT INFO data:{'attr': {'name': '', 'protocol': []}}
+2021-01-04 10:55:43,547 DEFAULT INFO method:post
+2021-01-04 10:55:43,547 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:55:43,547 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:55:43,708 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '06d47afd-3b1a-4d46-b0ee-927e8b40e9b3'}}
+2021-01-04 10:55:43,737 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:55:43,781 DEFAULT INFO method:post
+2021-01-04 10:55:43,781 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/instance/add/
+2021-01-04 10:55:43,781 DEFAULT INFO data:{'attr': {'name': '', 'protocol': []}}
+2021-01-04 10:55:43,813 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 10:55:43,849 DEFAULT INFO 【测试用例test_208】===============>> 【FAIL！】
+2021-01-04 10:56:37,731 DEFAULT INFO method:post
+2021-01-04 10:56:37,731 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:56:37,731 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:56:37,898 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9c206740-8673-465a-9e30-deccca9d0b12'}}
+2021-01-04 10:56:37,930 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:56:37,986 DEFAULT INFO method:post
+2021-01-04 10:56:37,986 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/instance/add/
+2021-01-04 10:56:37,986 DEFAULT INFO data:{'attr': {'name': '', 'protocol': []}}
+2021-01-04 10:56:38,026 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 10:56:38,065 DEFAULT INFO 【测试用例test_208】===============>> 【FAIL！】
+2021-01-04 10:56:38,121 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 10:58:06,001 DEFAULT INFO method:post
+2021-01-04 10:58:06,001 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:58:06,001 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:58:06,218 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'df34a99b-ac9d-42bb-95ac-cd0ddac1ba6d'}}
+2021-01-04 10:58:06,247 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:58:06,292 DEFAULT INFO method:post
+2021-01-04 10:58:06,292 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/instance/add/
+2021-01-04 10:58:06,292 DEFAULT INFO data:{'attr': {'name': '', 'protocol': []}}
+2021-01-04 10:58:06,330 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 10:58:06,365 DEFAULT INFO 【测试用例test_208】===============>> 【FAIL！】
+2021-01-04 10:58:06,417 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 10:58:33,552 DEFAULT INFO method:post
+2021-01-04 10:58:33,553 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:58:33,553 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:58:33,719 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8a5e9b5e-42b0-4177-9618-937eacc32455'}}
+2021-01-04 10:58:33,748 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:58:33,793 DEFAULT INFO method:post
+2021-01-04 10:58:33,793 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/instance/add/
+2021-01-04 10:58:33,794 DEFAULT INFO data:{'attr': {'name': '', 'protocol': []}}
+2021-01-04 10:58:33,827 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 10:58:33,863 DEFAULT INFO 【测试用例test_208】===============>> 【FAIL！】
+2021-01-04 10:59:49,356 DEFAULT INFO method:post
+2021-01-04 10:59:49,356 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 10:59:49,356 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 10:59:49,521 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'eaa5fcf0-47af-4548-bee4-54affd0106cc'}}
+2021-01-04 10:59:49,552 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 10:59:49,600 DEFAULT INFO method:post
+2021-01-04 10:59:49,600 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/instance/add/
+2021-01-04 10:59:49,600 DEFAULT INFO data:{'attr': {'name': '', 'protocol': []}}
+2021-01-04 10:59:49,634 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 10:59:49,672 DEFAULT INFO 【测试用例test_208】===============>> 【FAIL！】
+2021-01-04 11:00:51,250 DEFAULT INFO method:post
+2021-01-04 11:00:51,250 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:00:51,250 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:00:51,422 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '6b9f7656-f557-4606-982c-deb3effde9a7'}}
+2021-01-04 11:00:51,451 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:00:51,524 DEFAULT INFO method:post
+2021-01-04 11:00:51,524 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/instance/add/
+2021-01-04 11:00:51,524 DEFAULT INFO data:{'attr': {'name': '', 'protocol': []}}
+2021-01-04 11:00:51,561 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:00:51,595 DEFAULT INFO 【测试用例test_208】===============>> 【FAIL！】
+2021-01-04 11:00:51,640 DEFAULT INFO method:post
+2021-01-04 11:00:51,640 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:00:51,640 DEFAULT INFO data:{'name': 'modul33', 'group_id': 10268, 'name_en': 'modul33', 'qrcode': {'switch': '', 'layout_type': 1}, 'audit_switch': '', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': '', 'is_agent': '', 'is_remote_control': '', 'is_jobflow': '', 'model_type': 0}
+2021-01-04 11:00:51,670 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:00:51,712 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:00:51,758 DEFAULT INFO 本次共执行3条用例
+测试通过的有1条，测试失败的有2条
+成功率为33.300000000000004%，失败率为66.7%
+2021-01-04 11:06:41,336 DEFAULT INFO method:post
+2021-01-04 11:06:41,336 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:06:41,336 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:06:41,515 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9b3b3b5f-2c59-4542-b786-e8914715f40f'}}
+2021-01-04 11:06:41,558 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:06:41,607 DEFAULT INFO method:post
+2021-01-04 11:06:41,607 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:06:41,607 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:06:41,640 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:06:41,688 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:06:41,735 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:07:22,268 DEFAULT INFO 删除旧的结果集……
+2021-01-04 11:07:23,143 DEFAULT INFO method:post
+2021-01-04 11:07:23,143 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:07:23,143 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:07:23,327 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'e187c57b-a340-4976-af43-79e4938f210a'}}
+2021-01-04 11:07:23,354 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:07:23,411 DEFAULT INFO method:post
+2021-01-04 11:07:23,411 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:07:23,411 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:07:23,440 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:07:23,478 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:07:23,517 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:07:23,571 DEFAULT INFO 生成报告……
+2021-01-04 11:12:19,604 DEFAULT INFO method:post
+2021-01-04 11:12:19,604 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:12:19,604 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:12:19,763 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'abd97d5f-f108-4116-ad24-6d6b5bb04c07'}}
+2021-01-04 11:12:19,779 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:12:19,827 DEFAULT INFO method:post
+2021-01-04 11:12:19,827 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:12:19,827 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:12:19,858 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:12:19,891 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:12:19,938 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:13:08,145 DEFAULT INFO method:post
+2021-01-04 11:13:08,145 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:13:08,145 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:13:08,337 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '24bf80f8-3680-4631-8e17-3f31dd43db16'}}
+2021-01-04 11:13:08,369 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:13:08,400 DEFAULT INFO method:post
+2021-01-04 11:13:08,400 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:13:08,400 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:13:08,433 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:13:08,465 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:13:08,512 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:18:27,867 DEFAULT INFO method:post
+2021-01-04 11:18:27,867 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:18:27,867 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:18:28,032 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '48bd79c0-8992-4057-ac92-3b9e466c627f'}}
+2021-01-04 11:18:28,064 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:18:28,112 DEFAULT INFO method:post
+2021-01-04 11:18:28,112 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:18:28,112 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:18:28,144 DEFAULT INFO {'code': 7, 'message': '会话过期，请重新登录', 'data': {}}
+2021-01-04 11:18:28,176 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:18:28,223 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:20:06,431 DEFAULT INFO method:post
+2021-01-04 11:20:06,431 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:20:06,431 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:20:06,680 DEFAULT ERROR 写cookie错误！
+'data'
+2021-01-04 11:20:06,680 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'fa7fdd50-ca27-45a2-85f3-c8536203f884'}}
+2021-01-04 11:20:06,696 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:20:06,727 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 11:20:06,743 DEFAULT INFO method:post
+2021-01-04 11:20:06,743 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:20:06,743 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:20:06,792 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:20:06,824 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:20:06,856 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:20:36,942 DEFAULT INFO method:post
+2021-01-04 11:20:36,942 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:20:36,942 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:20:37,219 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '57008758-6aa6-4586-ad9a-340e28e9e900'}}
+2021-01-04 11:20:37,257 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:20:37,289 DEFAULT INFO method:post
+2021-01-04 11:20:37,289 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:20:37,289 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:20:37,321 DEFAULT INFO {'code': 7, 'message': '会话过期，请重新登录', 'data': {}}
+2021-01-04 11:20:37,369 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:20:37,402 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:21:07,551 DEFAULT INFO method:post
+2021-01-04 11:21:07,551 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:21:07,551 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:21:07,714 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '14c81d6e-0337-4074-87e1-9064e3ede78d'}}
+2021-01-04 11:21:07,730 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:21:07,777 DEFAULT INFO method:post
+2021-01-04 11:21:07,777 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:21:07,777 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:21:07,809 DEFAULT INFO {'code': 7, 'message': '会话过期，请重新登录', 'data': {}}
+2021-01-04 11:21:07,841 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:21:07,872 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:22:40,736 DEFAULT INFO method:post
+2021-01-04 11:22:40,736 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:22:40,736 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:22:40,899 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '7b953182-38ac-4b58-a694-34677bf647a2'}}
+2021-01-04 11:22:40,932 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:22:40,988 DEFAULT INFO method:post
+2021-01-04 11:22:40,988 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:22:40,988 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:22:41,022 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:22:41,060 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:22:41,122 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:33:40,959 DEFAULT INFO method:post
+2021-01-04 11:33:40,959 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:33:40,959 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:33:41,117 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '68b96395-3015-4ddf-b918-f0abafb1ad3d'}}
+2021-01-04 11:33:51,589 DEFAULT INFO method:post
+2021-01-04 11:33:51,589 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:33:51,589 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:33:51,748 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '62aa38b7-6749-4af8-83d4-dfda20e355b6'}}
+2021-01-04 11:33:51,780 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:33:51,813 DEFAULT INFO method:post
+2021-01-04 11:33:51,813 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:33:51,813 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:33:51,844 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:33:51,876 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:33:51,925 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:36:52,855 DEFAULT INFO method:post
+2021-01-04 11:36:52,855 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:36:52,855 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:36:53,012 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5713152a-32a3-4663-ba76-b0f526d3bb76'}}
+2021-01-04 11:36:53,044 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:36:53,080 DEFAULT INFO method:post
+2021-01-04 11:36:53,080 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:36:53,080 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:36:53,112 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:36:53,143 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:36:53,190 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:37:35,789 DEFAULT INFO method:post
+2021-01-04 11:37:35,789 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:37:35,789 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:37:35,963 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b0085892-25b5-4a79-b26b-e393c4431384'}}
+2021-01-04 11:37:35,994 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:37:36,027 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 46 (char 45)
+2021-01-04 11:37:36,027 DEFAULT INFO method:post
+2021-01-04 11:37:36,027 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:37:36,027 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:37:36,058 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:37:36,090 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:37:36,136 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:44:00,094 DEFAULT INFO method:post
+2021-01-04 11:44:00,094 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:44:00,094 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:44:00,367 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b4d55512-7e60-4ec1-ab54-6639085c72da'}}
+2021-01-04 11:44:00,415 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:44:00,448 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 4 (char 3)
+2021-01-04 11:44:00,448 DEFAULT INFO method:post
+2021-01-04 11:44:00,448 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:44:00,448 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:44:00,480 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:44:00,527 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:44:00,559 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:44:40,329 DEFAULT INFO method:post
+2021-01-04 11:44:40,329 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:44:40,329 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:44:40,493 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'c3c045c7-5207-446d-bb81-80aeabdfd1a4'}}
+2021-01-04 11:44:40,525 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:44:40,573 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 4 (char 3)
+2021-01-04 11:44:40,573 DEFAULT INFO method:post
+2021-01-04 11:44:40,573 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:44:40,573 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:44:40,605 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:44:40,637 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:44:40,668 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:46:12,040 DEFAULT INFO method:post
+2021-01-04 11:46:12,040 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:46:12,040 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:46:12,248 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '3ecb9228-91d3-4ce7-b9c0-52d50a58ccd1'}}
+2021-01-04 11:46:12,280 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:46:12,327 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 51 (char 50)
+2021-01-04 11:46:12,327 DEFAULT INFO method:post
+2021-01-04 11:46:12,327 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:46:12,327 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:46:12,358 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:46:12,390 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:46:12,422 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:47:24,563 DEFAULT INFO method:post
+2021-01-04 11:47:24,563 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:47:24,563 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:47:24,752 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b376d35d-55ac-47ed-845b-537f884b9da6'}}
+2021-01-04 11:47:24,784 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:47:24,815 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 51 (char 50)
+2021-01-04 11:47:24,815 DEFAULT INFO method:post
+2021-01-04 11:47:24,815 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:47:24,815 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:47:24,847 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:47:24,878 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:47:24,910 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:49:42,109 DEFAULT INFO method:post
+2021-01-04 11:49:42,109 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:49:42,109 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:49:42,281 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '274e024b-cad4-4d40-899a-353f5d6b412a'}}
+2021-01-04 11:49:42,313 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:49:42,361 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 51 (char 50)
+2021-01-04 11:49:42,361 DEFAULT INFO method:post
+2021-01-04 11:49:42,361 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:49:42,361 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:49:42,392 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:49:42,424 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:49:42,455 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:50:04,154 DEFAULT INFO method:post
+2021-01-04 11:50:04,154 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:50:04,154 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:50:04,408 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'fb830767-9b61-4be7-b1cc-12722ad6517f'}}
+2021-01-04 11:50:04,455 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:50:04,486 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 11:50:04,486 DEFAULT INFO method:post
+2021-01-04 11:50:04,486 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:50:04,486 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:50:04,533 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:50:04,581 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:50:04,612 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:50:31,088 DEFAULT INFO method:post
+2021-01-04 11:50:31,088 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:50:31,088 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:50:31,405 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'de2a537b-015f-4788-9bcd-38ec0d4ed8f0'}}
+2021-01-04 11:50:31,436 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:50:31,484 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 51 (char 50)
+2021-01-04 11:50:31,484 DEFAULT INFO method:post
+2021-01-04 11:50:31,484 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:50:31,484 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:50:31,516 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:50:31,547 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:50:31,594 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:51:02,222 DEFAULT INFO method:post
+2021-01-04 11:51:02,222 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:51:02,222 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:51:02,508 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '4dca2c8a-e82e-40b7-ba73-51cbdb65ba92'}}
+2021-01-04 11:51:02,524 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:51:02,588 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 51 (char 50)
+2021-01-04 11:51:02,588 DEFAULT INFO method:post
+2021-01-04 11:51:02,588 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:51:02,588 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:51:02,652 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:51:02,710 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:51:02,741 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:52:23,769 DEFAULT INFO method:post
+2021-01-04 11:52:23,769 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:52:23,770 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:52:23,932 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'e5d2cea8-1c1c-4aba-b023-8f96049db869'}}
+2021-01-04 11:52:23,951 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:52:23,999 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 4 (char 3)
+2021-01-04 11:52:23,999 DEFAULT INFO method:post
+2021-01-04 11:52:23,999 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:52:23,999 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:52:24,030 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:52:24,062 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:52:24,093 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:52:50,158 DEFAULT INFO method:post
+2021-01-04 11:52:50,158 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:52:50,158 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:52:50,350 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'aedbf9bf-17d0-4340-b677-3ebcd2cc970d'}}
+2021-01-04 11:52:50,366 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:52:50,414 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 11:52:50,414 DEFAULT INFO method:post
+2021-01-04 11:52:50,414 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:52:50,414 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:52:50,445 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:52:50,493 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:52:50,525 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:53:24,287 DEFAULT INFO method:post
+2021-01-04 11:53:24,287 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:53:24,287 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:53:24,460 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '2d433bed-c12e-41c9-8b23-fd5cde226a85'}}
+2021-01-04 11:53:24,492 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:53:24,540 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 11:53:24,540 DEFAULT INFO method:post
+2021-01-04 11:53:24,540 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:53:24,540 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:53:24,571 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:53:24,603 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:53:24,651 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:53:49,908 DEFAULT INFO method:post
+2021-01-04 11:53:49,908 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:53:49,908 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:53:50,066 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '19441b52-5a15-472b-8c59-60a12d71e490'}}
+2021-01-04 11:53:50,082 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:53:50,129 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 11:53:50,129 DEFAULT INFO method:post
+2021-01-04 11:53:50,129 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:53:50,129 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:53:50,161 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:53:50,192 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:53:50,239 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 11:54:17,260 DEFAULT INFO method:post
+2021-01-04 11:54:17,260 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 11:54:17,260 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 11:54:17,430 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '76883720-7940-4c65-9d42-4f16cbc4514f'}}
+2021-01-04 11:54:17,446 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 11:54:17,493 DEFAULT ERROR 读cookie错误！
+invalid syntax (<string>, line 1)
+2021-01-04 11:54:17,493 DEFAULT INFO method:post
+2021-01-04 11:54:17,493 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 11:54:17,493 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 11:54:17,525 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 11:54:17,573 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 11:54:17,605 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 12:27:04,393 DEFAULT INFO method:post
+2021-01-04 12:27:04,393 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 12:27:04,393 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 12:27:04,670 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'e4815f89-6e96-48d0-b5ae-e07f2fb1eebb'}}
+2021-01-04 12:27:04,701 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 12:27:04,748 DEFAULT ERROR 读cookie错误！
+invalid syntax (<string>, line 1)
+2021-01-04 12:27:04,748 DEFAULT INFO method:post
+2021-01-04 12:27:04,748 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 12:27:04,748 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 12:27:04,794 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 12:27:04,827 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 12:27:04,874 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 12:27:57,391 DEFAULT INFO method:post
+2021-01-04 12:27:57,391 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 12:27:57,391 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 12:27:57,565 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'e0619401-3e2e-4cd4-863a-2d00fcc66b58'}}
+2021-01-04 12:27:57,582 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 12:27:57,629 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 12:27:57,629 DEFAULT INFO method:post
+2021-01-04 12:27:57,629 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 12:27:57,629 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 12:27:57,663 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 12:27:57,712 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 12:27:57,760 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 12:29:33,699 DEFAULT INFO method:post
+2021-01-04 12:29:33,699 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 12:29:33,699 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 12:29:33,876 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '748451ab-48c6-4523-a52b-64e2d715b656'}}
+2021-01-04 12:29:33,908 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 12:29:33,940 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 12:29:33,940 DEFAULT INFO method:post
+2021-01-04 12:29:33,940 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 12:29:33,940 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 12:29:33,987 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 12:29:34,019 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 12:29:34,066 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 12:29:55,695 DEFAULT INFO method:post
+2021-01-04 12:29:55,695 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 12:29:55,695 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 12:29:55,884 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'f2cf55c4-e65d-4561-a712-fc69ec53f0d3'}}
+2021-01-04 12:29:55,916 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 12:29:55,948 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 12:29:55,948 DEFAULT INFO method:post
+2021-01-04 12:29:55,948 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 12:29:55,948 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 12:29:55,981 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 12:29:56,012 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 12:29:56,044 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 12:30:26,585 DEFAULT INFO method:post
+2021-01-04 12:30:26,585 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 12:30:26,585 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 12:30:27,135 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '45f21ecc-dd0f-48e1-a99a-bdcb519eee76'}}
+2021-01-04 12:30:27,154 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 12:30:27,201 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 51 (char 50)
+2021-01-04 12:30:27,201 DEFAULT INFO method:post
+2021-01-04 12:30:27,201 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 12:30:27,201 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 12:30:27,233 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 12:30:27,281 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 12:30:27,312 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 12:31:11,745 DEFAULT INFO method:post
+2021-01-04 12:31:11,745 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 12:31:11,745 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 12:31:11,924 DEFAULT ERROR 写cookie错误！
+write() argument must be str, not set
+2021-01-04 12:31:11,925 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '039627bc-e3b4-4798-b603-2224032786cf'}}
+2021-01-04 12:31:11,946 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 12:31:11,978 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 12:31:11,978 DEFAULT INFO method:post
+2021-01-04 12:31:11,978 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 12:31:11,978 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 12:31:12,010 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 12:31:12,058 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 12:31:12,089 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 14:07:35,522 DEFAULT INFO method:post
+2021-01-04 14:07:35,522 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 14:07:35,522 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 14:35:44,488 DEFAULT INFO method:post
+2021-01-04 14:35:44,488 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 14:35:44,488 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 14:47:08,558 DEFAULT INFO method:post
+2021-01-04 14:47:08,558 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 14:47:08,558 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:26:27,228 DEFAULT INFO method:post
+2021-01-04 15:26:27,228 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:26:27,228 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:26:27,402 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'a01ed497-5fe3-4f18-b8c4-1073a4692ede'}}
+2021-01-04 15:26:27,435 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:26:27,483 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 15:27:31,137 DEFAULT INFO method:post
+2021-01-04 15:27:31,137 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:27:31,137 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:27:31,328 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '42bf8019-2ef5-475c-8243-0a4a8a40771a'}}
+2021-01-04 15:27:31,344 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:27:31,391 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 15:29:14,775 DEFAULT INFO method:post
+2021-01-04 15:29:14,775 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:29:14,775 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:29:14,917 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5a89e539-8ba3-4550-a19c-7e47e50f646b'}}
+2021-01-04 15:29:14,949 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:29:14,980 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 15:37:29,073 DEFAULT INFO method:post
+2021-01-04 15:37:29,073 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:37:29,073 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:37:29,233 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd3afaaaf-66f6-4fca-8787-015ef83c178f'}}
+2021-01-04 15:37:29,264 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:37:29,295 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 15:37:52,441 DEFAULT INFO method:post
+2021-01-04 15:37:52,441 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:37:52,441 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:37:52,600 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '1c5ff84f-b5fe-40df-940c-23e75aaf66c5'}}
+2021-01-04 15:37:52,630 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:37:52,670 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 15:39:29,008 DEFAULT INFO method:post
+2021-01-04 15:39:29,008 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:39:29,008 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:39:29,180 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '29aaef80-90ef-4ab7-a757-45906c0a3235'}}
+2021-01-04 15:39:29,197 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:39:29,244 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 15:40:06,544 DEFAULT INFO method:post
+2021-01-04 15:40:06,544 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:40:06,544 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:40:06,734 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '762a1c82-e880-4108-b7e6-5e6a3e02f03c'}}
+2021-01-04 15:40:06,766 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:40:06,798 DEFAULT INFO method:post
+2021-01-04 15:40:06,798 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 15:40:06,798 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 15:40:06,830 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 15:40:06,863 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 15:40:06,910 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 15:41:31,210 DEFAULT INFO method:post
+2021-01-04 15:41:31,210 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:41:31,210 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:41:31,364 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '33b527ea-e6bc-4d39-8f1f-bad9f3a6b570'}}
+2021-01-04 15:41:31,380 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:41:31,427 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 4 (char 3)
+2021-01-04 15:41:31,427 DEFAULT INFO method:post
+2021-01-04 15:41:31,427 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 15:41:31,427 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 15:41:31,459 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 15:41:31,490 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 15:41:31,522 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 15:42:31,497 DEFAULT INFO method:post
+2021-01-04 15:42:31,497 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:42:31,497 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:42:31,655 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '378dd9ac-5f6e-4d11-b0cd-5ceac1ebff86'}}
+2021-01-04 15:42:31,687 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:42:31,718 DEFAULT ERROR 读cookie错误！
+Expecting ':' delimiter: line 1 column 51 (char 50)
+2021-01-04 15:42:31,718 DEFAULT INFO method:post
+2021-01-04 15:42:31,718 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 15:42:31,718 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 15:42:31,749 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 15:42:31,781 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 15:42:31,830 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 15:43:17,294 DEFAULT INFO method:post
+2021-01-04 15:43:17,294 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:43:17,294 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:43:17,439 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '693855ac-7bd1-4358-8c9b-0fd4ee7bd250'}}
+2021-01-04 15:43:17,470 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:43:17,502 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 15:43:17,502 DEFAULT INFO method:post
+2021-01-04 15:43:17,502 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 15:43:17,502 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 15:43:17,534 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 15:43:17,566 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 15:43:17,598 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 15:44:15,738 DEFAULT INFO method:post
+2021-01-04 15:44:15,738 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:44:15,738 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:44:15,898 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5e3201e0-64c8-4b1a-80a9-cd5a66dae7da'}}
+2021-01-04 15:44:15,930 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:44:15,978 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 15:44:15,978 DEFAULT INFO method:post
+2021-01-04 15:44:15,978 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 15:44:15,978 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 15:44:16,011 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 15:44:16,043 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 15:44:16,075 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 15:44:47,233 DEFAULT INFO method:post
+2021-01-04 15:44:47,233 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:44:47,233 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:44:47,393 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd7a7b8e8-ca5d-49cb-ac5f-2f0403d974b4'}}
+2021-01-04 15:44:47,425 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:44:47,456 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 15:44:47,456 DEFAULT INFO method:post
+2021-01-04 15:44:47,456 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 15:44:47,456 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 15:44:47,488 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 15:44:47,535 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 15:44:47,566 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 15:45:36,322 DEFAULT INFO method:post
+2021-01-04 15:45:36,322 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:45:36,322 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:45:36,465 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '47a69291-67c1-40e7-af43-06747ba6a827'}}
+2021-01-04 15:45:36,480 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:45:36,528 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 15:45:36,528 DEFAULT INFO method:post
+2021-01-04 15:45:36,528 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 15:45:36,528 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 15:45:36,560 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 15:45:36,592 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 15:45:36,623 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 15:45:56,712 DEFAULT INFO method:post
+2021-01-04 15:45:56,712 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:45:56,712 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:45:58,427 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b5518d37-f248-4f71-b69e-4049b64be311'}}
+2021-01-04 15:45:58,459 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:45:58,490 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 15:45:58,490 DEFAULT INFO method:post
+2021-01-04 15:45:58,490 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 15:45:58,490 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 15:45:58,523 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 15:45:58,555 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 15:45:58,586 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 15:52:12,761 DEFAULT INFO method:post
+2021-01-04 15:52:12,761 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 15:52:12,761 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 15:52:12,924 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'e01da4ce-5db6-4ec7-9c34-e4aa92c5c217'}}
+2021-01-04 15:52:12,958 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 15:52:12,989 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 15:52:12,989 DEFAULT INFO method:post
+2021-01-04 15:52:12,989 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 15:52:12,989 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 15:52:13,021 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 15:52:13,053 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 15:52:13,085 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 16:07:14,076 DEFAULT INFO method:post
+2021-01-04 16:07:14,076 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:07:14,076 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:07:14,234 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'e2f39af2-9087-4976-806b-229916c4514a'}}
+2021-01-04 16:07:14,265 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:07:14,312 DEFAULT INFO method:post
+2021-01-04 16:07:14,312 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:07:14,312 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:07:48,757 DEFAULT INFO method:post
+2021-01-04 16:07:48,757 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:07:48,757 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:07:48,896 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '30d50bc5-39a2-4832-a062-1a08c1b75760'}}
+2021-01-04 16:07:48,928 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:07:48,975 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 16:07:48,975 DEFAULT INFO method:post
+2021-01-04 16:07:48,975 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:07:48,975 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:07:49,007 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 16:07:49,039 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:07:49,070 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 16:08:20,580 DEFAULT INFO method:post
+2021-01-04 16:08:20,580 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:08:20,580 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:08:20,722 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '13c24eec-55fa-4a11-8f20-ef5517fd0319'}}
+2021-01-04 16:08:20,754 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:08:20,801 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 16:08:20,801 DEFAULT INFO method:post
+2021-01-04 16:08:20,801 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:08:20,801 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:08:20,833 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 16:08:20,864 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:08:20,895 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 16:09:26,899 DEFAULT INFO method:post
+2021-01-04 16:09:26,899 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:09:26,899 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:09:27,040 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ab5ee9d2-84f6-44de-85c5-66a1f82c499e'}}
+2021-01-04 16:09:27,071 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:09:27,103 DEFAULT INFO method:post
+2021-01-04 16:09:27,103 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:09:27,103 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:09:27,134 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 16:09:27,182 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:09:27,218 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 16:14:06,008 DEFAULT INFO method:post
+2021-01-04 16:14:06,023 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:14:06,023 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:14:06,266 DEFAULT ERROR 写cookie错误！
+'CaseInsensitiveDict' object has no attribute 'json'
+2021-01-04 16:14:06,267 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '14179888-c24a-445a-bd67-b56ca73d20be'}}
+2021-01-04 16:14:06,314 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:14:06,404 DEFAULT ERROR 读cookie错误！
+Expecting value: line 1 column 1 (char 0)
+2021-01-04 16:14:06,404 DEFAULT INFO method:post
+2021-01-04 16:14:06,404 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:14:06,404 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:14:06,444 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-04 16:14:06,484 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:14:06,530 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 16:28:59,758 DEFAULT INFO method:post
+2021-01-04 16:28:59,758 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:28:59,758 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:28:59,912 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'dc087bb4-0104-481d-986b-2fa09d53da41'}}
+2021-01-04 16:28:59,944 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:28:59,991 DEFAULT INFO method:post
+2021-01-04 16:28:59,991 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:28:59,991 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:29:00,041 DEFAULT INFO {'code': 2, 'message': 'CmdbModelEnglishNameExists', 'data': {}}
+2021-01-04 16:29:00,072 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:29:00,104 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 16:29:19,778 DEFAULT INFO method:post
+2021-01-04 16:29:19,778 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:29:19,778 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:29:19,936 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '21ea553c-4889-40e3-832f-c38feb9db038'}}
+2021-01-04 16:29:19,964 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:29:19,996 DEFAULT INFO method:post
+2021-01-04 16:29:19,996 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:29:19,996 DEFAULT INFO data:{'name': 'modul35', 'group_id': 10268, 'name_en': 'modul35', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:29:20,043 DEFAULT INFO {'code': 2, 'message': 'CmdbModelEnglishNameExists', 'data': {}}
+2021-01-04 16:29:20,074 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:29:20,121 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 16:30:53,668 DEFAULT INFO 删除旧的结果集……
+2021-01-04 16:30:54,839 DEFAULT INFO method:post
+2021-01-04 16:30:54,839 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:30:54,839 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:30:55,028 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '56be9436-ddd3-4cb8-a5bd-f0bacd0c7079'}}
+2021-01-04 16:30:55,060 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:30:55,107 DEFAULT INFO method:post
+2021-01-04 16:30:55,107 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:30:55,107 DEFAULT INFO data:{'name': 'modul40', 'group_id': 10268, 'name_en': 'modul40', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:30:55,154 DEFAULT INFO {'code': 2, 'message': 'Error 3140: Invalid JSON text: "Missing a name for object member." at position 1 in value for column \'cmdb_model.audit_management\'.', 'data': {}}
+2021-01-04 16:30:55,185 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:30:55,232 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 16:30:55,374 DEFAULT INFO 生成报告……
+2021-01-04 16:31:44,940 DEFAULT INFO 删除旧的结果集……
+2021-01-04 16:31:45,426 DEFAULT INFO method:post
+2021-01-04 16:31:45,426 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:31:45,426 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:31:45,614 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'c3894304-72a6-4752-a69f-b0c90126ebbb'}}
+2021-01-04 16:31:45,643 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:31:45,675 DEFAULT INFO method:post
+2021-01-04 16:31:45,675 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:31:45,675 DEFAULT INFO data:{'name': 'modul40', 'group_id': 10255, 'name_en': 'modul40', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:31:45,722 DEFAULT INFO {'code': 2, 'message': 'Error 3140: Invalid JSON text: "Missing a name for object member." at position 1 in value for column \'cmdb_model.audit_management\'.', 'data': {}}
+2021-01-04 16:31:45,754 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:31:45,785 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 16:31:45,832 DEFAULT INFO 生成报告……
+2021-01-04 16:33:27,998 DEFAULT INFO 删除旧的结果集……
+2021-01-04 16:33:28,547 DEFAULT INFO method:post
+2021-01-04 16:33:28,547 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:33:28,547 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:33:28,768 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '72652dec-93ce-49b5-9d77-befffc9a177e'}}
+2021-01-04 16:33:28,800 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:33:29,053 DEFAULT INFO 生成报告……
+2021-01-04 16:36:06,350 DEFAULT INFO 删除旧的结果集……
+2021-01-04 16:36:06,857 DEFAULT INFO method:post
+2021-01-04 16:36:06,857 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:36:06,857 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:36:07,080 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9f93b262-a5ea-49a1-bc2e-436bd563d621'}}
+2021-01-04 16:36:07,096 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:36:07,142 DEFAULT INFO method:post
+2021-01-04 16:36:07,142 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:36:07,142 DEFAULT INFO data:{'name': 'modul40', 'group_id': 10255, 'name_en': 'modul40', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': "{'user': [],'department': []}", 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:36:07,189 DEFAULT INFO {'code': 2, 'message': 'Error 3140: Invalid JSON text: "Missing a name for object member." at position 1 in value for column \'cmdb_model.audit_management\'.', 'data': {}}
+2021-01-04 16:36:07,220 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:36:07,252 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-04 16:36:07,299 DEFAULT INFO 生成报告……
+2021-01-04 16:41:39,584 DEFAULT INFO 删除旧的结果集……
+2021-01-04 16:41:40,072 DEFAULT INFO method:post
+2021-01-04 16:41:40,072 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:41:40,072 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:41:40,263 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '900bfda2-247b-4407-b587-47b916774040'}}
+2021-01-04 16:41:40,294 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:41:40,342 DEFAULT INFO method:post
+2021-01-04 16:41:40,342 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:41:40,342 DEFAULT INFO data:{'name': 'modul41', 'group_id': 10255, 'name_en': 'modul41', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:41:40,389 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': 1057}}
+2021-01-04 16:41:40,421 DEFAULT INFO 【测试用例test_210】===============>> 【PASS！】
+2021-01-04 16:41:40,452 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 16:41:40,468 DEFAULT INFO 生成报告……
+2021-01-04 16:55:39,227 DEFAULT INFO 删除旧的结果集……
+2021-01-04 16:55:39,763 DEFAULT INFO method:post
+2021-01-04 16:55:39,779 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:55:39,779 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:55:40,001 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'a563a2a3-fd77-44f4-ae8e-7dca332ef7af'}}
+2021-01-04 16:55:40,017 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:55:40,065 DEFAULT INFO method:post
+2021-01-04 16:55:40,065 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-04 16:55:40,065 DEFAULT INFO data:{'parent_id': 0, 'name': 'w123w', 'module': 'cmdb_model'}
+2021-01-04 16:55:40,128 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 10284}}
+2021-01-04 16:55:40,159 DEFAULT INFO 【测试用例test_190】===============>> 【FAIL！】
+2021-01-04 16:55:40,207 DEFAULT INFO method:post
+2021-01-04 16:55:40,207 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:55:40,207 DEFAULT INFO data:{'name': 'modul41', 'group_id': 10255, 'name_en': 'modul41', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:55:40,253 DEFAULT INFO {'code': 2, 'message': 'CmdbModelEnglishNameExists', 'data': {}}
+2021-01-04 16:55:40,285 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:55:40,332 DEFAULT INFO 本次共执行3条用例
+测试通过的有1条，测试失败的有2条
+成功率为33.300000000000004%，失败率为66.7%
+2021-01-04 16:55:40,393 DEFAULT INFO 生成报告……
+2021-01-04 16:58:16,798 DEFAULT INFO 删除旧的结果集……
+2021-01-04 16:58:17,353 DEFAULT INFO method:post
+2021-01-04 16:58:17,353 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 16:58:17,353 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 16:58:17,558 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '29c798e9-e67c-4242-9c2c-b3cad291a953'}}
+2021-01-04 16:58:17,589 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 16:58:17,621 DEFAULT INFO method:post
+2021-01-04 16:58:17,621 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-04 16:58:17,621 DEFAULT INFO data:{'parent_id': 0, 'name': 'w123w', 'module': 'cmdb_model'}
+2021-01-04 16:58:17,668 DEFAULT INFO {'code': 1, 'message': 'CmdbSysGroupNameAlreadyExists: w123w', 'data': {}}
+2021-01-04 16:58:17,699 DEFAULT INFO 【测试用例test_190】===============>> 【FAIL！】
+2021-01-04 16:58:17,743 DEFAULT INFO method:post
+2021-01-04 16:58:17,743 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 16:58:17,743 DEFAULT INFO data:{'name': 'modul41', 'group_id': 10255, 'name_en': 'modul41', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 16:58:17,775 DEFAULT INFO {'code': 2, 'message': 'CmdbModelEnglishNameExists', 'data': {}}
+2021-01-04 16:58:17,806 DEFAULT INFO 【测试用例test_210】===============>> 【FAIL！】
+2021-01-04 16:58:17,838 DEFAULT INFO 本次共执行3条用例
+测试通过的有1条，测试失败的有2条
+成功率为33.300000000000004%，失败率为66.7%
+2021-01-04 16:58:17,901 DEFAULT INFO 生成报告……
+2021-01-04 17:02:58,995 DEFAULT INFO 删除旧的结果集……
+2021-01-04 17:02:59,482 DEFAULT INFO method:post
+2021-01-04 17:02:59,482 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 17:02:59,482 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 17:02:59,671 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '123b2f46-e25b-4385-9099-716919855c0c'}}
+2021-01-04 17:02:59,702 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 17:02:59,749 DEFAULT INFO method:post
+2021-01-04 17:02:59,749 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-04 17:02:59,749 DEFAULT INFO data:{'parent_id': 0, 'name': 'w122w', 'module': 'cmdb_model'}
+2021-01-04 17:02:59,780 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 10285}}
+2021-01-04 17:02:59,812 DEFAULT INFO 【测试用例test_190】===============>> 【PASS！】
+2021-01-04 17:02:59,843 DEFAULT INFO method:post
+2021-01-04 17:02:59,843 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 17:02:59,843 DEFAULT INFO data:{'name': 'modul43', 'group_id': 10255, 'name_en': 'modul43', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 17:02:59,890 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': 1058}}
+2021-01-04 17:02:59,921 DEFAULT INFO 【测试用例test_210】===============>> 【PASS！】
+2021-01-04 17:02:59,952 DEFAULT INFO 本次共执行3条用例
+测试通过的有3条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 17:02:59,984 DEFAULT INFO 生成报告……
+2021-01-04 19:18:46,930 DEFAULT INFO 删除旧的结果集……
+2021-01-04 19:18:47,519 DEFAULT INFO method:post
+2021-01-04 19:18:47,519 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 19:18:47,519 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 19:18:47,748 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'f8a8442c-2cdf-44eb-bfdf-02fbc5ba0aee'}}
+2021-01-04 19:18:47,798 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 19:18:47,860 DEFAULT INFO method:post
+2021-01-04 19:18:47,860 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-04 19:18:47,860 DEFAULT INFO data:{'parent_id': 0, 'name': 'w124w', 'module': 'cmdb_model'}
+2021-01-04 19:18:47,909 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 10287}}
+2021-01-04 19:18:47,957 DEFAULT INFO 【测试用例test_190】===============>> 【PASS！】
+2021-01-04 19:18:48,086 DEFAULT INFO method:post
+2021-01-04 19:18:48,086 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 19:18:48,086 DEFAULT INFO data:{'name': 'modul45', 'group_id': '', 'name_en': 'modul45', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 19:18:48,135 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': 1059}}
+2021-01-04 19:18:48,166 DEFAULT INFO 【测试用例test_210】===============>> 【PASS！】
+2021-01-04 19:18:48,198 DEFAULT INFO 本次共执行3条用例
+测试通过的有3条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 19:18:48,277 DEFAULT INFO 生成报告……
+2021-01-04 19:21:19,395 DEFAULT INFO 删除旧的结果集……
+2021-01-04 19:21:20,030 DEFAULT INFO method:post
+2021-01-04 19:21:20,030 DEFAULT INFO url:https://192.168.1.205/api/cmdb/user/login
+2021-01-04 19:21:20,030 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-04 19:21:20,221 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'f66a6d53-4874-4ac9-af09-7fc89a409054'}}
+2021-01-04 19:21:20,252 DEFAULT INFO 【测试用例test_038】===============>> 【PASS！】
+2021-01-04 19:21:20,300 DEFAULT INFO method:post
+2021-01-04 19:21:20,300 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/common/group/add
+2021-01-04 19:21:20,300 DEFAULT INFO data:{'parent_id': 0, 'name': 'w125w', 'module': 'cmdb_model'}
+2021-01-04 19:21:20,332 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 10288}}
+2021-01-04 19:21:20,379 DEFAULT INFO 【测试用例test_190】===============>> 【PASS！】
+2021-01-04 19:21:20,460 DEFAULT INFO method:post
+2021-01-04 19:21:20,460 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/add
+2021-01-04 19:21:20,460 DEFAULT INFO data:{'name': 'modul46', 'group_id': '', 'name_en': 'modul46', 'qrcode': {'switch': 'true', 'layout_type': 1}, 'audit_switch': 'false', 'audit_management': '{"user": [],"department": []}', 'icon': '0', 'is_monitor': 'true', 'is_agent': 'false', 'is_remote_control': 'false', 'is_jobflow': 'false', 'model_type': 0}
+2021-01-04 19:21:20,492 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': 1060}}
+2021-01-04 19:21:20,523 DEFAULT INFO 【测试用例test_210】===============>> 【PASS！】
+2021-01-04 19:21:20,571 DEFAULT INFO 本次共执行3条用例
+测试通过的有3条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-04 19:21:20,603 DEFAULT INFO 生成报告……
