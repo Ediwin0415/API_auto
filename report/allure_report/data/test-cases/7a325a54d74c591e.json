@@ -1,11 +1,11 @@
 {
-  "uid" : "2633cbc97eaf4930",
+  "uid" : "7a325a54d74c591e",
   "name" : "登录",
   "fullName" : "test_case.test_excel.TestExcel#test_excel",
   "historyId" : "12817c9e20c6ad6fa63e6dd8355bb363",
   "time" : {
-    "start" : 1610505757632,
-    "stop" : 1610505757632,
+    "start" : 1610533681667,
+    "stop" : 1610533681667,
     "duration" : 0
   },
   "description" : "post https://192.168.1.205/api/auth/user/login",
@@ -20,85 +20,85 @@
     "steps" : [ {
       "name" : "method:post",
       "time" : {
-        "start" : 1610505757632,
-        "stop" : 1610505757632,
+        "start" : 1610533681667,
+        "stop" : 1610533681667,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "url:https://192.168.1.205/api/auth/user/login",
       "time" : {
-        "start" : 1610505757632,
-        "stop" : 1610505757632,
+        "start" : 1610533681667,
+        "stop" : 1610533681667,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}",
       "time" : {
-        "start" : 1610505757632,
-        "stop" : 1610505757632,
+        "start" : 1610533681667,
+        "stop" : 1610533681667,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "res:{'code': 0, 'message': '', 'data': {'token': '662eebb5-d16a-43b9-be55-5cfb75a7c157'}}",
+      "name" : "res:{'code': 0, 'message': '', 'data': {'token': 'a68661c7-e64f-4c35-9efc-85b495bf1862'}}",
       "time" : {
-        "start" : 1610505757632,
-        "stop" : 1610505757632,
+        "start" : 1610533681667,
+        "stop" : 1610533681667,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "响应时间:0.223005s",
+      "name" : "响应时间:0.199079s",
       "time" : {
-        "start" : 1610505757632,
-        "stop" : 1610505757632,
+        "start" : 1610533681667,
+        "stop" : 1610533681667,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 5,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -118,7 +118,7 @@
     "value" : "DESKTOP-T3GOI97"
   }, {
     "name" : "thread",
-    "value" : "1036-MainThread"
+    "value" : "8688-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -145,6 +145,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2633cbc97eaf4930.json",
+  "source" : "7a325a54d74c591e.json",
   "parameterValues" : [ "{'title': '登录', 'method': 'post', 'url': 'https://192.168.1.205/api/auth/user/login', 'data': {'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}, 'result': 'pass', 'res': <Response [200]>}" ]
 }

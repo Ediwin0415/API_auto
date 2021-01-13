@@ -11,7 +11,7 @@ from tools import tool_global_var
 from tools.tool_headers import headersPack
 from tools.tool_log import logger
 from tools.tool_request import Requests
-from config.config import EXCEL_FILE, COOKIE_FILE
+from config.config import EXCEL_FILE, COOKIE_FILE,URL
 
 log = logger()
 
@@ -176,7 +176,7 @@ class excelPack:
                 # 处理method
                 method = self.get_cell_data(row, var.get_run_way())
                 # 处理url
-                url = self.get_new_url(row, self.get_cell_data(row, var.get_url()))
+                url ='https://'+URL+self.get_new_url(row, self.get_cell_data(row, var.get_url()))
                 # 处理data
                 if self.get_cell_data(row, var.get_case_depend()) != "":
                     data = self.get_case_json(row)

@@ -9,7 +9,7 @@
 #         请求的封装
 # ==============================
 import requests
-from config.config import env, URL
+from config.config import  URL
 from tools.tool_log import logger
 
 log = logger()
@@ -49,11 +49,11 @@ class Requests:
         log.info(f"url:{url}")
         log.info(f"data:{data}")
         res = None
-        # 适应多环境
-        if URL in url:
-            url = url.replace(URL, env[URL][env["default"]])
-            if headers != None:
-                headers["Host"] = URL
+        # # 适应多环境
+        # if URL in url:
+        #     url = url.replace(URL, env[URL][env["default"]])
+        #     if headers != None:
+        #         headers["Host"] = URL
         if method == 'get':
             res = self.send_get(url=url, params=data, headers=headers)
         elif method == 'post':

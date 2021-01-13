@@ -5432,3 +5432,1046 @@ Expecting value: line 1 column 1 (char 0)
 2021-01-13 11:49:04,450 DEFAULT INFO 本次共执行2条用例
 测试通过的有2条，测试失败的有0条
 成功率为100.0%，失败率为0.0%
+2021-01-13 14:15:27,667 DEFAULT INFO method:post
+2021-01-13 14:15:27,667 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:15:27,668 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:15:27,877 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '7ce88d4b-c9dd-480f-b2d9-9cc6de0f2433'}}
+2021-01-13 14:15:27,943 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:15:27,981 DEFAULT INFO method:post
+2021-01-13 14:15:27,981 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/split/solution
+2021-01-13 14:15:27,981 DEFAULT INFO data:{}
+2021-01-13 14:15:28,017 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 14:15:28,053 DEFAULT INFO 【测试用例test_131】===============>> 【FAIL！】
+2021-01-13 14:15:28,094 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:16:02,551 DEFAULT INFO method:post
+2021-01-13 14:16:02,551 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:16:02,551 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:16:02,739 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '0277770f-4271-44a9-b6f2-c7ea36a07bfa'}}
+2021-01-13 14:16:02,780 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:16:02,815 DEFAULT INFO method:post
+2021-01-13 14:16:02,815 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/split/solution
+2021-01-13 14:16:02,815 DEFAULT INFO data:{}
+2021-01-13 14:16:02,850 DEFAULT INFO {'code': 1, 'message': 'invalid CIDR address: geesunngeesunngeesunn', 'data': {}}
+2021-01-13 14:16:02,890 DEFAULT INFO 【测试用例test_131】===============>> 【FAIL！】
+2021-01-13 14:16:02,926 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:21:46,215 DEFAULT INFO method:post
+2021-01-13 14:21:46,215 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:21:46,216 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:21:46,375 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5baeabe6-4ab1-4de7-95eb-40b601ccac0a'}}
+2021-01-13 14:21:46,411 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:21:46,450 DEFAULT INFO method:post
+2021-01-13 14:21:46,450 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/split
+2021-01-13 14:21:46,450 DEFAULT INFO data:{'parent_network_segment': '192.168.2.13/24', 'list': [{'network_segment': '192.168.2.0/25'}, {'network_segment': '192.168.2.128/25'}]}
+2021-01-13 14:21:46,506 DEFAULT INFO {'code': 1, 'message': 'CmdbCollectIPAMSegmentIDError', 'data': {}}
+2021-01-13 14:21:46,563 DEFAULT INFO 【测试用例test_132】===============>> 【FAIL！】
+2021-01-13 14:21:46,624 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:26:54,432 DEFAULT INFO method:post
+2021-01-13 14:26:54,432 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:26:54,432 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:26:54,605 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'faa49669-0f7e-4b6f-83b5-34964ca48c30'}}
+2021-01-13 14:26:54,646 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:26:54,683 DEFAULT INFO method:post
+2021-01-13 14:26:54,683 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/split/solution
+2021-01-13 14:26:54,683 DEFAULT INFO data:{'parent_network_segment': '192.168.2.13/24'}
+2021-01-13 14:26:54,718 DEFAULT INFO {'code': 1, 'message': '裂解数量必须是2的次方', 'data': {}}
+2021-01-13 14:26:54,754 DEFAULT INFO 【测试用例test_131】===============>> 【FAIL！】
+2021-01-13 14:26:54,790 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:27:48,152 DEFAULT INFO method:post
+2021-01-13 14:27:48,152 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:27:48,152 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:27:48,340 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8a12fc48-6884-4cce-aa3f-44cb013418f6'}}
+2021-01-13 14:27:48,383 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:27:48,418 DEFAULT INFO method:post
+2021-01-13 14:27:48,418 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/split/solution
+2021-01-13 14:27:48,418 DEFAULT INFO data:{'parent_network_segment': '192.168.2.13/24', 'number': 2}
+2021-01-13 14:27:48,460 DEFAULT INFO {'code': 0, 'message': '', 'data': [{'boardcast': '192.168.2.127', 'gateway': '192.168.2.1', 'host_end_ip': '192.168.2.127', 'host_start_ip': '192.168.2.0', 'network': '192.168.2.0', 'network_segment': '192.168.2.0/25'}, {'boardcast': '192.168.2.255', 'gateway': '192.168.2.129', 'host_end_ip': '192.168.2.255', 'host_start_ip': '192.168.2.128', 'network': '192.168.2.128', 'network_segment': '192.168.2.128/25'}]}
+2021-01-13 14:27:48,494 DEFAULT INFO 【测试用例test_131】===============>> 【FAIL！】
+2021-01-13 14:27:48,530 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:28:48,660 DEFAULT INFO method:post
+2021-01-13 14:28:48,660 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:28:48,660 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:28:48,824 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '6abb915c-4d67-40e6-a64c-a4bcb63bbf19'}}
+2021-01-13 14:28:48,860 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:28:48,898 DEFAULT INFO method:post
+2021-01-13 14:28:48,898 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/split/solution
+2021-01-13 14:28:48,899 DEFAULT INFO data:{'parent_network_segment': '192.168.2.13/24', 'number': 2}
+2021-01-13 14:28:48,934 DEFAULT INFO {'code': 0, 'message': '', 'data': [{'boardcast': '192.168.2.127', 'gateway': '192.168.2.1', 'host_end_ip': '192.168.2.127', 'host_start_ip': '192.168.2.0', 'network': '192.168.2.0', 'network_segment': '192.168.2.0/25'}, {'boardcast': '192.168.2.255', 'gateway': '192.168.2.129', 'host_end_ip': '192.168.2.255', 'host_start_ip': '192.168.2.128', 'network': '192.168.2.128', 'network_segment': '192.168.2.128/25'}]}
+2021-01-13 14:28:48,969 DEFAULT INFO 【测试用例test_131】===============>> 【FAIL！】
+2021-01-13 14:28:49,003 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:29:54,617 DEFAULT INFO method:post
+2021-01-13 14:29:54,617 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:29:54,618 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:29:54,838 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9c46fbf9-d87b-484f-a88f-e8a7b5f16ae5'}}
+2021-01-13 14:29:54,877 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:29:54,912 DEFAULT INFO method:post
+2021-01-13 14:29:54,912 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/split/solution
+2021-01-13 14:29:54,913 DEFAULT INFO data:{'parent_network_segment': '192.168.2.13/24', 'number': 2}
+2021-01-13 14:29:54,953 DEFAULT INFO {'code': 0, 'message': '', 'data': [{'boardcast': '192.168.2.127', 'gateway': '192.168.2.1', 'host_end_ip': '192.168.2.127', 'host_start_ip': '192.168.2.0', 'network': '192.168.2.0', 'network_segment': '192.168.2.0/25'}, {'boardcast': '192.168.2.255', 'gateway': '192.168.2.129', 'host_end_ip': '192.168.2.255', 'host_start_ip': '192.168.2.128', 'network': '192.168.2.128', 'network_segment': '192.168.2.128/25'}]}
+2021-01-13 14:29:54,990 DEFAULT INFO 【测试用例test_131】===============>> 【FAIL！】
+2021-01-13 14:29:55,029 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:32:42,579 DEFAULT INFO method:post
+2021-01-13 14:32:42,579 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:32:42,579 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:32:42,742 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '1c4a4a46-ba10-45ec-a04c-5be49167428d'}}
+2021-01-13 14:32:42,779 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:32:42,815 DEFAULT INFO method:post
+2021-01-13 14:32:42,815 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/split/solution
+2021-01-13 14:32:42,815 DEFAULT INFO data:{'parent_network_segment': '192.168.2.13/24', 'types': 1, 'number': '4'}
+2021-01-13 14:32:42,850 DEFAULT INFO {'code': 0, 'message': '', 'data': [{'boardcast': '192.168.2.63', 'gateway': '192.168.2.1', 'host_end_ip': '192.168.2.63', 'host_start_ip': '192.168.2.0', 'network': '192.168.2.0', 'network_segment': '192.168.2.0/26'}, {'boardcast': '192.168.2.127', 'gateway': '192.168.2.65', 'host_end_ip': '192.168.2.127', 'host_start_ip': '192.168.2.64', 'network': '192.168.2.64', 'network_segment': '192.168.2.64/26'}, {'boardcast': '192.168.2.191', 'gateway': '192.168.2.129', 'host_end_ip': '192.168.2.191', 'host_start_ip': '192.168.2.128', 'network': '192.168.2.128', 'network_segment': '192.168.2.128/26'}, {'boardcast': '192.168.2.255', 'gateway': '192.168.2.193', 'host_end_ip': '192.168.2.255', 'host_start_ip': '192.168.2.192', 'network': '192.168.2.192', 'network_segment': '192.168.2.192/26'}]}
+2021-01-13 14:32:42,884 DEFAULT INFO 【测试用例test_131】===============>> 【FAIL！】
+2021-01-13 14:32:42,921 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:35:21,102 DEFAULT INFO method:post
+2021-01-13 14:35:21,102 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:35:21,102 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:35:21,280 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8aa4dbf7-1bc8-45d7-9118-a2fab48f87f9'}}
+2021-01-13 14:35:21,320 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:35:21,356 DEFAULT INFO method:post
+2021-01-13 14:35:21,356 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/split/solution
+2021-01-13 14:35:21,356 DEFAULT INFO data:{'parent_network_segment': '192.168.2.13/24', 'types': 1, 'number': '4'}
+2021-01-13 14:35:21,394 DEFAULT INFO {'code': 0, 'message': '', 'data': [{'boardcast': '192.168.2.63', 'gateway': '192.168.2.1', 'host_end_ip': '192.168.2.63', 'host_start_ip': '192.168.2.0', 'network': '192.168.2.0', 'network_segment': '192.168.2.0/26'}, {'boardcast': '192.168.2.127', 'gateway': '192.168.2.65', 'host_end_ip': '192.168.2.127', 'host_start_ip': '192.168.2.64', 'network': '192.168.2.64', 'network_segment': '192.168.2.64/26'}, {'boardcast': '192.168.2.191', 'gateway': '192.168.2.129', 'host_end_ip': '192.168.2.191', 'host_start_ip': '192.168.2.128', 'network': '192.168.2.128', 'network_segment': '192.168.2.128/26'}, {'boardcast': '192.168.2.255', 'gateway': '192.168.2.193', 'host_end_ip': '192.168.2.255', 'host_start_ip': '192.168.2.192', 'network': '192.168.2.192', 'network_segment': '192.168.2.192/26'}]}
+2021-01-13 14:35:21,431 DEFAULT INFO 【测试用例test_131】===============>> 【PASS！】
+2021-01-13 14:35:21,469 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 14:36:36,596 DEFAULT INFO method:post
+2021-01-13 14:36:36,596 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:36:36,596 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:36:36,755 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'cc8df087-b974-4eab-9bcc-44ef5ae863b4'}}
+2021-01-13 14:36:36,794 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:36:36,831 DEFAULT INFO method:post
+2021-01-13 14:36:36,831 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/split
+2021-01-13 14:36:36,831 DEFAULT INFO data:{'parent_network_segment': '192.168.2.13/24', 'list': [{'network_segment': '192.168.2.0/25'}, {'network_segment': '192.168.2.128/25'}]}
+2021-01-13 14:36:37,515 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 14:36:37,553 DEFAULT INFO 【测试用例test_132】===============>> 【PASS！】
+2021-01-13 14:36:37,589 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 14:40:51,768 DEFAULT INFO method:post
+2021-01-13 14:40:51,768 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:40:51,768 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:40:51,948 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ee23c239-6645-42cc-8b06-47e4d73d9ec8'}}
+2021-01-13 14:40:51,990 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:40:52,025 DEFAULT INFO method:post
+2021-01-13 14:40:52,025 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/merge
+2021-01-13 14:40:52,025 DEFAULT INFO data:{'ids': ['192.168.2.0']}
+2021-01-13 14:40:52,066 DEFAULT INFO {'code': 1, 'message': 'CmdbCollectIPAMSegmentIDError', 'data': {}}
+2021-01-13 14:40:52,102 DEFAULT INFO 【测试用例test_133】===============>> 【FAIL！】
+2021-01-13 14:40:52,136 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:43:10,184 DEFAULT INFO method:post
+2021-01-13 14:43:10,184 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:43:10,184 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:43:10,359 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5f28fb3e-6e3e-4704-a459-14bc7ded3201'}}
+2021-01-13 14:43:10,400 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:43:10,439 DEFAULT INFO method:post
+2021-01-13 14:43:10,439 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/merge
+2021-01-13 14:43:10,439 DEFAULT INFO data:{'ids': [11]}
+2021-01-13 14:43:10,504 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 14:43:10,541 DEFAULT INFO 【测试用例test_133】===============>> 【PASS！】
+2021-01-13 14:43:10,579 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 14:46:00,681 DEFAULT INFO method:post
+2021-01-13 14:46:00,681 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:46:00,682 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:46:00,860 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '0f7e23fd-35ba-4fe5-b6e7-0ed85d0d75db'}}
+2021-01-13 14:46:00,899 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:46:00,933 DEFAULT INFO method:post
+2021-01-13 14:46:00,933 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/scan
+2021-01-13 14:46:00,934 DEFAULT INFO data:{'id_list': [12]}
+2021-01-13 14:46:00,963 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 14:46:00,998 DEFAULT INFO 【测试用例test_134】===============>> 【FAIL！】
+2021-01-13 14:46:01,033 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:46:25,266 DEFAULT INFO method:post
+2021-01-13 14:46:25,266 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:46:25,266 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:46:25,464 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '2a04c558-ec1c-4b98-ae64-dc0235e6af83'}}
+2021-01-13 14:46:25,507 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:46:25,544 DEFAULT INFO method:post
+2021-01-13 14:46:25,544 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/scan
+2021-01-13 14:46:25,544 DEFAULT INFO data:{'id_list': [12]}
+2021-01-13 14:46:25,585 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 14:46:25,625 DEFAULT INFO 【测试用例test_134】===============>> 【PASS！】
+2021-01-13 14:46:25,664 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 14:49:38,790 DEFAULT INFO method:post
+2021-01-13 14:49:38,791 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:49:38,791 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:49:38,942 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8850ec36-8586-4ec8-847c-83f00e34a409'}}
+2021-01-13 14:49:38,979 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:49:39,019 DEFAULT INFO method:post
+2021-01-13 14:49:39,019 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/ip/status/set
+2021-01-13 14:49:39,019 DEFAULT INFO data:{}
+2021-01-13 14:49:39,049 DEFAULT INFO {'code': 2, 'message': 'binding ids: missing required parameter', 'data': {}}
+2021-01-13 14:49:39,085 DEFAULT INFO 【测试用例test_135】===============>> 【FAIL！】
+2021-01-13 14:49:39,131 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:52:02,835 DEFAULT INFO method:post
+2021-01-13 14:52:02,835 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:52:02,835 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:52:03,024 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '3aeb1a5c-ae38-4acf-8895-a3139bd81ae5'}}
+2021-01-13 14:52:03,068 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:52:03,104 DEFAULT INFO method:post
+2021-01-13 14:52:03,104 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/ip/status/set
+2021-01-13 14:52:03,104 DEFAULT INFO data:{'ids': [1024], 'status': 'unused'}
+2021-01-13 14:52:03,144 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 14:52:03,177 DEFAULT INFO 【测试用例test_135】===============>> 【PASS！】
+2021-01-13 14:52:03,212 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 14:53:11,869 DEFAULT INFO method:post
+2021-01-13 14:53:11,869 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:53:11,869 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:53:12,032 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ba043170-9406-4f5e-94c2-9074dda804d3'}}
+2021-01-13 14:53:12,072 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:53:12,110 DEFAULT INFO method:post
+2021-01-13 14:53:12,110 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/set/detail
+2021-01-13 14:53:12,110 DEFAULT INFO data:{}
+2021-01-13 14:53:12,142 DEFAULT ERROR Extra data: line 1 column 5 (char 4)
+2021-01-13 14:53:12,142 DEFAULT INFO 响应失败！
+2021-01-13 14:53:12,181 DEFAULT INFO 【测试用例test_136】===============>> 【FAIL！】
+2021-01-13 14:53:12,216 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:53:46,260 DEFAULT INFO method:post
+2021-01-13 14:53:46,261 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:53:46,261 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:53:46,438 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'c7c94c3c-ff00-4b1e-8aae-c52818d8815e'}}
+2021-01-13 14:53:46,479 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:53:46,518 DEFAULT INFO method:post
+2021-01-13 14:53:46,519 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/set/detail
+2021-01-13 14:53:46,519 DEFAULT INFO data:{}
+2021-01-13 14:53:46,552 DEFAULT ERROR Extra data: line 1 column 5 (char 4)
+2021-01-13 14:53:46,552 DEFAULT INFO 响应失败！
+2021-01-13 14:53:46,590 DEFAULT INFO 【测试用例test_136】===============>> 【FAIL！】
+2021-01-13 14:53:46,631 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:56:28,381 DEFAULT INFO method:post
+2021-01-13 14:56:28,381 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:56:28,381 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:56:28,549 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '649347b6-ada9-4f43-a571-7c75eb18eae5'}}
+2021-01-13 14:56:28,593 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:56:28,630 DEFAULT INFO method:get
+2021-01-13 14:56:28,630 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/set/detail
+2021-01-13 14:56:28,630 DEFAULT INFO data:{}
+2021-01-13 14:56:28,668 DEFAULT INFO {'code': 0, 'message': '', 'data': {'setting': '{"auto_switch":0,"time_type":[],"inform_type":[],"inform_user_list":[],"inform_user_group_list":[],"inform_way_list":[],"cycle_rule":"","discovery_network":[{"id":"1607504623935WgjG2Yk31S","ip":"192.168.2.2","vourcher":326}]}'}}
+2021-01-13 14:56:28,704 DEFAULT INFO 【测试用例test_136】===============>> 【PASS！】
+2021-01-13 14:56:28,738 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 14:59:36,103 DEFAULT INFO method:post
+2021-01-13 14:59:36,104 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:59:36,104 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:59:36,282 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '20746e42-549c-489f-bbea-6f38c4de12da'}}
+2021-01-13 14:59:36,323 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:59:36,362 DEFAULT INFO method:post
+2021-01-13 14:59:36,362 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/delete
+2021-01-13 14:59:36,362 DEFAULT INFO data:{'id_list': [7]}
+2021-01-13 14:59:36,394 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 14:59:36,443 DEFAULT INFO 【测试用例test_129】===============>> 【FAIL！】
+2021-01-13 14:59:36,496 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 14:59:57,005 DEFAULT INFO method:post
+2021-01-13 14:59:57,005 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 14:59:57,005 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 14:59:57,535 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'a615b760-c45e-43bb-b12b-ac82f944ff52'}}
+2021-01-13 14:59:57,574 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 14:59:57,613 DEFAULT INFO method:post
+2021-01-13 14:59:57,613 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/segment/delete
+2021-01-13 14:59:57,613 DEFAULT INFO data:{'id_list': [7]}
+2021-01-13 14:59:57,651 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 14:59:57,688 DEFAULT INFO 【测试用例test_129】===============>> 【PASS！】
+2021-01-13 14:59:57,722 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 15:01:53,195 DEFAULT INFO method:post
+2021-01-13 15:01:53,195 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:01:53,195 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:01:53,362 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd1595a6a-1c45-429c-8659-44a4a634ca5f'}}
+2021-01-13 15:01:53,401 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:01:53,441 DEFAULT INFO method:post
+2021-01-13 15:01:53,442 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/category/delete
+2021-01-13 15:01:53,442 DEFAULT INFO data:{'id': 10295}
+2021-01-13 15:01:53,484 DEFAULT INFO {'code': 1, 'message': 'CmdbCollectIPAMCategoryExistsSegmentError', 'data': {}}
+2021-01-13 15:01:53,519 DEFAULT INFO 【测试用例test_125】===============>> 【FAIL！】
+2021-01-13 15:01:53,555 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:03:10,159 DEFAULT INFO method:post
+2021-01-13 15:03:10,159 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:03:10,159 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:03:10,326 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '63ac9a6b-e92a-4430-b47c-7bd1bd16fe52'}}
+2021-01-13 15:03:10,367 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:03:10,403 DEFAULT INFO method:post
+2021-01-13 15:03:10,403 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/category/delete
+2021-01-13 15:03:10,403 DEFAULT INFO data:{'id': 10295}
+2021-01-13 15:03:10,446 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 15:03:10,482 DEFAULT INFO 【测试用例test_125】===============>> 【PASS！】
+2021-01-13 15:03:10,518 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 15:03:13,380 DEFAULT INFO method:post
+2021-01-13 15:03:13,381 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:03:13,381 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:03:13,556 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5d8c97a9-e21d-4edb-a435-80a9fd423ace'}}
+2021-01-13 15:03:13,598 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:03:13,644 DEFAULT INFO method:post
+2021-01-13 15:03:13,644 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/category/delete
+2021-01-13 15:03:13,644 DEFAULT INFO data:{'id': 10295}
+2021-01-13 15:03:13,683 DEFAULT INFO {'code': 1, 'message': 'CmdbCollectCategoryIDError', 'data': {}}
+2021-01-13 15:03:13,719 DEFAULT INFO 【测试用例test_125】===============>> 【FAIL！】
+2021-01-13 15:03:13,756 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:03:19,722 DEFAULT INFO method:post
+2021-01-13 15:03:19,722 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:03:19,722 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:03:19,902 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '2dc57a8e-9bcd-4a2c-8f3e-14b2093f8694'}}
+2021-01-13 15:03:19,941 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:03:19,978 DEFAULT INFO method:post
+2021-01-13 15:03:19,978 DEFAULT INFO url:https://192.168.1.205/api/cmdb/ipam/category/delete
+2021-01-13 15:03:19,978 DEFAULT INFO data:{'id': 10295}
+2021-01-13 15:03:20,015 DEFAULT INFO {'code': 1, 'message': 'CmdbCollectCategoryIDError', 'data': {}}
+2021-01-13 15:03:20,050 DEFAULT INFO 【测试用例test_125】===============>> 【FAIL！】
+2021-01-13 15:03:20,086 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:07:44,070 DEFAULT INFO method:post
+2021-01-13 15:07:44,070 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:07:44,070 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:07:44,240 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '2fba183b-c124-4cae-ab9a-29f7657521eb'}}
+2021-01-13 15:07:44,281 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:07:44,318 DEFAULT INFO method:get
+2021-01-13 15:07:44,318 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/template-view/list
+2021-01-13 15:07:44,319 DEFAULT INFO data:{'limit': 10, 'offset': 0}
+2021-01-13 15:07:44,353 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 15:07:44,388 DEFAULT INFO 【测试用例test_139】===============>> 【FAIL！】
+2021-01-13 15:07:44,422 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:08:11,051 DEFAULT INFO method:post
+2021-01-13 15:08:11,051 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:08:11,051 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:08:11,224 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'db52daac-3d8b-44d9-aecf-657974d3ca31'}}
+2021-01-13 15:08:11,265 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:08:11,304 DEFAULT INFO method:get
+2021-01-13 15:08:11,304 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/template-view/list
+2021-01-13 15:08:11,305 DEFAULT INFO data:{'limit': 10, 'offset': 0}
+2021-01-13 15:08:11,353 DEFAULT INFO {'code': 0, 'message': '', 'data': {'count': 9, 'list': [{'id': 15, 'view_type': 'model', 'name': 'Kubernetes_Node', 'levels': [{'level_uuid': '1598578887027XYvdhDmXA0', 'level_title': '节点（Node）', 'level_models': [{'model_id': 71, 'relation_ids': [702], 'first_show_attr': [7011], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1598578936875hTgZMZiLcr', 'level_title': '容器组（Pod）', 'level_models': [{'model_id': 72, 'relation_ids': [703], 'first_show_attr': [7049], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1598578986402dXXBoJpe4B', 'level_title': '容器（Container）', 'level_models': [{'model_id': 73, 'relation_ids': [], 'first_show_attr': [7075], 'category_attr_id': 0, 'category_attr_value': None}]}]}, {'id': 16, 'view_type': 'model', 'name': 'Kubernetes_Pod', 'levels': [{'level_uuid': '1598579228651glUg0JkboN', 'level_title': '层级1', 'level_models': [{'model_id': 72, 'relation_ids': [703], 'first_show_attr': [7049], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1598579252331pjV7g3Vg5h', 'level_title': '层级2', 'level_models': [{'model_id': 73, 'relation_ids': [], 'first_show_attr': [7075], 'category_attr_id': 0, 'category_attr_value': None}]}]}, {'id': 17, 'view_type': 'model', 'name': 'Kubernetes视图', 'levels': [{'level_uuid': '1598342857884ebhPY4OdWx', 'level_title': '集群（Cluster）', 'level_models': [{'model_id': 70, 'relation_ids': [710], 'first_show_attr': [7000], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1606286075494t5TAPwcB1F', 'level_title': '命名空间（Namespace）', 'level_models': [{'model_id': 75, 'relation_ids': [707], 'first_show_attr': [7093], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1606287058177Ina9yJorybK', 'level_title': '服务（Service）', 'level_models': [{'model_id': 74, 'relation_ids': [708], 'first_show_attr': [7082], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1606293036227CvQIqWduNR', 'level_title': '节点（Node）', 'level_models': [{'model_id': 71, 'relation_ids': [702], 'first_show_attr': [7011], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1598343035188EbbjtJYdQR', 'level_title': '容器组（Pod）', 'level_models': [{'model_id': 72, 'relation_ids': [703], 'first_show_attr': [7048], 'category_attr_id': 0, 'category_attr_value': None}]}]}, {'id': 18, 'view_type': 'model', 'name': '业务系统视图', 'levels': [{'level_uuid': '1603270932481IQI191pZFm', 'level_title': '业务系统', 'level_models': [{'model_id': 137, 'relation_ids': [1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1030, 1029, 1031, 1032], 'first_show_attr': [10342], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1603270985930PTH2RGMFQ8', 'level_title': '负载均衡', 'level_models': [{'model_id': 130, 'relation_ids': [], 'first_show_attr': [10214, 10216], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 131, 'relation_ids': [], 'first_show_attr': [10221, 10223], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 132, 'relation_ids': [], 'first_show_attr': [10228], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 133, 'relation_ids': [], 'first_show_attr': [10229], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1603271161097iMGoJJ7jd7', 'level_title': '数据库', 'level_models': [{'model_id': 110, 'relation_ids': [], 'first_show_attr': [10051], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 111, 'relation_ids': [], 'first_show_attr': [10054], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 113, 'relation_ids': [], 'first_show_attr': [10060], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 114, 'relation_ids': [1020], 'first_show_attr': [10063], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 115, 'relation_ids': [], 'first_show_attr': [10066], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 134, 'relation_ids': [1022], 'first_show_attr': [10251], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1603271381737PDgwy1JWoo', 'level_title': 'Web服务', 'level_models': [{'model_id': 108, 'relation_ids': [], 'first_show_attr': [10045], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 109, 'relation_ids': [], 'first_show_attr': [10048], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 117, 'relation_ids': [], 'first_show_attr': [10072], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 119, 'relation_ids': [], 'first_show_attr': [10078], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1603272026585uHxxjMk603', 'level_title': '操作系统', 'level_models': [{'model_id': 128, 'relation_ids': [], 'first_show_attr': [10108, 10202], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 127, 'relation_ids': [], 'first_show_attr': [10107, 8063, 10207], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '16087085822382ctorSr0eI8', 'level_title': '层级6', 'level_models': [{'model_id': 22, 'relation_ids': [], 'first_show_attr': [2200], 'category_attr_id': 0, 'category_attr_value': []}, {'model_id': 9, 'relation_ids': [], 'first_show_attr': [900], 'category_attr_id': 0, 'category_attr_value': []}, {'model_id': 8, 'relation_ids': [], 'first_show_attr': [800], 'category_attr_id': 0, 'category_attr_value': []}]}]}, {'id': 19, 'view_type': 'model', 'name': 'Kubernetes_namespace', 'levels': [{'level_uuid': '1603945868155ikBBJv7KBF', 'level_title': '命名空间（Namespace）', 'level_models': [{'model_id': 75, 'relation_ids': [707, 709], 'first_show_attr': [7093], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1603945902762F8Q3iKdnll', 'level_title': '服务（Service）', 'level_models': [{'model_id': 74, 'relation_ids': [708], 'first_show_attr': [7082], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1603945991905TYVmq9bO4u', 'level_title': '节点（Node）', 'level_models': [{'model_id': 71, 'relation_ids': [702], 'first_show_attr': [7011], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '16039460863869TW0pKe0UZ', 'level_title': '容器组（Pod）', 'level_models': [{'model_id': 72, 'relation_ids': [], 'first_show_attr': [7049], 'category_attr_id': 0, 'category_attr_value': None}]}]}, {'id': 20, 'view_type': 'model', 'name': 'Kubernetes_service', 'levels': [{'level_uuid': '1603946150078WKmnmJEpm7', 'level_title': '服务（Service）', 'level_models': [{'model_id': 74, 'relation_ids': [708], 'first_show_attr': [7082], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1603946182694xLqJb2LsIV', 'level_title': '节点（Node）', 'level_models': [{'model_id': 71, 'relation_ids': [702], 'first_show_attr': [7011], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '16039462166577dYiTQjYWO', 'level_title': '容器组（Pod）', 'level_models': [{'model_id': 72, 'relation_ids': [], 'first_show_attr': [7049], 'category_attr_id': 0, 'category_attr_value': None}]}]}, {'id': 21, 'view_type': 'model', 'name': '云平台', 'levels': [{'level_uuid': '1606791905788bowdaF2TpB', 'level_title': '层级1', 'level_models': [{'model_id': 70, 'relation_ids': [701, 704, 705, 710, 711], 'first_show_attr': [7000], 'category_attr_id': 0, 'category_attr_value': None}]}, {'level_uuid': '1606791923282CxIdrQLXbk', 'level_title': '层级2', 'level_models': [{'model_id': 71, 'relation_ids': [], 'first_show_attr': [7010], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 72, 'relation_ids': [], 'first_show_attr': [7045], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 73, 'relation_ids': [], 'first_show_attr': [7070], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 74, 'relation_ids': [], 'first_show_attr': [7082], 'category_attr_id': 0, 'category_attr_value': None}, {'model_id': 75, 'relation_ids': [], 'first_show_attr': [7102], 'category_attr_id': 0, 'category_attr_value': None}]}]}, {'id': 24, 'view_type': 'model', 'name': 'CDH', 'levels': [{'level_uuid': '1609211297288OBg1F4r1ord', 'level_title': 'Hbase', 'level_models': [{'model_id': 1020, 'relation_ids': [], 'first_show_attr': [10569], 'category_attr_id': 0, 'category_attr_value': []}]}, {'level_uuid': '1609211303315tkaEi1VlWm', 'level_title': 'NODE', 'level_models': [{'model_id': 71, 'relation_ids': [], 'first_show_attr': [7010], 'category_attr_id': 0, 'category_attr_value': []}]}]}, {'id': 25, 'view_type': 'model', 'name': '网络设备', 'levels': [{'level_uuid': '1609986430605wiCxC9borWD', 'level_title': '层级1', 'level_models': [{'model_id': 22, 'relation_ids': [1041], 'first_show_attr': [2200], 'category_attr_id': 0, 'category_attr_value': []}]}, {'level_uuid': '1609986444714248Q9rgKbD', 'level_title': '层级2', 'level_models': [{'model_id': 1, 'relation_ids': [], 'first_show_attr': [100], 'category_attr_id': 0, 'category_attr_value': []}]}]}]}}
+2021-01-13 15:08:11,399 DEFAULT INFO 【测试用例test_139】===============>> 【PASS！】
+2021-01-13 15:08:11,436 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 15:14:37,480 DEFAULT INFO method:post
+2021-01-13 15:14:37,480 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:14:37,480 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:14:37,662 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '7fa61f65-9aec-4ee0-923b-8634d2e234b1'}}
+2021-01-13 15:14:37,709 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:14:37,746 DEFAULT INFO method:post
+2021-01-13 15:14:37,746 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/template-view/save
+2021-01-13 15:14:37,747 DEFAULT INFO data:{'id': 0, 'view_type': 'model', 'name': '11', 'levels': [{'level_uuid': '1610522015742e36ky3rHBw', 'level_title': '层级1', 'level_models': [{'model_id': 1, 'relation_ids': [], 'first_show_attr': [100], 'category_attr_id': [], 'category_attr_value': []}]}]}
+2021-01-13 15:14:37,788 DEFAULT INFO {'code': 1, 'message': 'CmdbViewTemplateDuplicateViewName: 11', 'data': {}}
+2021-01-13 15:14:37,826 DEFAULT INFO 【测试用例test_137】===============>> 【FAIL！】
+2021-01-13 15:14:37,869 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:14:44,168 DEFAULT INFO method:post
+2021-01-13 15:14:44,168 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:14:44,168 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:14:44,349 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5960d381-d9cc-4d71-a9af-6d6659181477'}}
+2021-01-13 15:14:44,386 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:14:44,421 DEFAULT INFO method:post
+2021-01-13 15:14:44,421 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/template-view/save
+2021-01-13 15:14:44,421 DEFAULT INFO data:{'id': 0, 'view_type': 'model', 'name': '11', 'levels': [{'level_uuid': '1610522015742e36ky3rHBw', 'level_title': '层级1', 'level_models': [{'model_id': 1, 'relation_ids': [], 'first_show_attr': [100], 'category_attr_id': [], 'category_attr_value': []}]}]}
+2021-01-13 15:14:44,463 DEFAULT INFO {'code': 1, 'message': 'CmdbViewTemplateDuplicateViewName: 11', 'data': {}}
+2021-01-13 15:14:44,497 DEFAULT INFO 【测试用例test_137】===============>> 【FAIL！】
+2021-01-13 15:14:44,534 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:15:07,601 DEFAULT INFO method:post
+2021-01-13 15:15:07,602 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:15:07,602 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:15:07,946 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '260af93b-cff3-428b-abb6-55d041156304'}}
+2021-01-13 15:15:07,983 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:15:08,023 DEFAULT INFO method:post
+2021-01-13 15:15:08,024 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/template-view/save
+2021-01-13 15:15:08,024 DEFAULT INFO data:{'id': 0, 'view_type': 'model', 'name': '11', 'levels': [{'level_uuid': '1610522015742e36ky3rHBw', 'level_title': '层级1', 'level_models': [{'model_id': 1, 'relation_ids': [], 'first_show_attr': [100], 'category_attr_id': [], 'category_attr_value': []}]}]}
+2021-01-13 15:15:08,094 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 27}}
+2021-01-13 15:15:08,131 DEFAULT INFO 【测试用例test_137】===============>> 【PASS！】
+2021-01-13 15:15:08,170 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 15:16:41,454 DEFAULT INFO method:post
+2021-01-13 15:16:41,455 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:16:41,455 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:16:41,645 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '484b412a-8d56-4a93-92fd-ac2d3d2ade5a'}}
+2021-01-13 15:16:41,692 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:16:41,730 DEFAULT INFO method:get
+2021-01-13 15:16:41,730 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/template-view/detail
+2021-01-13 15:16:41,730 DEFAULT INFO data:{'id': 27}
+2021-01-13 15:16:41,763 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 15:16:41,799 DEFAULT INFO 【测试用例test_140】===============>> 【FAIL！】
+2021-01-13 15:16:41,843 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:17:03,147 DEFAULT INFO method:post
+2021-01-13 15:17:03,147 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:17:03,147 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:17:03,333 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8c431b73-efa5-4d7e-a8f6-ef4d0112ef67'}}
+2021-01-13 15:17:03,381 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:17:03,417 DEFAULT INFO method:get
+2021-01-13 15:17:03,417 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/template-view/detail
+2021-01-13 15:17:03,417 DEFAULT INFO data:{'id': 27}
+2021-01-13 15:17:03,462 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 27, 'view_type': 'model', 'name': '11', 'levels': [{'level_uuid': '1610522015742e36ky3rHBw', 'level_title': '层级1', 'level_models': [{'model_id': 1, 'relation_ids': [], 'first_show_attr': [100], 'category_attr_id': 0, 'category_attr_value': []}]}]}}
+2021-01-13 15:17:03,500 DEFAULT INFO 【测试用例test_140】===============>> 【PASS！】
+2021-01-13 15:17:03,539 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 15:18:18,464 DEFAULT INFO method:post
+2021-01-13 15:18:18,464 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:18:18,464 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:18:18,639 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9086de45-9998-4839-b284-acf26a47950d'}}
+2021-01-13 15:18:18,693 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:18:18,733 DEFAULT INFO method:post
+2021-01-13 15:18:18,733 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/template-view/delete
+2021-01-13 15:18:18,733 DEFAULT INFO data:{'id_list': [27]}
+2021-01-13 15:18:18,782 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 15:18:18,818 DEFAULT INFO 【测试用例test_138】===============>> 【PASS！】
+2021-01-13 15:18:18,853 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 15:22:04,027 DEFAULT INFO method:post
+2021-01-13 15:22:04,027 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:22:04,027 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:22:04,206 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd2bd1d34-35de-489d-ac82-df227a1e5cf6'}}
+2021-01-13 15:22:04,250 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:22:04,285 DEFAULT INFO method:get
+2021-01-13 15:22:04,285 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/support/service/list
+2021-01-13 15:22:04,285 DEFAULT INFO data:{}
+2021-01-13 15:22:04,318 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 15:22:04,352 DEFAULT INFO 【测试用例test_142】===============>> 【FAIL！】
+2021-01-13 15:22:04,390 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:22:26,855 DEFAULT INFO method:post
+2021-01-13 15:22:26,855 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:22:26,855 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:22:27,014 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'e8715780-e283-4a03-b3a8-9a72c2f4be94'}}
+2021-01-13 15:22:27,058 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:22:27,096 DEFAULT INFO method:get
+2021-01-13 15:22:27,096 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/support/service/list
+2021-01-13 15:22:27,096 DEFAULT INFO data:{}
+2021-01-13 15:22:27,137 DEFAULT INFO {'code': 0, 'message': '', 'data': {'cloud_list': [{'cloud_type': '公有云', 'cloud': '阿里云', 'name': 'ECS', 'url': 'ecs.aliyuncs.com'}, {'cloud_type': '公有云', 'cloud': '阿里云', 'name': 'OSS', 'url': 'oss.aliyuncs.com'}, {'cloud_type': '公有云', 'cloud': '阿里云', 'name': 'RDS', 'url': 'rds.aliyuncs.com'}, {'cloud_type': '公有云', 'cloud': '阿里云', 'name': 'REDIS', 'url': 'r-kvstore.aliyuncs.com'}, {'cloud_type': '公有云', 'cloud': '阿里云', 'name': 'SLB', 'url': 'slb.aliyuncs.com'}, {'cloud_type': '公有云', 'cloud': '腾讯云', 'name': 'CVM', 'url': 'cvm.tencentcloudapi.com'}, {'cloud_type': '公有云', 'cloud': '腾讯云', 'name': 'CDB', 'url': 'cdb.tencentcloudapi.com'}, {'cloud_type': '公有云', 'cloud': '腾讯云', 'name': 'SQLSERVER', 'url': 'sqlserver.tencentcloudapi.com'}, {'cloud_type': '公有云', 'cloud': '腾讯云', 'name': 'POSTGRESQL', 'url': 'postgres.tencentcloudapi.com'}, {'cloud_type': '公有云', 'cloud': '腾讯云', 'name': 'REDIS', 'url': 'redis.tencentcloudapi.com'}, {'cloud_type': '公有云', 'cloud': '腾讯云', 'name': 'CLB', 'url': 'clb.tencentcloudapi.com'}]}}
+2021-01-13 15:22:27,175 DEFAULT INFO 【测试用例test_142】===============>> 【PASS！】
+2021-01-13 15:22:27,212 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 15:43:45,107 DEFAULT INFO method:post
+2021-01-13 15:43:45,107 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:43:45,107 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:43:45,286 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9406b261-8899-43fa-9bba-4662eb914ace'}}
+2021-01-13 15:43:45,331 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:43:45,380 DEFAULT INFO method:post
+2021-01-13 15:43:45,380 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/detection
+2021-01-13 15:43:45,380 DEFAULT INFO data:{'cloud_type': '公有云', 'cloud': '阿里云', 'service_name': 'ECS', 'url': 'ecs.aliyuncs.com', 'auth': [11], 'cloud_id': 6000}
+2021-01-13 15:43:45,722 DEFAULT INFO {'code': 1, 'message': "invalid character '<' looking for beginning of value", 'data': {}}
+2021-01-13 15:43:45,765 DEFAULT INFO 【测试用例test_141】===============>> 【FAIL！】
+2021-01-13 15:43:45,806 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:47:50,163 DEFAULT INFO method:post
+2021-01-13 15:47:50,163 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:47:50,163 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:47:50,344 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'f594c02f-e77c-441d-b2d0-c17db7000bd1'}}
+2021-01-13 15:47:50,387 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:47:50,423 DEFAULT INFO method:post
+2021-01-13 15:47:50,423 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/sync/switch
+2021-01-13 15:47:50,423 DEFAULT INFO data:{'cloud_id': 6000, 'switch': 0}
+2021-01-13 15:47:50,539 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 15:47:50,575 DEFAULT INFO 【测试用例test_143】===============>> 【PASS！】
+2021-01-13 15:47:50,615 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 15:49:12,387 DEFAULT INFO method:post
+2021-01-13 15:49:12,387 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:49:12,387 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:49:12,557 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9084a4d8-5544-4b58-acb0-ba0983f7c2bd'}}
+2021-01-13 15:49:12,603 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:49:12,638 DEFAULT INFO method:post
+2021-01-13 15:49:12,638 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/scan/start
+2021-01-13 15:49:12,638 DEFAULT INFO data:{'cloud_id': 6000, 'service': 'ECS'}
+2021-01-13 15:49:12,669 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 15:49:12,702 DEFAULT INFO 【测试用例test_144】===============>> 【FAIL！】
+2021-01-13 15:49:12,738 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:49:35,980 DEFAULT INFO method:post
+2021-01-13 15:49:35,980 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:49:35,980 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:49:36,164 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '05307faf-f518-4b6e-9503-d6cb6feb5db6'}}
+2021-01-13 15:49:36,208 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:49:36,245 DEFAULT INFO method:post
+2021-01-13 15:49:36,245 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/scan/start
+2021-01-13 15:49:36,245 DEFAULT INFO data:{'cloud_id': 6000, 'service': 'ECS'}
+2021-01-13 15:49:36,561 DEFAULT INFO {'code': 1, 'message': "invalid character '<' looking for beginning of value", 'data': {}}
+2021-01-13 15:49:36,599 DEFAULT INFO 【测试用例test_144】===============>> 【FAIL！】
+2021-01-13 15:49:36,639 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:50:25,637 DEFAULT INFO method:post
+2021-01-13 15:50:25,637 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:50:25,637 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:50:25,796 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '6dad26d4-dceb-460f-a413-a1b7d42532d2'}}
+2021-01-13 15:50:25,838 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:50:25,875 DEFAULT INFO method:post
+2021-01-13 15:50:25,875 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/scan/start
+2021-01-13 15:50:25,875 DEFAULT INFO data:{'cloud_id': 5939, 'service': 'ECS'}
+2021-01-13 15:50:25,934 DEFAULT INFO {'code': 1, 'message': "invalid character '<' looking for beginning of value", 'data': {}}
+2021-01-13 15:50:25,971 DEFAULT INFO 【测试用例test_144】===============>> 【FAIL！】
+2021-01-13 15:50:26,008 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:51:24,571 DEFAULT INFO method:post
+2021-01-13 15:51:24,571 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:51:24,572 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:51:24,748 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '2dc791d1-19b6-4039-8587-86b7bbd4385a'}}
+2021-01-13 15:51:24,791 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:51:24,830 DEFAULT INFO method:post
+2021-01-13 15:51:24,830 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/scan/start
+2021-01-13 15:51:24,830 DEFAULT INFO data:{'cloud_id': 5939, 'service': 'ECS'}
+2021-01-13 15:51:24,885 DEFAULT INFO {'code': 1, 'message': "invalid character '<' looking for beginning of value", 'data': {}}
+2021-01-13 15:51:24,921 DEFAULT INFO 【测试用例test_144】===============>> 【FAIL！】
+2021-01-13 15:51:24,956 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:51:55,558 DEFAULT INFO method:post
+2021-01-13 15:51:55,558 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:51:55,558 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:51:55,718 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '5eb5c458-a321-4aa5-91d0-16ab1b608ad3'}}
+2021-01-13 15:51:55,762 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:51:55,801 DEFAULT INFO method:post
+2021-01-13 15:51:55,801 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/scan/start
+2021-01-13 15:51:55,802 DEFAULT INFO data:{'cloud_id': '5939', 'service': 'ECS'}
+2021-01-13 15:51:55,849 DEFAULT INFO {'code': 1, 'message': "invalid character '<' looking for beginning of value", 'data': {}}
+2021-01-13 15:51:55,885 DEFAULT INFO 【测试用例test_144】===============>> 【FAIL！】
+2021-01-13 15:51:55,924 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:54:18,334 DEFAULT INFO method:post
+2021-01-13 15:54:18,334 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:54:18,334 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:54:18,507 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '63ac7250-757a-4669-95f5-17ae972068d4'}}
+2021-01-13 15:54:18,551 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:54:18,587 DEFAULT INFO method:get
+2021-01-13 15:54:18,587 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/scan/list
+2021-01-13 15:54:18,587 DEFAULT INFO data:{'cloud_id': 6000, 'service': 'ESC', 'limit': 10, 'offset': 0}
+2021-01-13 15:54:18,634 DEFAULT INFO {'code': 1, 'message': 'CmdbCloudNotSupported: 192.168.1.127', 'data': {}}
+2021-01-13 15:54:18,670 DEFAULT INFO 【测试用例test_145】===============>> 【FAIL！】
+2021-01-13 15:54:18,707 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:58:01,107 DEFAULT INFO method:post
+2021-01-13 15:58:01,107 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:58:01,107 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:58:01,324 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '27972ec3-1463-4fd9-8354-b25454c20fc9'}}
+2021-01-13 15:58:01,364 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:58:01,399 DEFAULT INFO method:get
+2021-01-13 15:58:01,399 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/scan/list
+2021-01-13 15:58:01,399 DEFAULT INFO data:{'cloud_id': 5968, 'service': 'ESC', 'limit': 10, 'offset': 0}
+2021-01-13 15:58:01,477 DEFAULT INFO {'code': 1, 'message': '无效的组件名: ESC', 'data': {}}
+2021-01-13 15:58:01,516 DEFAULT INFO 【测试用例test_145】===============>> 【FAIL！】
+2021-01-13 15:58:01,559 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 15:58:30,553 DEFAULT INFO method:post
+2021-01-13 15:58:30,553 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 15:58:30,553 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 15:58:30,725 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9f4d5909-4b15-4275-a460-cf75f58d7375'}}
+2021-01-13 15:58:30,768 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 15:58:30,803 DEFAULT INFO method:get
+2021-01-13 15:58:30,803 DEFAULT INFO url:https://192.168.1.205/api/cmdb/cloud/scan/list
+2021-01-13 15:58:30,803 DEFAULT INFO data:{'cloud_id': 5968, 'service': 'geesunn-test', 'limit': 10, 'offset': 0}
+2021-01-13 15:58:30,846 DEFAULT INFO {'code': 1, 'message': '无效的组件名: GEESUNN-TEST', 'data': {}}
+2021-01-13 15:58:30,880 DEFAULT INFO 【测试用例test_145】===============>> 【FAIL！】
+2021-01-13 15:58:30,918 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 16:06:11,185 DEFAULT INFO method:post
+2021-01-13 16:06:11,185 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:06:11,185 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:06:12,270 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '33cab207-f6e7-47d8-b72d-2592be2af422'}}
+2021-01-13 16:06:12,311 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:06:12,345 DEFAULT INFO method:get
+2021-01-13 16:06:12,346 DEFAULT INFO url:https://192.168.1.205/api/cmdb/collector/summary
+2021-01-13 16:06:12,346 DEFAULT INFO data:{}
+2021-01-13 16:06:12,393 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 16:06:12,428 DEFAULT INFO 【测试用例test_148】===============>> 【FAIL！】
+2021-01-13 16:06:12,464 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 16:06:36,550 DEFAULT INFO method:post
+2021-01-13 16:06:36,551 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:06:36,551 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:06:36,759 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '4973ce62-c2e4-426f-a081-3479892fac42'}}
+2021-01-13 16:06:36,800 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:06:36,835 DEFAULT INFO method:get
+2021-01-13 16:06:36,835 DEFAULT INFO url:https://192.168.1.205/api/cmdb/collector/summary
+2021-01-13 16:06:36,835 DEFAULT INFO data:{}
+2021-01-13 16:06:36,872 DEFAULT INFO {'code': 0, 'message': '', 'data': {'collector_bad': 0, 'collector_count': 1, 'collector_good': 1, 'collector_offline': 0, 'collector_online': 1}}
+2021-01-13 16:06:36,906 DEFAULT INFO 【测试用例test_148】===============>> 【PASS！】
+2021-01-13 16:06:36,943 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 16:15:09,633 DEFAULT INFO method:post
+2021-01-13 16:15:09,633 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:15:09,633 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:15:09,833 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'bb9d846a-d37a-4955-b900-fa6c21591414'}}
+2021-01-13 16:15:39,717 DEFAULT INFO method:post
+2021-01-13 16:15:39,717 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:15:39,717 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:15:39,889 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd78648a1-a8ae-4472-a090-38f2237591cf'}}
+2021-01-13 16:15:39,931 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:16:06,851 DEFAULT INFO method:post
+2021-01-13 16:16:06,851 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:16:06,851 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:16:07,011 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '8fc0f26d-93bf-4707-92f4-551ba8a2081f'}}
+2021-01-13 16:16:07,052 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:16:07,090 DEFAULT INFO method:get
+2021-01-13 16:16:07,090 DEFAULT INFO url:https://192.168.1.205/api/cmdb/collector/detail
+2021-01-13 16:16:07,090 DEFAULT INFO data:{'id': 1}
+2021-01-13 16:16:07,121 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 16:16:07,156 DEFAULT INFO 【测试用例test_151】===============>> 【FAIL！】
+2021-01-13 16:16:07,194 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 16:16:26,255 DEFAULT INFO method:post
+2021-01-13 16:16:26,255 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:16:26,255 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:16:26,449 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '03677593-ab73-495a-ad74-592980ab3653'}}
+2021-01-13 16:16:26,496 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:16:26,537 DEFAULT INFO method:get
+2021-01-13 16:16:26,537 DEFAULT INFO url:https://192.168.1.205/api/cmdb/collector/detail
+2021-01-13 16:16:26,537 DEFAULT INFO data:{'id': 1}
+2021-01-13 16:16:26,579 DEFAULT INFO {'code': 0, 'message': '', 'data': {'collect_all': 1, 'collect_models': None, 'errmsg': '', 'instance_count': 0, 'ip': '', 'name': 'default', 'online': 1, 'remark': '', 'status': 0, 'unix': 1610525782}}
+2021-01-13 16:16:26,622 DEFAULT INFO 【测试用例test_151】===============>> 【PASS！】
+2021-01-13 16:16:26,664 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 16:20:04,975 DEFAULT INFO method:post
+2021-01-13 16:20:04,975 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:20:04,975 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:20:05,156 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'f53c5d6d-1de7-4202-879a-c8c220c5733f'}}
+2021-01-13 16:20:05,199 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:20:05,236 DEFAULT INFO method:post
+2021-01-13 16:20:05,236 DEFAULT INFO url:https://192.168.1.205/api/cmdb/collector/update
+2021-01-13 16:20:05,236 DEFAULT INFO data:{'id': 1, 'ip': '192.168.2.13', 'remark': '11', 'collect_all': 1}
+2021-01-13 16:20:05,276 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 16:20:05,314 DEFAULT INFO 【测试用例test_149】===============>> 【PASS！】
+2021-01-13 16:20:05,351 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 16:22:45,454 DEFAULT INFO method:post
+2021-01-13 16:22:45,454 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:22:45,454 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:22:45,628 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'c8fd9a1a-e87f-4710-ae18-0b2e8bb50791'}}
+2021-01-13 16:22:45,671 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:22:45,707 DEFAULT INFO method:post
+2021-01-13 16:22:45,707 DEFAULT INFO url:https://192.168.1.205/api/cmdb/collector/delete
+2021-01-13 16:22:45,707 DEFAULT INFO data:{'id_list': [999]}
+2021-01-13 16:22:45,745 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 16:22:45,780 DEFAULT INFO 【测试用例test_150】===============>> 【PASS！】
+2021-01-13 16:22:45,814 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 16:24:10,218 DEFAULT INFO method:post
+2021-01-13 16:24:10,219 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:24:10,219 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:24:10,400 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ac7555a4-e72d-4eb0-b8af-84cb17adf164'}}
+2021-01-13 16:24:10,444 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:24:10,479 DEFAULT INFO method:get
+2021-01-13 16:24:10,479 DEFAULT INFO url:https://192.168.1.205/api/cmdb/collector/instance/search
+2021-01-13 16:24:10,479 DEFAULT INFO data:{'id': 1, 'offset': 0, 'limit': 10}
+2021-01-13 16:24:10,521 DEFAULT INFO {'code': 0, 'message': '', 'data': {'count': 0, 'list': None}}
+2021-01-13 16:24:10,556 DEFAULT INFO 【测试用例test_152】===============>> 【PASS！】
+2021-01-13 16:24:10,596 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 16:28:35,767 DEFAULT INFO method:post
+2021-01-13 16:28:35,767 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:28:35,768 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:28:35,958 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'cc1850e7-24fd-4ad0-90f4-8e3bb98958e1'}}
+2021-01-13 16:28:36,002 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:28:36,038 DEFAULT INFO method:post
+2021-01-13 16:28:36,038 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/update-item
+2021-01-13 16:28:36,038 DEFAULT INFO data:{}
+2021-01-13 16:28:36,079 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 16:28:36,114 DEFAULT INFO 【测试用例test_154】===============>> 【PASS！】
+2021-01-13 16:28:36,151 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 16:29:37,666 DEFAULT INFO method:post
+2021-01-13 16:29:37,666 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:29:37,667 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:29:37,838 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '79a2cea3-0048-4e35-8a28-3033579bfa93'}}
+2021-01-13 16:29:37,880 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:29:37,917 DEFAULT INFO method:post
+2021-01-13 16:29:37,917 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/instance/remote/control
+2021-01-13 16:29:37,917 DEFAULT INFO data:{'command': '11', 'model_id': 11, 'ids': [11]}
+2021-01-13 16:29:37,947 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 16:29:37,983 DEFAULT INFO 【测试用例test_153】===============>> 【FAIL！】
+2021-01-13 16:29:38,019 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 16:29:57,904 DEFAULT INFO method:post
+2021-01-13 16:29:57,904 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:29:57,904 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:29:58,084 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd4c05afa-3bb0-4f24-bcb2-fe9d40b9e2a7'}}
+2021-01-13 16:29:58,128 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:29:58,167 DEFAULT INFO method:post
+2021-01-13 16:29:58,167 DEFAULT INFO url:https://192.168.1.205/api/cmdb/model/instance/remote/control
+2021-01-13 16:29:58,167 DEFAULT INFO data:{'command': '11', 'model_id': 11, 'ids': [11]}
+2021-01-13 16:29:58,202 DEFAULT INFO {'code': 0, 'message': '', 'data': {'list': [{'id': 11, 'name': '瞻博', 'err_msg': ['实例未配置连接IP']}]}}
+2021-01-13 16:29:58,236 DEFAULT INFO 【测试用例test_153】===============>> 【PASS！】
+2021-01-13 16:29:58,272 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 16:36:33,467 DEFAULT INFO method:post
+2021-01-13 16:36:33,467 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:36:33,467 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:36:33,657 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '43d0cc0c-5881-4894-9d10-86de9a9a6719'}}
+2021-01-13 16:36:33,703 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:36:33,739 DEFAULT INFO method:post
+2021-01-13 16:36:33,739 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/add
+2021-01-13 16:36:33,739 DEFAULT INFO data:{'title': 11}
+2021-01-13 16:36:33,772 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 16:36:33,809 DEFAULT INFO 【测试用例test_158】===============>> 【FAIL！】
+2021-01-13 16:36:33,846 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 16:36:51,679 DEFAULT INFO method:post
+2021-01-13 16:36:51,679 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:36:51,679 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:36:51,867 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b5b9f339-b008-43e8-bbfa-630ba79114bb'}}
+2021-01-13 16:36:51,912 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:36:51,949 DEFAULT INFO method:post
+2021-01-13 16:36:51,949 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/add
+2021-01-13 16:36:51,949 DEFAULT INFO data:{'title': 11}
+2021-01-13 16:36:51,993 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 16:36:52,029 DEFAULT INFO 【测试用例test_158】===============>> 【PASS！】
+2021-01-13 16:36:52,067 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 16:39:08,958 DEFAULT INFO method:post
+2021-01-13 16:39:08,958 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:39:08,958 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:39:09,143 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '3a62a065-6276-415d-9d09-ed18fe4ada4d'}}
+2021-01-13 16:39:09,189 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:39:09,224 DEFAULT INFO method:post
+2021-01-13 16:39:09,224 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/update
+2021-01-13 16:39:09,224 DEFAULT INFO data:{}
+2021-01-13 16:39:09,269 DEFAULT INFO {'code': 1, 'message': '内部异常', 'data': {}}
+2021-01-13 16:39:09,306 DEFAULT INFO 【测试用例test_157】===============>> 【FAIL！】
+2021-01-13 16:39:09,342 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 16:42:11,657 DEFAULT INFO method:post
+2021-01-13 16:42:11,658 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:42:11,658 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:42:11,835 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'd80723b1-7edf-41cb-a4e8-a88d5ef372d1'}}
+2021-01-13 16:42:11,881 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:42:11,915 DEFAULT INFO method:post
+2021-01-13 16:42:11,915 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/update
+2021-01-13 16:42:11,916 DEFAULT INFO data:{'name': 11, 'setting': 0, 'style': 1}
+2021-01-13 16:42:11,964 DEFAULT INFO {'code': 1, 'message': '内部异常', 'data': {}}
+2021-01-13 16:42:12,000 DEFAULT INFO 【测试用例test_157】===============>> 【FAIL！】
+2021-01-13 16:42:12,039 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 16:52:24,346 DEFAULT INFO method:post
+2021-01-13 16:52:24,347 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:52:24,347 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:52:24,528 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '0d206365-358b-4e27-a628-b8da6a8d9adb'}}
+2021-01-13 16:52:24,572 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:52:51,090 DEFAULT INFO method:post
+2021-01-13 16:52:51,091 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:52:51,091 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:52:51,279 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'ba6c5bc6-61b0-4126-9067-7fc7efb4aa1d'}}
+2021-01-13 16:52:51,325 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:52:51,364 DEFAULT INFO method:post
+2021-01-13 16:52:51,364 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/update
+2021-01-13 16:52:51,364 DEFAULT INFO data:{'name': 11, 'setting': 'null', 'style': 0}
+2021-01-13 16:52:51,407 DEFAULT INFO {'code': 1, 'message': '内部异常', 'data': {}}
+2021-01-13 16:52:51,444 DEFAULT INFO 【测试用例test_157】===============>> 【FAIL！】
+2021-01-13 16:52:51,482 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 16:53:08,287 DEFAULT INFO method:post
+2021-01-13 16:53:08,287 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:53:08,287 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:53:08,467 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '7b4ebc1b-a113-4bac-954c-51ccd0043b95'}}
+2021-01-13 16:53:08,511 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:53:08,548 DEFAULT INFO method:post
+2021-01-13 16:53:08,548 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/update
+2021-01-13 16:53:08,548 DEFAULT INFO data:{'name': 11, 'setting': '', 'style': 0}
+2021-01-13 16:53:08,592 DEFAULT INFO {'code': 1, 'message': '内部异常', 'data': {}}
+2021-01-13 16:53:08,627 DEFAULT INFO 【测试用例test_157】===============>> 【FAIL！】
+2021-01-13 16:53:08,664 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 16:55:26,371 DEFAULT INFO method:post
+2021-01-13 16:55:26,372 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:55:26,372 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:55:26,527 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9c35e812-d8f3-43a0-8c6a-31cae2e425f3'}}
+2021-01-13 16:55:26,569 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 16:55:26,607 DEFAULT INFO method:post
+2021-01-13 16:55:26,607 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/update
+2021-01-13 16:55:26,607 DEFAULT INFO data:{'name': 11, 'setting': [11], 'style': 0}
+2021-01-13 16:55:26,643 DEFAULT INFO {'code': 1, 'message': '内部异常', 'data': {}}
+2021-01-13 16:55:26,678 DEFAULT INFO 【测试用例test_157】===============>> 【FAIL！】
+2021-01-13 16:55:26,714 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 16:57:27,012 DEFAULT INFO method:post
+2021-01-13 16:57:27,012 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 16:57:27,013 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 16:57:27,195 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '0f83165a-d7a4-42f1-8143-1e4dd0ee1ead'}}
+2021-01-13 16:57:27,244 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:00:15,518 DEFAULT INFO method:post
+2021-01-13 17:00:15,518 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:00:15,518 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:00:15,698 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '7f68156f-9d79-4772-9858-92620e807298'}}
+2021-01-13 17:00:15,742 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:00:15,779 DEFAULT INFO method:post
+2021-01-13 17:00:15,779 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/update-item
+2021-01-13 17:00:15,779 DEFAULT INFO data:{}
+2021-01-13 17:00:15,810 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 17:00:15,844 DEFAULT INFO 【测试用例test_154】===============>> 【FAIL！】
+2021-01-13 17:00:15,881 DEFAULT INFO method:get
+2021-01-13 17:00:15,881 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/detail
+2021-01-13 17:00:15,881 DEFAULT INFO data:{'id': 1}
+2021-01-13 17:00:15,919 DEFAULT INFO {'code': 0, 'message': '', 'data': {'id': 1, 'uuid': '2yqg9h9whclohl31', 'title': '默认方案', 'remark': '当一个拓扑选择了其它方案，但存在未匹配的节点或线时，会使用默认方案再次进行匹配', 'setting': [{'title': '', 'type': 'instance', 'model_id': 22, 'search_unit_list': [{'attr': 'device_type', 'search': [52], 'type': '', 'operator': '=', 'calculate': 0}], 'data': {'bottom_data_list': [{'data_source': 'from', 'name': 'asset_tag', 'title': '资产编号', 'type': 'cmdb', 'value': ''}, {'data_source': 'from', 'name': 'ip', 'title': 'IP', 'type': 'cmdb', 'value': ''}], 'float_data_list': [{'data_source': 'from', 'name': 'cpu_percent', 'title': 'CPU使用率', 'type': 'monitor', 'value': ''}], 'float_type': 'always'}, 'style': {'bottom_font_color': '#000', 'bottom_font_size': 14, 'float_font_color': '#000', 'float_font_size': 14, 'icon': '/img/cisco-icon/Cisco 7505.png'}, 'action': {'click': {'data': '', 'type': 'none'}, 'dblclick': {'data': '', 'type': 'none'}}}, {'title': '', 'type': 'instance', 'model_id': 22, 'search_unit_list': [{'attr': 'device_type', 'search': [53], 'type': '', 'operator': '=', 'calculate': 0}], 'data': {'bottom_data_list': [{'data_source': 'from', 'name': 'asset_tag', 'title': '资产编号', 'type': 'cmdb', 'value': ''}, {'data_source': 'from', 'name': 'ip', 'title': 'IP', 'type': 'cmdb', 'value': ''}], 'float_data_list': [{'data_source': 'from', 'name': 'cpu_percent', 'title': 'CPU使用率', 'type': 'monitor', 'value': ''}], 'float_type': 'always'}, 'style': {'bottom_font_color': '#000', 'bottom_font_size': 14, 'float_font_color': '#000', 'float_font_size': 14, 'icon': '/img/cisco-icon/Cisco 6920 RateMux.png'}, 'action': {'click': {'data': '', 'type': 'none'}, 'dblclick': {'data': '', 'type': 'none'}}}, {'title': '', 'type': 'instance', 'model_id': 22, 'search_unit_list': [{'attr': 'device_type', 'search': [55], 'type': '', 'operator': '=', 'calculate': 0}], 'data': {'bottom_data_list': [{'data_source': 'from', 'name': 'asset_tag', 'title': '资产编号', 'type': 'cmdb', 'value': ''}, {'data_source': 'from', 'name': 'ip', 'title': 'IP', 'type': 'cmdb', 'value': ''}], 'float_data_list': [{'data_source': 'from', 'name': 'cpu_percent', 'title': 'CPU使用率', 'type': 'monitor', 'value': ''}], 'float_type': 'always'}, 'style': {'bottom_font_color': '#000', 'bottom_font_size': 14, 'float_font_color': '#000', 'float_font_size': 14, 'icon': '/img/cisco-icon/ATM Switch.png'}, 'action': {'click': {'data': '', 'type': 'none'}, 'dblclick': {'data': '', 'type': 'none'}}}, {'title': '', 'type': 'auto_line', 'model_id': 0, 'search_unit_list': None, 'data': {'data_list': []}, 'style': {'edge_color': '#1890ff', 'edge_dash': 'line', 'edge_type': 'straight', 'edge_width': 1, 'float_interval': 10, 'float_position': 20, 'float_type': 'show', 'flow': 'hide', 'flow_type': 'start', 'key_color': '#000', 'key_font': 14, 'value_color': '#000', 'value_font': 14}, 'action': None}, {'title': '', 'type': 'manual_line', 'model_id': 0, 'search_unit_list': None, 'data': None, 'style': {'data_list': [], 'edge_color': '#1890ff', 'edge_dash': 'line', 'edge_type': 'straight', 'edge_width': 1, 'float_interval': 10, 'float_position': 20, 'float_type': 'show', 'flow': 'hide', 'flow_type': 'start', 'key_color': '#000', 'key_font': 14, 'value_color': '#000', 'value_font': 14}, 'action': None}], 'is_custom': 0, 'topo_list': None, 'create_user': '', 'create_user_id': 0, 'update_user': '', 'update_user_id': 42, 'create_time': '2020-11-24 09:55:04', 'update_time': '2021-01-13 16:12:10'}}
+2021-01-13 17:00:15,959 DEFAULT INFO 【测试用例test_156】===============>> 【PASS！】
+2021-01-13 17:00:16,001 DEFAULT INFO 本次共执行3条用例
+测试通过的有2条，测试失败的有1条
+成功率为66.7%，失败率为33.300000000000004%
+2021-01-13 17:02:12,254 DEFAULT INFO method:post
+2021-01-13 17:02:12,254 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:02:12,254 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:02:12,411 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'cf3da842-2bd0-4d8c-87f2-56ffa8b7ed21'}}
+2021-01-13 17:02:12,454 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:02:12,492 DEFAULT INFO method:get
+2021-01-13 17:02:12,492 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/list
+2021-01-13 17:02:12,492 DEFAULT INFO data:{'id': 1, 'title': '11'}
+2021-01-13 17:02:12,522 DEFAULT INFO {'code': 9, 'message': 'login redirect', 'data': {}}
+2021-01-13 17:02:12,566 DEFAULT INFO 【测试用例test_155】===============>> 【FAIL！】
+2021-01-13 17:02:12,604 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 17:02:34,690 DEFAULT INFO method:post
+2021-01-13 17:02:34,691 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:02:34,691 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:02:34,878 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '935e5193-a5fc-490e-8509-6cbf4d306fae'}}
+2021-01-13 17:02:34,922 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:02:34,960 DEFAULT INFO method:get
+2021-01-13 17:02:34,960 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/list
+2021-01-13 17:02:34,960 DEFAULT INFO data:{'id': 1, 'title': '11'}
+2021-01-13 17:02:35,018 DEFAULT INFO {'code': 0, 'message': '', 'data': {'list': [{'id': 1, 'uuid': '2yqg9h9whclohl31', 'title': '默认方案', 'remark': '当一个拓扑选择了其它方案，但存在未匹配的节点或线时，会使用默认方案再次进行匹配', 'setting': [{'title': '', 'type': 'instance', 'model_id': 22, 'search_unit_list': [{'attr': 'device_type', 'search': [52], 'type': '', 'operator': '=', 'calculate': 0}], 'data': {'bottom_data_list': [{'data_source': 'from', 'name': 'asset_tag', 'title': '资产编号', 'type': 'cmdb', 'value': ''}, {'data_source': 'from', 'name': 'ip', 'title': 'IP', 'type': 'cmdb', 'value': ''}], 'float_data_list': [{'data_source': 'from', 'name': 'cpu_percent', 'title': 'CPU使用率', 'type': 'monitor', 'value': ''}], 'float_type': 'always'}, 'style': {'bottom_font_color': '#000', 'bottom_font_size': 14, 'float_font_color': '#000', 'float_font_size': 14, 'icon': '/img/cisco-icon/Cisco 7505.png'}, 'action': {'click': {'data': '', 'type': 'none'}, 'dblclick': {'data': '', 'type': 'none'}}}, {'title': '', 'type': 'instance', 'model_id': 22, 'search_unit_list': [{'attr': 'device_type', 'search': [53], 'type': '', 'operator': '=', 'calculate': 0}], 'data': {'bottom_data_list': [{'data_source': 'from', 'name': 'asset_tag', 'title': '资产编号', 'type': 'cmdb', 'value': ''}, {'data_source': 'from', 'name': 'ip', 'title': 'IP', 'type': 'cmdb', 'value': ''}], 'float_data_list': [{'data_source': 'from', 'name': 'cpu_percent', 'title': 'CPU使用率', 'type': 'monitor', 'value': ''}], 'float_type': 'always'}, 'style': {'bottom_font_color': '#000', 'bottom_font_size': 14, 'float_font_color': '#000', 'float_font_size': 14, 'icon': '/img/cisco-icon/Cisco 6920 RateMux.png'}, 'action': {'click': {'data': '', 'type': 'none'}, 'dblclick': {'data': '', 'type': 'none'}}}, {'title': '', 'type': 'instance', 'model_id': 22, 'search_unit_list': [{'attr': 'device_type', 'search': [55], 'type': '', 'operator': '=', 'calculate': 0}], 'data': {'bottom_data_list': [{'data_source': 'from', 'name': 'asset_tag', 'title': '资产编号', 'type': 'cmdb', 'value': ''}, {'data_source': 'from', 'name': 'ip', 'title': 'IP', 'type': 'cmdb', 'value': ''}], 'float_data_list': [{'data_source': 'from', 'name': 'cpu_percent', 'title': 'CPU使用率', 'type': 'monitor', 'value': ''}], 'float_type': 'always'}, 'style': {'bottom_font_color': '#000', 'bottom_font_size': 14, 'float_font_color': '#000', 'float_font_size': 14, 'icon': '/img/cisco-icon/ATM Switch.png'}, 'action': {'click': {'data': '', 'type': 'none'}, 'dblclick': {'data': '', 'type': 'none'}}}, {'title': '', 'type': 'auto_line', 'model_id': 0, 'search_unit_list': None, 'data': {'data_list': []}, 'style': {'edge_color': '#1890ff', 'edge_dash': 'line', 'edge_type': 'straight', 'edge_width': 1, 'float_interval': 10, 'float_position': 20, 'float_type': 'show', 'flow': 'hide', 'flow_type': 'start', 'key_color': '#000', 'key_font': 14, 'value_color': '#000', 'value_font': 14}, 'action': None}, {'title': '', 'type': 'manual_line', 'model_id': 0, 'search_unit_list': None, 'data': None, 'style': {'data_list': [], 'edge_color': '#1890ff', 'edge_dash': 'line', 'edge_type': 'straight', 'edge_width': 1, 'float_interval': 10, 'float_position': 20, 'float_type': 'show', 'flow': 'hide', 'flow_type': 'start', 'key_color': '#000', 'key_font': 14, 'value_color': '#000', 'value_font': 14}, 'action': None}], 'is_custom': 0, 'topo_list': ['aa', 'BABABA', '123', '51454561', 'a', 'aaaaaaaaa', 'wd', 'test123', 'wwww', '机房拓扑', 'tst', '测试机房', 'UI测试', '31', 'song_idc', '88991010', '1122334', '111custom', '11223123123123', '123123'], 'create_user': '', 'create_user_id': 0, 'update_user': '', 'update_user_id': 42, 'create_time': '2020-11-24 09:55:04', 'update_time': '2021-01-13 16:12:10'}, {'id': 30, 'uuid': 'cbmqdjveumiehcz5', 'title': '11', 'remark': '', 'setting': None, 'is_custom': 0, 'topo_list': None, 'create_user': '', 'create_user_id': 40, 'update_user': '', 'update_user_id': 0, 'create_time': '2021-01-13 16:36:53', 'update_time': '2021-01-13 16:36:53'}]}}
+2021-01-13 17:02:35,053 DEFAULT INFO 【测试用例test_155】===============>> 【PASS！】
+2021-01-13 17:02:35,090 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 17:03:33,192 DEFAULT INFO method:post
+2021-01-13 17:03:33,192 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:03:33,192 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:03:33,364 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '6a09f6ce-7f3c-4c93-9969-9b6227869857'}}
+2021-01-13 17:03:33,407 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:03:33,443 DEFAULT INFO method:post
+2021-01-13 17:03:33,443 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/update-item
+2021-01-13 17:03:33,443 DEFAULT INFO data:{}
+2021-01-13 17:03:33,487 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 17:03:33,522 DEFAULT INFO 【测试用例test_154】===============>> 【PASS！】
+2021-01-13 17:03:33,558 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 17:06:37,848 DEFAULT INFO method:post
+2021-01-13 17:06:37,849 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:06:37,849 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:06:38,033 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'bea41249-3130-445c-8b8f-2f11124004d1'}}
+2021-01-13 17:06:38,077 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:06:38,112 DEFAULT INFO method:post
+2021-01-13 17:06:38,113 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/match-instance
+2021-01-13 17:06:38,113 DEFAULT INFO data:{}
+2021-01-13 17:06:38,164 DEFAULT INFO {'code': 0, 'message': '', 'data': {'result': [{'title': '', 'type': 'instance', 'model_id': 22, 'search_unit_list': [{'attr': 'device_type', 'search': [52], 'type': '', 'operator': '=', 'calculate': 0}], 'data': {'bottom_data_list': [{'data_source': 'from', 'name': 'asset_tag', 'title': '资产编号', 'type': 'cmdb', 'value': ''}, {'data_source': 'from', 'name': 'ip', 'title': 'IP', 'type': 'cmdb', 'value': ''}], 'float_data_list': [{'data_source': 'from', 'name': 'cpu_percent', 'title': 'CPU使用率', 'type': 'monitor', 'value': ''}], 'float_type': 'always'}, 'style': {'bottom_font_color': '#000', 'bottom_font_size': 14, 'float_font_color': '#000', 'float_font_size': 14, 'icon': '/img/cisco-icon/Cisco 7505.png'}, 'action': {'click': {'data': '', 'type': 'none'}, 'dblclick': {'data': '', 'type': 'none'}}, 'uuid_list': None, 'instance_list': None}, {'title': '', 'type': 'instance', 'model_id': 22, 'search_unit_list': [{'attr': 'device_type', 'search': [53], 'type': '', 'operator': '=', 'calculate': 0}], 'data': {'bottom_data_list': [{'data_source': 'from', 'name': 'asset_tag', 'title': '资产编号', 'type': 'cmdb', 'value': ''}, {'data_source': 'from', 'name': 'ip', 'title': 'IP', 'type': 'cmdb', 'value': ''}], 'float_data_list': [{'data_source': 'from', 'name': 'cpu_percent', 'title': 'CPU使用率', 'type': 'monitor', 'value': ''}], 'float_type': 'always'}, 'style': {'bottom_font_color': '#000', 'bottom_font_size': 14, 'float_font_color': '#000', 'float_font_size': 14, 'icon': '/img/cisco-icon/Cisco 6920 RateMux.png'}, 'action': {'click': {'data': '', 'type': 'none'}, 'dblclick': {'data': '', 'type': 'none'}}, 'uuid_list': None, 'instance_list': None}, {'title': '', 'type': 'instance', 'model_id': 22, 'search_unit_list': [{'attr': 'device_type', 'search': [55], 'type': '', 'operator': '=', 'calculate': 0}], 'data': {'bottom_data_list': [{'data_source': 'from', 'name': 'asset_tag', 'title': '资产编号', 'type': 'cmdb', 'value': ''}, {'data_source': 'from', 'name': 'ip', 'title': 'IP', 'type': 'cmdb', 'value': ''}], 'float_data_list': [{'data_source': 'from', 'name': 'cpu_percent', 'title': 'CPU使用率', 'type': 'monitor', 'value': ''}], 'float_type': 'always'}, 'style': {'bottom_font_color': '#000', 'bottom_font_size': 14, 'float_font_color': '#000', 'float_font_size': 14, 'icon': '/img/cisco-icon/ATM Switch.png'}, 'action': {'click': {'data': '', 'type': 'none'}, 'dblclick': {'data': '', 'type': 'none'}}, 'uuid_list': None, 'instance_list': None}, {'title': '', 'type': 'auto_line', 'model_id': 0, 'search_unit_list': None, 'data': {'data_list': []}, 'style': {'edge_color': '#1890ff', 'edge_dash': 'line', 'edge_type': 'straight', 'edge_width': 1, 'float_interval': 10, 'float_position': 20, 'float_type': 'show', 'flow': 'hide', 'flow_type': 'start', 'key_color': '#000', 'key_font': 14, 'value_color': '#000', 'value_font': 14}, 'action': None, 'uuid_list': None, 'instance_list': None}, {'title': '', 'type': 'manual_line', 'model_id': 0, 'search_unit_list': None, 'data': None, 'style': {'data_list': [], 'edge_color': '#1890ff', 'edge_dash': 'line', 'edge_type': 'straight', 'edge_width': 1, 'float_interval': 10, 'float_position': 20, 'float_type': 'show', 'flow': 'hide', 'flow_type': 'start', 'key_color': '#000', 'key_font': 14, 'value_color': '#000', 'value_font': 14}, 'action': None, 'uuid_list': None, 'instance_list': None}]}}
+2021-01-13 17:06:38,200 DEFAULT INFO 【测试用例test_160】===============>> 【PASS！】
+2021-01-13 17:06:38,236 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 17:09:31,609 DEFAULT INFO method:post
+2021-01-13 17:09:31,609 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:09:31,609 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:09:31,788 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '88ecf3c6-94b1-4f78-9395-e99f72826b3d'}}
+2021-01-13 17:09:31,844 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:09:31,880 DEFAULT INFO method:get
+2021-01-13 17:09:31,880 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/delete
+2021-01-13 17:09:31,880 DEFAULT INFO data:{'id': 100}
+2021-01-13 17:09:31,911 DEFAULT ERROR Extra data: line 1 column 5 (char 4)
+2021-01-13 17:09:31,911 DEFAULT INFO 响应失败！
+2021-01-13 17:09:31,947 DEFAULT INFO 【测试用例test_159】===============>> 【FAIL！】
+2021-01-13 17:09:31,982 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 17:13:19,885 DEFAULT INFO method:post
+2021-01-13 17:13:19,885 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:13:19,885 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:13:20,052 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '2592af34-3a37-4590-aab8-91a25a321ed8'}}
+2021-01-13 17:13:20,095 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:13:20,130 DEFAULT INFO method:post
+2021-01-13 17:13:20,130 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/delete
+2021-01-13 17:13:20,130 DEFAULT INFO data:{'id': 30}
+2021-01-13 17:13:20,176 DEFAULT INFO {'code': 0, 'message': '', 'data': {}}
+2021-01-13 17:13:20,212 DEFAULT INFO 【测试用例test_159】===============>> 【PASS！】
+2021-01-13 17:13:20,248 DEFAULT INFO 本次共执行2条用例
+测试通过的有2条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 17:13:39,530 DEFAULT INFO method:post
+2021-01-13 17:13:39,531 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:13:39,531 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:13:39,715 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '6795673e-2639-4f1a-86fc-b7f095f1b238'}}
+2021-01-13 17:13:39,758 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:13:39,794 DEFAULT INFO method:post
+2021-01-13 17:13:39,795 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/delete
+2021-01-13 17:13:39,795 DEFAULT INFO data:{'id': 999}
+2021-01-13 17:13:39,832 DEFAULT INFO {'code': 1, 'message': '数据源不存在', 'data': {}}
+2021-01-13 17:13:39,869 DEFAULT INFO 【测试用例test_159】===============>> 【FAIL！】
+2021-01-13 17:13:39,906 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 17:14:08,117 DEFAULT INFO method:post
+2021-01-13 17:14:08,117 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:14:08,117 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:14:08,304 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'cb0bc92c-4e90-4f43-b3fe-5ca5118ec271'}}
+2021-01-13 17:14:08,349 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:14:08,383 DEFAULT INFO method:post
+2021-01-13 17:14:08,383 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/delete
+2021-01-13 17:14:08,383 DEFAULT INFO data:{'id': 30}
+2021-01-13 17:14:08,424 DEFAULT INFO {'code': 1, 'message': '数据源不存在', 'data': {}}
+2021-01-13 17:14:08,459 DEFAULT INFO 【测试用例test_159】===============>> 【FAIL！】
+2021-01-13 17:14:08,495 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 17:16:16,096 DEFAULT INFO method:post
+2021-01-13 17:16:16,096 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:16:16,096 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:16:16,283 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '84dbdf8e-7253-4e5e-add8-edf6e6a0df03'}}
+2021-01-13 17:16:25,495 DEFAULT INFO method:post
+2021-01-13 17:16:25,496 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:16:25,496 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:16:25,676 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'b5921eda-65c6-4740-bd0c-b9e108ce28f3'}}
+2021-01-13 17:16:25,717 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:16:25,754 DEFAULT INFO method:post
+2021-01-13 17:16:25,755 DEFAULT INFO url:https://192.168.1.205/api/cmdb/topo/global-setting/delete
+2021-01-13 17:16:25,755 DEFAULT INFO data:{'id': 30}
+2021-01-13 17:16:25,790 DEFAULT INFO {'code': 1, 'message': '数据源不存在', 'data': {}}
+2021-01-13 17:16:25,826 DEFAULT INFO 【测试用例test_159】===============>> 【FAIL！】
+2021-01-13 17:16:25,863 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 17:18:56,598 DEFAULT INFO method:post
+2021-01-13 17:18:56,598 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:18:56,598 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:18:56,788 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '0d84ba5e-5bc7-411c-94db-d1f96b88ad5b'}}
+2021-01-13 17:18:56,831 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:18:56,867 DEFAULT INFO method:get
+2021-01-13 17:18:56,868 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/login/setting/detail
+2021-01-13 17:18:56,868 DEFAULT INFO data:{}
+2021-01-13 17:18:56,900 DEFAULT ERROR Extra data: line 1 column 5 (char 4)
+2021-01-13 17:18:56,900 DEFAULT INFO 响应失败！
+2021-01-13 17:18:56,936 DEFAULT INFO 【测试用例test_161】===============>> 【FAIL！】
+2021-01-13 17:18:56,971 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 17:19:43,295 DEFAULT INFO method:post
+2021-01-13 17:19:43,295 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 17:19:43,295 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 17:19:43,451 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '772aa9f4-bbe4-44f8-acbe-d7ef125e7345'}}
+2021-01-13 17:19:43,494 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 17:19:43,532 DEFAULT INFO method:post
+2021-01-13 17:19:43,532 DEFAULT INFO url:https://192.168.1.205/api/cmdb/sys/login/setting/detail
+2021-01-13 17:19:43,532 DEFAULT INFO data:{}
+2021-01-13 17:19:43,563 DEFAULT ERROR Extra data: line 1 column 5 (char 4)
+2021-01-13 17:19:43,563 DEFAULT INFO 响应失败！
+2021-01-13 17:19:43,600 DEFAULT INFO 【测试用例test_161】===============>> 【FAIL！】
+2021-01-13 17:19:43,636 DEFAULT INFO 本次共执行2条用例
+测试通过的有1条，测试失败的有1条
+成功率为50.0%，失败率为50.0%
+2021-01-13 18:18:56,888 DEFAULT INFO method:post
+2021-01-13 18:18:56,925 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 18:18:56,926 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 18:18:57,116 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '058bdb5a-2847-4547-a24a-bca7e32ca754'}}
+2021-01-13 18:18:57,160 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 18:18:57,201 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 18:19:10,164 DEFAULT INFO 删除旧的结果集……
+2021-01-13 18:19:10,811 DEFAULT INFO method:post
+2021-01-13 18:19:10,811 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 18:19:10,811 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 18:19:11,036 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'dcbff4f1-f8a6-430f-a5fd-913611c947ef'}}
+2021-01-13 18:19:11,084 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 18:19:11,125 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 18:19:11,136 DEFAULT INFO 生成报告……
+2021-01-13 18:26:56,656 DEFAULT INFO 删除旧的结果集……
+2021-01-13 18:26:57,185 DEFAULT INFO method:post
+2021-01-13 18:26:57,185 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 18:26:57,185 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 18:26:57,395 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '7197748f-338c-4cb7-b78a-56feadd08423'}}
+2021-01-13 18:26:57,444 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 18:26:57,482 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 18:26:57,493 DEFAULT INFO 生成报告……
+2021-01-13 18:27:37,515 DEFAULT INFO 删除旧的结果集……
+2021-01-13 18:27:38,198 DEFAULT INFO 生成报告……
+2021-01-13 18:27:53,202 DEFAULT INFO method:post
+2021-01-13 18:27:53,202 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 18:27:53,202 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 18:27:53,372 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': '9f469522-afb6-4b7e-afcb-f5906541de4e'}}
+2021-01-13 18:27:53,410 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 18:27:53,452 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 18:28:00,953 DEFAULT INFO 删除旧的结果集……
+2021-01-13 18:28:01,372 DEFAULT INFO method:post
+2021-01-13 18:28:01,373 DEFAULT INFO url:https://192.168.1.205/api/auth/user/login
+2021-01-13 18:28:01,373 DEFAULT INFO data:{'account': 'Ediwin', 'password': '5184715875cdb3c620966d184e2f84d111b17e6327308d351f2cb187bb2d91c4', 'type': 0}
+2021-01-13 18:28:01,578 DEFAULT INFO {'code': 0, 'message': '', 'data': {'token': 'a68661c7-e64f-4c35-9efc-85b495bf1862'}}
+2021-01-13 18:28:01,622 DEFAULT INFO 【测试用例test_001】===============>> 【PASS！】
+2021-01-13 18:28:01,660 DEFAULT INFO 本次共执行1条用例
+测试通过的有1条，测试失败的有0条
+成功率为100.0%，失败率为0.0%
+2021-01-13 18:28:01,676 DEFAULT INFO 生成报告……

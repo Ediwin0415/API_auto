@@ -16,13 +16,13 @@ COOKIE_FILE = os.path.join(DATA_PATH, "cookie.json")
 
 # -------------环境配置--------------------
 URL = "192.168.1.205"
-env = {
-    URL: {
-        "dev": "192.168.1.205",  # 线上环境
-        "test": "192.168.1.205"  # 生产环境
-    },
-    "default": "test"
-}
+# env = {
+#     URL: {
+#         "dev": "192.168.1.205",  # 线上环境
+#         "test": "192.168.1.205"  # 生产环境
+#     },
+#     "default": "test"
+# }
 
 # -------------bat文件相关------------------
 BAT_FILE = os.path.join(BASE_PATH, "bat", "generate_report.bat")
